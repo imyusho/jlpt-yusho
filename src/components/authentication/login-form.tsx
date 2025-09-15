@@ -1,11 +1,12 @@
-import google from "@/app/assets/svgs/google.svg";
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+import { OauthButton } from "./oauth-button";
 
 export function LoginForm({
   className,
@@ -51,10 +52,7 @@ export function LoginForm({
             {t("or")}
           </span>
         </div>
-        <Button variant="outline" className="w-full">
-          <Image src={google} alt="Logo" className="size-4" />
-          {t("loginWithGoogle")}
-        </Button>
+        <OauthButton provider="google">{t("loginWithGoogle")}</OauthButton>
       </div>
       <div className="text-center text-sm">
         {t("noAccount")}

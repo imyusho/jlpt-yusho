@@ -1,5 +1,5 @@
 import signup from "@/app/assets/images/signup.jpeg";
-import { SignupForm } from "@/components/signup-form";
+import { SignupForm } from "@/components/authentication/signup-form";
 import { Frame } from "../_components/frame";
 
 export default function Signup() {
