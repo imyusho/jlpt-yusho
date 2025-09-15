@@ -22,8 +22,8 @@ const messages = {
   signupForm: {
     title: "Create your free account",
     description: "Enter your information and create an account",
-    nameLabel: "Name",
-    namePlaceholder: "Yusho Ko",
+    usernameLabel: "Username",
+    usernamePlaceholder: "YushoKo",
     emailLabel: "Email",
     emailPlaceholder: "m@example.com",
     passwordLabel: "Password",
