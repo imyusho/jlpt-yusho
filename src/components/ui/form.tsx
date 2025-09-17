@@ -15,6 +15,7 @@ import {
 
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
 import { Input } from "./input";
 
 const Form = FormProvider;
@@ -163,17 +164,22 @@ const InputField = <
 >({
   label,
   inputProps,
+  auxiliaryAction: auxAction,
   ...props
 }: Omit<ControllerProps<TFieldValues, TName>, "render"> & {
   label: string;
-  inputProps: React.ComponentProps<"input">;
+  auxiliaryAction?: ReactNode;
+  inputProps?: React.ComponentProps<"input">;
 }) => {
   return (
     <FormFieldContext.Provider value={{ name: props.name }}>
       <Controller
         render={({ field }) => (
           <FormItem>
-            <FormLabel>{label}</FormLabel>
+            <div className="flex items-center">
+              <FormLabel>{label}</FormLabel>
+              {auxAction}
+            </div>
             <FormControl>
               <Input {...field} {...inputProps} />
             </FormControl>

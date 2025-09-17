@@ -1,3 +1,7 @@
+"use client";
+
+import Redirect from "@/components/redirect";
+import { useAuth } from "@/context/AuthContext";
 import Image, { StaticImageData } from "next/image";
 import { FC, ReactNode } from "react";
 
@@ -7,6 +11,10 @@ type Props = {
 };
 
 export const Frame: FC<Props> = ({ image, children }) => {
+  const { user } = useAuth();
+
+  if (user) return <Redirect to="dashboard" />;
+
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
       <div className="flex flex-col gap-4 p-6 md:p-10">

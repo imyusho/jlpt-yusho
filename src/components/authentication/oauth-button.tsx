@@ -1,7 +1,8 @@
 "use client";
 
 import googleIcon from "@/app/assets/svgs/google.svg";
-import { supabase } from "@/lib/supabase";
+import { authService } from "@/lib/authService";
+import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
 import { cn } from "@/lib/utils";
 import { Provider } from "@supabase/supabase-js";
 import Image from "next/image";
@@ -19,6 +20,7 @@ export function OauthButton({
   children,
   ...props
 }: Props) {
+  const { toastWhenError } = useLocalizedSupabaseErrorMessage();
   const [isSigningIn, setIsSigningIn] = useState(false);
 
   return (
@@ -29,15 +31,14 @@ export function OauthButton({
       isLoading={isSigningIn}
       onClick={async () => {
         setIsSigningIn(true);
-        const { error } = await supabase.auth.signInWithOAuth({
+        const { error } = await authService.signInWithOAuth({
           provider,
           options: {
             redirectTo: process.env.NEXT_PUBLIC_REDIRECT_URL,
           },
         });
-
         if (error) {
-          console.error("Fail to sign in with OAuth", provider, error.message);
+          toastWhenError(error);
           setIsSigningIn(false);
         }
       }}

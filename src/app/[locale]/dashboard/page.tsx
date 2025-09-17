@@ -1,18 +1,17 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useRouter } from "@/i18n/navigation";
-import { supabase } from "@/lib/supabase";
+import { authService } from "@/lib/authService";
+import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
 
 export default function DashboardPage() {
-  const router = useRouter();
-
+  const { toastWhenError } = useLocalizedSupabaseErrorMessage();
   return (
     <div>
       <Button
         onClick={async () => {
-          await supabase.auth.signOut();
-          router.push("/login");
+          const { error } = await authService.signOut();
+          toastWhenError(error);
         }}
       >
         Sign out
