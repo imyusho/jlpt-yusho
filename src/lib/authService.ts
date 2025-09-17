@@ -2,21 +2,21 @@ import { supabase } from "@/lib/supabase";
 import { SignupResponse } from "@/types/api/signup";
 
 export const authService = {
-  resend: async (...args: Parameters<typeof supabase.auth.resend>) => {
+  resend: (...args: Parameters<typeof supabase.auth.resend>) => {
     return supabase.auth.resend(...args);
   },
 
-  signOut: async (...args: Parameters<typeof supabase.auth.signOut>) => {
+  signOut: (...args: Parameters<typeof supabase.auth.signOut>) => {
     return supabase.auth.signOut(...args);
   },
 
-  signInWithPassword: async (
+  signInWithPassword: (
     ...args: Parameters<typeof supabase.auth.signInWithPassword>
   ) => {
     return supabase.auth.signInWithPassword(...args);
   },
 
-  signInWithOAuth: async (
+  signInWithOAuth: (
     ...args: Parameters<typeof supabase.auth.signInWithOAuth>
   ) => {
     return supabase.auth.signInWithOAuth(...args);
@@ -42,7 +42,13 @@ export const authService = {
     return result;
   },
 
-  getSession: async (...args: Parameters<typeof supabase.auth.getSession>) => {
+  resetPasswordForEmail: (
+    ...args: Parameters<typeof supabase.auth.resetPasswordForEmail>
+  ) => {
+    return supabase.auth.resetPasswordForEmail(...args);
+  },
+
+  getSession: (...args: Parameters<typeof supabase.auth.getSession>) => {
     return supabase.auth.getSession(...args);
   },
 };

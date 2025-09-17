@@ -3,6 +3,13 @@ import { EnMessages } from "./en";
 const messages: EnMessages = {
   shared: {
     somethingWentWrong: "問題が発生しました",
+    validation: {
+      invalidEmail: "メールアドレスが無効です",
+      passwordMin: "パスワードは最低 {min} 文字必要です",
+      passwordMax: "パスワードは最大 {max} 文字までです",
+      nameMin: "名前は最低 {min} 文字必要です",
+      nameMax: "名前は最大 {max} 文字までです",
+    },
   },
   home: {
     meta: {
@@ -48,6 +55,15 @@ const messages: EnMessages = {
     resendConfirmation: "確認メールを再送信",
     resendConfirmationSuccess:
       "確認メールを再送信しました。リンクをクリックしてアカウントを確認してください。",
+  },
+  forgotPassword: {
+    title: "パスワードをお忘れですか？",
+    description:
+      "メールアドレスを入力してください。パスワードをリセットするためのリンクをお送りします。",
+    emailLabel: "メールアドレス",
+    emailPlaceholder: "メールアドレスを入力してください",
+    sendResetLink: "リセットリンクを送信",
+    backToLogin: "ログインに戻る",
   },
   supabase: {
     signInWithOtpSuccess:

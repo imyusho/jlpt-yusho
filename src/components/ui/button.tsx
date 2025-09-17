@@ -66,6 +66,7 @@ function Button({
         await onClick?.(e);
         setIsOnclickPending(false);
       }}
+      disabled={isLoading}
       {...props}
     >
       {isLoading ? (

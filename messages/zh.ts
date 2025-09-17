@@ -3,6 +3,13 @@ import { EnMessages } from "./en";
 const messages: EnMessages = {
   shared: {
     somethingWentWrong: "發生未知錯誤",
+    validation: {
+      invalidEmail: "電子郵件格式不正確",
+      passwordMin: "密碼至少需要 {min} 個字元",
+      passwordMax: "密碼不能超過 {max} 個字元",
+      nameMin: "姓名至少需要 {min} 個字元",
+      nameMax: "姓名不能超過 {max} 個字元",
+    },
   },
   home: {
     meta: {
@@ -46,6 +53,14 @@ const messages: EnMessages = {
     resendConfirmation: "重新發送",
     resendConfirmationSuccess:
       "我們已重新寄出確認郵件。請點擊連結以驗證您的帳號。",
+  },
+  forgotPassword: {
+    title: "忘記密碼？",
+    description: "輸入您的電子郵件地址，我們將寄送重設密碼的連結給您。",
+    emailLabel: "電子郵件",
+    emailPlaceholder: "輸入您的電子郵件",
+    sendResetLink: "寄送重設連結",
+    backToLogin: "返回登入",
   },
   supabase: {
     signInWithOtpSuccess:

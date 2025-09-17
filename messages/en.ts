@@ -1,6 +1,13 @@
 const messages = {
   shared: {
     somethingWentWrong: "Something went wrong",
+    validation: {
+      invalidEmail: "Invalid email address",
+      passwordMin: "Password must be at least {min} characters",
+      passwordMax: "Password cannot exceed {max} characters",
+      nameMin: "Name must be at least {min} characters",
+      nameMax: "Name cannot exceed {max} characters",
+    },
   },
   home: {
     meta: {
@@ -15,7 +22,7 @@ const messages = {
     emailLabel: "Email",
     emailPlaceholder: "m@example.com",
     passwordLabel: "Password",
-    forgotPassword: "Forgot your password?",
+    forgotPassword: "Forgot password?",
     loginButton: "Log in",
     or: "or",
     loginWithGoogle: "Log in with Google",
@@ -44,6 +51,15 @@ const messages = {
     resendConfirmation: "Resend confirmation",
     resendConfirmationSuccess:
       "We've sent the confirmation email again. Please click the link to verify your account.",
+  },
+  forgotPassword: {
+    title: "Forgot your password?",
+    description:
+      "Enter your email address and we'll send you a link to reset your password.",
+    emailLabel: "Email",
+    emailPlaceholder: "Enter your email",
+    sendResetLink: "Send reset link",
+    backToLogin: "Back to login",
   },
   supabase: {
     signInWithOtpSuccess:

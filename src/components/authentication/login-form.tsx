@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { authService } from "@/lib/authService";
 import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
-import { cn } from "@/lib/utils";
+import { cn, MAX_PASSWORD_LENGTH, MIN_PASSWORD_LENGTH } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
@@ -13,19 +13,25 @@ import { AlertMessage } from "../ui/alert";
 import { Form, InputField } from "../ui/form";
 import { OauthButton } from "./oauth-button";
 
-const formSchema = z.object({
-  email: z.email({ message: "Invalid email address" }),
-  password: z
-    .string()
-    .min(6, "Password must be at least 6 characters")
-    .max(32, "Password cannot exceed 32 characters"),
-});
-
 export function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"form">) {
   const t = useTranslations("loginForm");
+  const tValidation = useTranslations("shared.validation");
+  const formSchema = z.object({
+    email: z.email({ message: tValidation("invalidEmail") }),
+    password: z
+      .string()
+      .min(
+        MIN_PASSWORD_LENGTH,
+        tValidation("passwordMin", { min: MIN_PASSWORD_LENGTH })
+      )
+      .max(
+        MAX_PASSWORD_LENGTH,
+        tValidation("passwordMax", { max: MAX_PASSWORD_LENGTH })
+      ),
+  });
   const { getLocalizedErrorMessage } = useLocalizedSupabaseErrorMessage();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -77,12 +83,12 @@ export function LoginForm({
             label={t("passwordLabel")}
             inputProps={{ type: "password" }}
             auxiliaryAction={
-              <a
-                href="#"
+              <Link
+                href="/forgot-password"
                 className="ml-auto text-sm underline-offset-4 hover:underline"
               >
                 {t("forgotPassword")}
-              </a>
+              </Link>
             }
           />
           <Button
@@ -100,10 +106,7 @@ export function LoginForm({
           <OauthButton provider="google">{t("loginWithGoogle")}</OauthButton>
         </div>
         <div className="text-center text-sm">
-          {t("noAccount")}{" "}
-          <Link href="/signup" className="underline underline-offset-4">
-            {t("signUp")}
-          </Link>
+          {t("noAccount")} <Link href="/signup">{t("signUp")}</Link>
         </div>
       </form>
     </Form>
