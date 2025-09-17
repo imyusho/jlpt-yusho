@@ -61,6 +61,17 @@ const messages: EnMessages = {
     emailPlaceholder: "輸入您的電子郵件",
     sendResetLink: "寄送重設連結",
     backToLogin: "返回登入",
+    emailSent: {
+      title: "請檢查您的電子郵件",
+      description:
+        "我們已經將郵件發送至您的收件匣。若沒有看到，請檢查垃圾郵件資料夾。",
+    },
+  },
+  forgotPasswordRedirect: {
+    title: "重設密碼",
+    description: "請為您的帳號輸入新密碼。請確保密碼強度足夠且安全。",
+    passwordLabel: "新密碼",
+    reset: "設定新密碼",
   },
   supabase: {
     signInWithOtpSuccess:

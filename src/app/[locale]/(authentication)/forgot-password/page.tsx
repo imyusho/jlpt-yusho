@@ -1,24 +1,22 @@
 "use client";
 
+import { AlertMessage } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { CardLayout } from "@/components/ui/card-layout";
 import { Form, InputField } from "@/components/ui/form";
 import { Link } from "@/i18n/navigation";
 import { authService } from "@/lib/authService";
-import { getEmailConfirmationRedirectUrl } from "@/lib/utils";
+import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
+import { getResetPasswordForEmailRedirectUrl } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowLeft, KeyRound } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import z from "zod";
 
 export default function ForgotPasswordPage() {
+  const { getLocalizedErrorMessage } = useLocalizedSupabaseErrorMessage();
   const t = useTranslations("forgotPassword");
   const tValidation = useTranslations("shared.validation");
   const formSchema = z.object({
@@ -29,62 +27,74 @@ export default function ForgotPasswordPage() {
     defaultValues: { email: "" },
   });
 
+  const [hasEmailSent, setHasEmailSent] = useState(false);
+
   return (
-    <div className="min-h-svh flex items-center justify-center p-6">
-      <Card className="w-full max-w-md">
-        <CardHeader className="text-center">
-          <div className="mx-auto mb-4 flex size-16 items-center justify-center rounded-full bg-primary/10">
-            <KeyRound className="size-8 text-primary" />
-          </div>
-          <CardTitle className="text-2xl">{t("title")}</CardTitle>
-          <CardDescription className="text-balance">
-            {t("description")}
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <Form {...form}>
-            <form
-              onSubmit={form.handleSubmit(async ({ email }) => {
-                const { error } = await authService.resetPasswordForEmail(
-                  email,
-                  { redirectTo: getEmailConfirmationRedirectUrl() }
-                );
-
-                if (error) {
-                  console.error("Error sending reset email:", error.message);
-                } else {
-                  console.log("Password reset email sent!");
-                }
-              })}
-              className="space-y-4"
-            >
-              <InputField
-                control={form.control}
-                name="email"
-                label={t("emailLabel")}
-                inputProps={{
-                  type: "email",
-                  placeholder: t("emailPlaceholder"),
-                }}
+    <CardLayout
+      icon={<KeyRound className="size-8 text-primary" />}
+      {...(hasEmailSent
+        ? {
+            title: t("emailSent.title"),
+            description: t("emailSent.description"),
+          }
+        : {
+            title: t("title"),
+            description: t("description"),
+          })}
+    >
+      {!hasEmailSent && (
+        <Form {...form}>
+          <form
+            onSubmit={form.handleSubmit(async ({ email }) => {
+              const { error } = await authService.resetPasswordForEmail(email, {
+                redirectTo: getResetPasswordForEmailRedirectUrl(),
+              });
+              if (error) {
+                form.setError("root", {
+                  message: getLocalizedErrorMessage(error),
+                });
+              } else {
+                setHasEmailSent(true);
+              }
+            })}
+            className="space-y-4"
+          >
+            {form.formState.errors.root?.message && (
+              <AlertMessage
+                variant="destructive"
+                title={form.formState.errors.root.message}
               />
+            )}
+            <InputField
+              control={form.control}
+              name="email"
+              label={t("emailLabel")}
+              inputProps={{
+                type: "email",
+                placeholder: t("emailPlaceholder"),
+              }}
+            />
 
-              <Button type="submit" className="w-full">
-                Send reset link
-              </Button>
+            <Button
+              type="submit"
+              className="w-full"
+              isLoading={form.formState.isSubmitting}
+            >
+              {t("sendResetLink")}
+            </Button>
 
-              <div className="text-center">
-                <Link
-                  href="/login"
-                  className="inline-flex items-center gap-2 text-sm"
-                >
-                  <ArrowLeft className="size-4" />
-                  Back to login
-                </Link>
-              </div>
-            </form>
-          </Form>
-        </CardContent>
-      </Card>
-    </div>
+            <div className="text-center">
+              <Link
+                href="/login"
+                className="inline-flex items-center gap-2 text-sm"
+              >
+                <ArrowLeft className="size-4" />
+                {t("backToLogin")}
+              </Link>
+            </div>
+          </form>
+        </Form>
+      )}
+    </CardLayout>
   );
 }

@@ -14,3 +14,8 @@ export function getEmailConfirmationRedirectUrl() {
   const domain = `${window.location.protocol}//${window.location.host}`;
   return `${domain}/email-confirmation-redirect`;
 }
+
+export function getResetPasswordForEmailRedirectUrl() {
+  const domain = `${window.location.protocol}//${window.location.host}`;
+  return `${domain}/forgot-password-redirect`;
+}

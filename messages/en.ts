@@ -60,6 +60,18 @@ const messages = {
     emailPlaceholder: "Enter your email",
     sendResetLink: "Send reset link",
     backToLogin: "Back to login",
+    emailSent: {
+      title: "Check your email",
+      description:
+        "We've sent an email to your inbox. If you don't see it there, please check your spam folder.",
+    },
+  },
+  forgotPasswordRedirect: {
+    title: "Reset Your Password",
+    description:
+      "Enter a new password for your account. Make sure it’s strong and secure.",
+    passwordLabel: "New Password",
+    reset: "Set New Password",
   },
   supabase: {
     signInWithOtpSuccess:

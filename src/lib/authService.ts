@@ -48,6 +48,10 @@ export const authService = {
     return supabase.auth.resetPasswordForEmail(...args);
   },
 
+  updateUser: (...args: Parameters<typeof supabase.auth.updateUser>) => {
+    return supabase.auth.updateUser(...args);
+  },
+
   getSession: (...args: Parameters<typeof supabase.auth.getSession>) => {
     return supabase.auth.getSession(...args);
   },

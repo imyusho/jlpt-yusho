@@ -64,6 +64,18 @@ const messages: EnMessages = {
     emailPlaceholder: "メールアドレスを入力してください",
     sendResetLink: "リセットリンクを送信",
     backToLogin: "ログインに戻る",
+    emailSent: {
+      title: "メールを確認してください",
+      description:
+        "受信トレイにメールを送信しました。見当たらない場合は、迷惑メールフォルダもご確認ください。",
+    },
+  },
+  forgotPasswordRedirect: {
+    title: "パスワードをリセット",
+    description:
+      "アカウントの新しいパスワードを入力してください。安全で強力なパスワードを設定しましょう。",
+    passwordLabel: "新しいパスワード",
+    reset: "パスワードを設定",
   },
   supabase: {
     signInWithOtpSuccess:
