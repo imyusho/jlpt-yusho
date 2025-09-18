@@ -73,6 +73,16 @@ const messages: EnMessages = {
     passwordLabel: "新密碼",
     reset: "設定新密碼",
   },
+  sidebar: {
+    learning: {
+      title: "學習",
+      vocabulary: "單字",
+    },
+    quiz: {
+      title: "測驗",
+      vocabulary: "單字測驗",
+    },
+  },
   supabase: {
     signInWithOtpSuccess:
       "已重新發送確認信。若您在幾分鐘內未收到，請檢查垃圾郵件或稍後再試。",

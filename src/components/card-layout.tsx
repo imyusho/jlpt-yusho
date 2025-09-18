@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./card";
+} from "./ui/card";
 
 type Props = {
   icon: ReactNode;

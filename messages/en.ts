@@ -73,6 +73,16 @@ const messages = {
     passwordLabel: "New Password",
     reset: "Set New Password",
   },
+  sidebar: {
+    learning: {
+      title: "Learning",
+      vocabulary: "Vocabulary",
+    },
+    quiz: {
+      title: "Quiz",
+      vocabulary: "Vocabulary",
+    },
+  },
   supabase: {
     signInWithOtpSuccess:
       "A new confirmation email has been sent. If you don’t see it within a few minutes, please check your spam folder or try again later.",

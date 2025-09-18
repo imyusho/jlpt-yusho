@@ -1,8 +1,8 @@
 "use client";
 
+import { CardLayout } from "@/components/card-layout";
 import { AlertMessage } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
-import { CardLayout } from "@/components/ui/card-layout";
 import { Form, InputField } from "@/components/ui/form";
 import { Link } from "@/i18n/navigation";
 import { authService } from "@/lib/authService";

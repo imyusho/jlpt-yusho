@@ -118,6 +118,6 @@
     @apply bg-background text-foreground;
   }
   a {
-    @apply text-primary font-medium underline-offset-4 hover:underline;
+    @apply text-primary underline-offset-4 hover:underline;
   }
 }

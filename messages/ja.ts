@@ -77,6 +77,16 @@ const messages: EnMessages = {
     passwordLabel: "新しいパスワード",
     reset: "パスワードを設定",
   },
+  sidebar: {
+    learning: {
+      title: "学習",
+      vocabulary: "単語",
+    },
+    quiz: {
+      title: "テスト",
+      vocabulary: "単語テスト",
+    },
+  },
   supabase: {
     signInWithOtpSuccess:
       "確認メールを再送信しました。数分以内に届かない場合は、迷惑メールフォルダを確認するか、後でもう一度お試しください。",

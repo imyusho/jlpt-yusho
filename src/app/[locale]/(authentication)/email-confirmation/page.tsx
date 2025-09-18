@@ -1,8 +1,8 @@
 "use client";
 
+import { CardLayout } from "@/components/card-layout";
 import Redirect from "@/components/redirect";
 import { Button } from "@/components/ui/button";
-import { CardLayout } from "@/components/ui/card-layout";
 import { useAuth } from "@/context/AuthContext";
 import { Link } from "@/i18n/navigation";
 import { authService } from "@/lib/authService";

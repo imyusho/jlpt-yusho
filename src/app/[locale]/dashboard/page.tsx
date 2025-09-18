@@ -1,21 +1,11 @@
-"use client";
-
-import { Button } from "@/components/ui/button";
-import { authService } from "@/lib/authService";
-import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
-
-export default function DashboardPage() {
-  const { toastWhenError } = useLocalizedSupabaseErrorMessage();
+export default function Page() {
   return (
-    <div>
-      <Button
-        onClick={async () => {
-          const { error } = await authService.signOut();
-          toastWhenError(error);
-        }}
-      >
-        Sign out
-      </Button>
+    <div className="flex flex-1 flex-col gap-4 p-4">
+      <div className="grid auto-rows-min gap-4 md:grid-cols-3">
+        <div className="bg-muted/50 aspect-video rounded-xl" />
+        <div className="bg-muted/50 aspect-video rounded-xl" />
+        <div className="bg-muted/50 aspect-video rounded-xl" />
+      </div>
     </div>
   );
 }
