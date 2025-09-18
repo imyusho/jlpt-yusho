@@ -78,6 +78,9 @@ const messages: EnMessages = {
     reset: "パスワードを設定",
   },
   sidebar: {
+    default: {
+      home: "ホーム",
+    },
     learning: {
       title: "学習",
       vocabulary: "単語",

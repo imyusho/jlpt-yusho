@@ -11,7 +11,7 @@ export default function EmailConfirmationRedirectPage() {
 
   if (isLoading) return <Loader2Icon className="animate-spin" />;
 
-  if (user) return <Redirect to="dashboard" />;
+  if (user) return <Redirect to="/home" />;
 
   return error;
 }

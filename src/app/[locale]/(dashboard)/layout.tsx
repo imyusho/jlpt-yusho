@@ -1,5 +1,6 @@
 "use client";
 
+import DarkModeSwitch from "@/components/dark-mode-switch";
 import Redirect from "@/components/redirect";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,9 +13,7 @@ import { authService } from "@/lib/authService";
 import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
 import { AppSidebar } from "./_components/app-sidebar";
 
-export default function RootLayout({
-  children,
-}: LayoutProps<"/[locale]/dashboard">) {
+export default function RootLayout({ children }: LayoutProps<"/[locale]">) {
   const { user, isLoading } = useAuth();
   const { toastWhenError } = useLocalizedSupabaseErrorMessage();
 
@@ -27,14 +26,17 @@ export default function RootLayout({
         <header className="flex h-16 shrink-0 items-center justify-between gap-2 border-b px-4 sticky top-0 bg-background">
           <SidebarTrigger className="-ml-1" />
 
-          <Button
-            onClick={async () => {
-              const { error } = await authService.signOut();
-              toastWhenError(error);
-            }}
-          >
-            Sign out
-          </Button>
+          <div className="flex items-center gap-8">
+            <DarkModeSwitch />
+            <Button
+              onClick={async () => {
+                const { error } = await authService.signOut();
+                toastWhenError(error);
+              }}
+            >
+              Sign out
+            </Button>
+          </div>
         </header>
         {children}
       </SidebarInset>

@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
+import { ClientDarkModeDetector } from "./_components/client-dark-mode-detector";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <AuthProvider>{children}</AuthProvider>
           <Toaster />
+          <ClientDarkModeDetector />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -23,7 +23,7 @@ export default function EmailConfirmationRedirectPage() {
   const searchParams = useSearchParams();
   const email = searchParams.get(CONFIRM_EMAIL_PAGE_SEARCH_PARAM_EMAIL);
 
-  if (user) return <Redirect to="dashboard" />;
+  if (user) return <Redirect to="/home" />;
 
   if (!email) return <Redirect to="/signup" />;
 

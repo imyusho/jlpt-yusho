@@ -74,6 +74,9 @@ const messages = {
     reset: "Set New Password",
   },
   sidebar: {
+    default: {
+      home: "Home",
+    },
     learning: {
       title: "Learning",
       vocabulary: "Vocabulary",

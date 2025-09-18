@@ -29,7 +29,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarHeader>
         <div className="p-2">
           <Link
-            href="/dashboard"
+            href="/home"
             className="flex items-center gap-2 font-medium hover:no-underline text-sm"
           >
             <div className="bg-primary text-primary-foreground flex size-8 items-center justify-center rounded-md text-lg">
@@ -42,16 +42,21 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </div>
       </SidebarHeader>
       <SidebarContent>
-        {data.navMain.map((item) => (
-          <SidebarGroup key={item.title}>
-            <SidebarGroupLabel>{item.title}</SidebarGroupLabel>
+        {data.navMain.map((group, i) => (
+          <SidebarGroup key={i}>
+            {group.title && (
+              <SidebarGroupLabel>{group.title}</SidebarGroupLabel>
+            )}
             <SidebarGroupContent>
               <SidebarMenu>
-                {item.items.map((item) => (
+                {group.items.map((item) => (
                   <SidebarMenuItem key={item.title}>
                     <SidebarMenuButton
                       asChild
-                      isActive={pathname.startsWith(item.url)}
+                      isActive={
+                        item.isActive?.(pathname, item.url) ??
+                        pathname.startsWith(item.url)
+                      }
                     >
                       <Link href={item.url}>{item.title}</Link>
                     </SidebarMenuButton>

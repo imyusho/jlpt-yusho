@@ -14,7 +14,7 @@ type Props = {
 export const Frame: FC<Props> = ({ image, children }) => {
   const { user } = useAuth();
 
-  if (user) return <Redirect to="dashboard" />;
+  if (user) return <Redirect to="/home" />;
 
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
@@ -38,7 +38,7 @@ export const Frame: FC<Props> = ({ image, children }) => {
       </div>
       <div className="hidden lg:block h-0 min-h-full">
         <Image
-          className="size-full object-cover"
+          className="size-full object-cover dark:opacity-60"
           src={image}
           alt=""
           aria-hidden="true"

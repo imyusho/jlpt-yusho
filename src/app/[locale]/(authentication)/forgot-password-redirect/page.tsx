@@ -63,7 +63,7 @@ export default function ForgotPasswordRedirectPage() {
                   message: getLocalizedErrorMessage(error),
                 });
               } else {
-                router.push("/dashboard");
+                router.push("/home");
               }
             })}
             className="space-y-4"

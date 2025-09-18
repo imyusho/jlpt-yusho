@@ -74,6 +74,9 @@ const messages: EnMessages = {
     reset: "設定新密碼",
   },
   sidebar: {
+    default: {
+      home: "首頁",
+    },
     learning: {
       title: "學習",
       vocabulary: "單字",
