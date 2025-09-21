@@ -1,5 +1,3 @@
-import { Unit } from "@/types/api/units";
-
 export const UNITS: Unit[] = [
   {
     uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a001",
@@ -1298,3 +1296,18 @@ export const UNITS: Unit[] = [
     ],
   },
 ];
+
+export type Unit = {
+  uuid: string;
+  title: {
+    en: string;
+    zh: string;
+    ja: string;
+  };
+  description: {
+    en: string;
+    zh: string;
+    ja: string;
+  };
+  vocabulary: string[];
+};

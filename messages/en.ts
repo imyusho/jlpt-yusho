@@ -73,6 +73,11 @@ const messages = {
     passwordLabel: "New Password",
     reset: "Set New Password",
   },
+  vocabulary: {
+    title: "Vocabulary",
+    words: "{count} words",
+    loadMore: "Load more",
+  },
   sidebar: {
     default: {
       home: "Home",

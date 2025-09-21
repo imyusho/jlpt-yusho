@@ -77,6 +77,11 @@ const messages: EnMessages = {
     passwordLabel: "新しいパスワード",
     reset: "パスワードを設定",
   },
+  vocabulary: {
+    title: "語彙",
+    words: "{count} 語彙",
+    loadMore: "もっと読み込む",
+  },
   sidebar: {
     default: {
       home: "ホーム",

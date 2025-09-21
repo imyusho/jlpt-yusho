@@ -73,6 +73,11 @@ const messages: EnMessages = {
     passwordLabel: "新密碼",
     reset: "設定新密碼",
   },
+  vocabulary: {
+    title: "詞彙",
+    words: "{count} 個詞彙",
+    loadMore: "加載更多",
+  },
   sidebar: {
     default: {
       home: "首頁",

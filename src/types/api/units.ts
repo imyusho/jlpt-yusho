@@ -1,14 +1,12 @@
-export type Unit = {
-  uuid: string;
-  title: {
-    en: string;
-    zh: string;
-    ja: string;
-  };
-  description: {
-    en: string;
-    zh: string;
-    ja: string;
-  };
-  vocabulary: string[];
+import { PageInfo } from "./PageInfo";
+
+export type GetUnitsResponse = {
+  data: {
+    uuid: string;
+    title: string;
+    description: string;
+    count: number;
+    vocabularyPreview: string[];
+  }[];
+  pageInfo: PageInfo;
 };
