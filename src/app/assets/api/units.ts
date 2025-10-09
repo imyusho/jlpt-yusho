@@ -2,7 +2,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a001",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 1",
+      en: "Minna no Nihongo — Elementary I, Lesson 1",
       zh: "大家的日本語 初級I 第一課",
       ja: "みんなの日本語 初級I 第一課",
     },
@@ -11,7 +11,7 @@ export const DECKS: Deck[] = [
       zh: "學習基本的自我介紹用語、職業、國籍，以及禮貌表達。",
       ja: "自己紹介、職業、国籍、丁寧な表現を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a801",
         expression: "私",
@@ -707,7 +707,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "g1h2i3j4-5k6l-7m8n-9o0p-1q2r3s4t5u02",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 2",
+      en: "Minna no Nihongo — Elementary I, Lesson 2",
       zh: "大家的日本語 初級I 第二課",
       ja: "みんなの日本語 初級I 第二課",
     },
@@ -716,7 +716,7 @@ export const DECKS: Deck[] = [
       zh: "學習指示代名詞（これ/それ/あれ）以及常見的教室/辦公室詞彙。",
       ja: "こそあど言葉と、教室や事務室の語彙を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "20a1b2c3-4d5e-6f70-8a9b-0c1d2e3f4001",
         expression: "これ",
@@ -1442,7 +1442,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "h1i2j3k4-6m7n-8o9p-0q1r-2s3t4u5v03",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 3",
+      en: "Minna no Nihongo — Elementary I, Lesson 3",
       zh: "大家的日本語 初級I 第三課",
       ja: "みんなの日本語 初級I 第三課",
     },
@@ -1451,7 +1451,7 @@ export const DECKS: Deck[] = [
       zh: "學習場所指示代名詞（ここ/そこ/あそこ），禮貌方向（こちら/そちら/あちら），以及詢問位置和價格。",
       ja: "場所の指示詞（こそあど言葉）と、丁寧な方向表現、場所と値段の尋ね方を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "30a1b2c3-4d5e-6f70-8a9b-0c1d2e3f4001",
         expression: "ここ",
@@ -2087,7 +2087,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "i1j2k3l4-7n8o-9p0q-1r2s-3t4u5v6w04",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 4",
+      en: "Minna no Nihongo — Elementary I, Lesson 4",
       zh: "大家的日本語 初級I 第四課",
       ja: "みんなの日本語 初級I 第四課",
     },
@@ -2096,7 +2096,7 @@ export const DECKS: Deck[] = [
       zh: "學習時間表達、日常動詞、星期幾，以及使用 ～から (從) 和 ～まで (到/為止)。",
       ja: "時間の表現、日常の動詞、曜日、そして「～から」「～まで」の使い方を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "40a1b2c3-4d5e-6f70-8a9b-0c1d2e3f4001",
         expression: "起きます",
@@ -3002,7 +3002,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "j1k2l3m4-8o9p-0q1r-2s3t-4u5v6w7x05",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 5",
+      en: "Minna no Nihongo — Elementary I, Lesson 5",
       zh: "大家的日本語 初級I 第五課",
       ja: "みんなの日本語 初級I 第五課",
     },
@@ -3011,7 +3011,7 @@ export const DECKS: Deck[] = [
       zh: "學習移動動詞（去、來、回）、交通工具（用～去/來/回、走路）、表達日期和詢問「何時」。",
       ja: "移動動詞（行きます、来ます、帰ります）、交通手段、日付の表現、そして「いつ」の使い方を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "50a1b2c3-4d5e-6f70-8a9b-0c1d2e3f5001",
         expression: "行ます",
@@ -3843,7 +3843,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "k1l2m3n4-9p0q-1r2s-3t4u-5v6w7x8y06",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 6",
+      en: "Minna no Nihongo — Elementary I, Lesson 6",
       zh: "大家的日本語 初級I 第六課",
       ja: "みんなの日本語 初級I 第六課",
     },
@@ -3852,7 +3852,7 @@ export const DECKS: Deck[] = [
       zh: "專注於他動詞和直接受詞助詞 を (o)，常見的食物和飲料，以及頻率副詞。",
       ja: "他動詞と直接目的語を示す助詞「を」に焦点を当て、一般的な食べ物や飲み物、頻度を表す副詞を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "60a1b2c3-4d5e-6f70-8a9b-0c1d2e3f6001",
         expression: "食べます",
@@ -4729,7 +4729,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "l1m2n3o4-0q1r-2s3t-4u5v-6w7x8y9z07",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 7",
+      en: "Minna no Nihongo — Elementary I, Lesson 7",
       zh: "大家的日本語 初級I 第七課",
       ja: "みんなの日本語 初級I 第七課",
     },
@@ -4738,7 +4738,7 @@ export const DECKS: Deck[] = [
       zh: "學習給予和接收的動詞、使用助詞 で 表示工具/手段，以及拜訪和招待時的實用短語。",
       ja: "授受動詞（あげます、もらいますなど）、手段・道具を示す助詞「で」、訪問や応対で使う挨拶を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f7001",
         expression: "切ります",
@@ -5479,7 +5479,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c88",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 8",
+      en: "Minna no Nihongo — Elementary I, Lesson 8",
       zh: "大家的日本語 初級I 第八課",
       ja: "みんなの日本語 初級I 第八課",
     },
@@ -5488,7 +5488,7 @@ export const DECKS: Deck[] = [
       zh: "學習基本的ナ形容詞和イ形容詞，如何用它們作謂語，以及用於描述事物、地點和人物的日常會話短語。",
       ja: "基本的な形容詞（い形容詞、な形容詞）とその述語の使い方、物・場所・人などを表現する日常会話表現を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f8001",
         expression: "ハンサム",
@@ -6384,7 +6384,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c89",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 9",
+      en: "Minna no Nihongo — Elementary I, Lesson 9",
       zh: "大家的日本語 初級I 第九課",
       ja: "みんなの日本語 初級I 第九課",
     },
@@ -6393,7 +6393,7 @@ export const DECKS: Deck[] = [
       zh: "第九課介紹了動詞 あります 和 わかります，使用 が 表示能力和偏好的表達 (好き, 嫌い, 上手, 下手)，程度副詞 (よく, たくさん)，以及邀請的會話短語。",
       ja: "動詞「あります」「わかります」、助詞「が」を使った好き嫌いや能力（好き、嫌い、上手、下手）の表現、程度の副詞（よく、たくさん）、招待に関する会話表現を学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f9001",
         expression: "分かります",
@@ -7239,7 +7239,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c10",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 10",
+      en: "Minna no Nihongo — Elementary I, Lesson 10",
       zh: "大家的日本語 初級I 第十課",
       ja: "みんなの日本語 初級I 第十課",
     },
@@ -7248,7 +7248,7 @@ export const DECKS: Deck[] = [
       zh: "第十課介紹了表示存在的動詞 います (用於有生命物體) 和 あります (用於無生命物體)，以及用於描述物體位置的方向和位置詞 (例如：上、下、右、左、間)。",
       ja: "第十課では、存在を表す動詞「います」（人や動物）と「あります」（物）を学び、位置や方向を表す言葉（上、下、右、左、間など）を使って物の場所を説明します。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1001",
         expression: "います",
@@ -7990,7 +7990,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c11",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 11",
+      en: "Minna no Nihongo — Elementary I, Lesson 11",
       zh: "大家的日本語 初級I 第十一課",
       ja: "みんなの日本語 初級I 第十一課",
     },
@@ -7999,7 +7999,7 @@ export const DECKS: Deck[] = [
       zh: "第十一課介紹了日語的數數表達方式，包括使用固有數詞 (ひとつ 到 とお) 來數物體、數人 (ひとり, ふたり, ～にん)，以及各種專用量詞 (～台, ～枚, ～回)。本課也涵蓋了使用 います 和 かかります 來表達持續的時間長度。",
       ja: "第十一課では、固有数詞（ひとつ～とお）での物の数え方、人の数え方（ひとり、ふたり、～にん）、その他いくつかの助数詞（～台、～枚、～回）を学びます。また、期間や所要時間を表す「います」や「かかります」の用法も学習します。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1101",
         expression: "子供がいます",
@@ -8959,7 +8959,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c12",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 12",
+      en: "Minna no Nihongo — Elementary I, Lesson 12",
       zh: "大家的日本語 初級I 第十二課",
       ja: "みんなの日本語 初級I 第十二課",
     },
@@ -8968,7 +8968,7 @@ export const DECKS: Deck[] = [
       zh: "第十二課介紹了 **い形容詞** 和 **な形容詞** 及其用法。它涵蓋了使用 **より** 的比較句（A 比 B 更～），使用 **いちばん** 的最高級（最～），以及使用 **どちら/どちらも** 和 **～がいい** 來表達選擇和偏好。",
       ja: "第十二課では、**い形容詞**と**な形容詞**の使い方を学びます。**より**を使った比較表現（AはBより〜）、**いちばん**を使った最上級表現、**どちら/どちらも**と**～がいい**を使った選択と好みを表現する方法を学習します。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1201",
         expression: "簡単",
@@ -9771,7 +9771,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c13",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 13",
+      en: "Minna no Nihongo — Elementary I, Lesson 13",
       zh: "大家的日本語 初級I 第十三課",
       ja: "みんなの日本語 初級I 第十三課",
     },
@@ -9780,7 +9780,7 @@ export const DECKS: Deck[] = [
       zh: "第十三課著重於使用 **い形容詞 ほしい** 來表達慾望（想要某物），以及各種動作動詞（及物和不及物），例如 **遊びます**、**泳ぎます** 和 **出ます**。它還涵蓋了與飢餓、口渴和同意建議相關的表達方式。",
       ja: "第十三課では、**ほしい**（い形容詞）を使った願望の表現、および**遊びます**、**泳ぎます**、**出ます**などの様々な動作動詞（他動詞と自動詞）を学びます。また、空腹や喉の渇き、提案への同意に関する表現も学習します。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1301",
         expression: "遊びます",
@@ -10512,7 +10512,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c14",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 14",
+      en: "Minna no Nihongo — Elementary I, Lesson 14",
       zh: "大家的日本語 初級I 第十四課",
       ja: "みんなの日本語 初級I 第十四課",
     },
@@ -10521,7 +10521,7 @@ export const DECKS: Deck[] = [
       zh: "第十四課介紹了動詞的基本形式，即 **Te 形** ($sim \text{て}$)。主要語法包括提出請求（$sim \text{て} \text{ください}$）、連接連續動作，以及詢問/給予許可（$sim \text{て} \text{もいいですか}$）。它還涵蓋了各種常見的動作動詞和方向表達。",
       ja: "第十四課では、動詞の基本的な**て形** ($sim \text{て}$)を学習します。主な文法事項として、依頼（$sim \text{て} \text{ください}$）、動作の連結、許可（$sim \text{て} \text{もいいですか}$）の表現があります。また、様々な動作動詞や方向に関する表現も学びます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1401",
         expression: "つけます",
@@ -11172,7 +11172,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c15",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 15",
+      en: "Minna no Nihongo — Elementary I, Lesson 15",
       zh: "大家的日本語 初級I 第十五課",
       ja: "みんなの日本語 初級I 第十五課",
     },
@@ -11181,7 +11181,7 @@ export const DECKS: Deck[] = [
       zh: "第十五課介紹了動詞多功能的持續和狀態形式：$sim \text{て} \text{います}$。涵蓋的主要用法包括**正在進行的動作**（$sim \text{ing}$）、**目前的狀態**（如知道、居住、結婚）和**習慣性/常規動作**。",
       ja: "第十五課では、動詞の汎用性の高い継続・状態を表す形、$sim \text{て} \text{います}$を学びます。主な用法は、**継続中の動作**、**現在の状態**（知っている、住んでいる、結婚しているなど）、**習慣的な動作**です。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1501",
         expression: "立ちます",
@@ -11639,7 +11639,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c16",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 16",
+      en: "Minna no Nihongo — Elementary I, Lesson 16",
       zh: "大家的日本語 初級I 第十六課",
       ja: "みんなの日本語 初級I 第十六課",
     },
@@ -11648,7 +11648,7 @@ export const DECKS: Deck[] = [
       zh: "第十六課涵蓋了使用形容詞來描述人事物。重點語法包括使用助詞 **が** 來描述主語的特定特徵（$\text{名詞} + \text{が} + \text{形容詞}$）、使用 **Te 形** ($sim \text{て}$) 來連接多個形容詞，以及與身體和交易相關的詞彙。",
       ja: "第十六課では、人や物を説明するための形容詞の使用を学びます。主要な文法ポイントは、主語の特定の特長を述べる際の助詞**が**の使用（$\text{名詞} + \text{が} + \text{形容詞}$）、複数の形容詞を接続するための**て形** ($sim \text{て}$) の使用、および身体や取引に関連する語彙です。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1601",
         expression: "乗ります",
@@ -12544,7 +12544,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c17",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 17",
+      en: "Minna no Nihongo — Elementary I, Lesson 17",
       zh: "大家的日本語 初級I 第十七課",
       ja: "みんなの日本語 初級I 第十七課",
     },
@@ -12553,7 +12553,7 @@ export const DECKS: Deck[] = [
       zh: "第十七課著重於與記憶、移動和日常雜務相關的動詞。本課的核心語法引入了動詞否定形式（$sim \text{ない}$形）的用法，用於表達否定命令（$sim \text{ないで} \text{ください}$）、允許不做某事（$sim \text{なくてもいいです}$）以及必須做某事（$sim \text{なければなりません}$）。",
       ja: "第十七課は、記憶、移動、および日課に関連する動詞に焦点を当てています。本課の主要文法は、動詞の否定形（$sim \text{ない}$形）を用いた否定の依頼（$sim \text{ないで} \text{ください}$）、不必要の許可（$sim \text{なくてもいいです}$）、および義務（$sim \text{なければなりません}$）の表現を導入します。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1701",
         expression: "覚えます",
@@ -13116,7 +13116,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c18",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 18",
+      en: "Minna no Nihongo — Elementary I, Lesson 18",
       zh: "大家的日本語 初級I 第十八課",
       ja: "みんなの日本語 初級I 第十八課",
     },
@@ -13125,7 +13125,7 @@ export const DECKS: Deck[] = [
       zh: "第十八課介紹了使用動詞 **$\text{できます}$** 來表達**能力**或**可能性**的基本概念。基本句型是 $\text{名詞} + \text{が} + \text{できます}$（能做 $\text{名詞}$）。新詞彙包括與音樂/愛好和職位名稱相關的動詞。",
       ja: "第十八課では、動詞 **$\text{できます}$** を用いた**能力**や**可能**の表現を学びます。基本的な文型は、$\text{名詞} + \text{が} + \text{できます}$（$\text{名詞}$ができる）です。新しい語彙には、音楽・趣味に関連する動詞や役職名が含まれています。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1801",
         expression: "できます",
@@ -13570,7 +13570,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c19",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 19",
+      en: "Minna no Nihongo — Elementary I, Lesson 19",
       zh: "大家的日本語 初級I 第十九課",
       ja: "みんなの日本語 初級I 第十九課",
     },
@@ -13579,7 +13579,7 @@ export const DECKS: Deck[] = [
       zh: "第十九課著重於使用動詞 **$\text{なります}$**（成為）來表達**狀態變化**。這包括名詞、$\text{い}$形容詞（使用 $sim \text{く}$形）和 $\text{な}$形容詞（使用 $sim \text{に}$形）的變化。新詞彙與日常活動、愛好和狀態有關。",
       ja: "第十九課では、動詞 **$\text{なります}$** を使って**状態の変化**を表現する方法を学びます。これは、名詞、い形容詞（$sim \text{く}$形を使用）、な形容詞（$sim \text{に}$形を使用）の変化を含みます。新しい語彙は、日常活動、趣味、状態に関連するものです。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f1901",
         expression: "登ります",
@@ -14127,7 +14127,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c20",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 20",
+      en: "Minna no Nihongo — Elementary I, Lesson 20",
       zh: "大家的日本語 初級I 第二十課",
       ja: "みんなの日本語 初級I 第二十課",
     },
@@ -14136,7 +14136,7 @@ export const DECKS: Deck[] = [
       zh: "第二十課介紹了動詞、名詞和形容詞的**普通形**（休閒形式），這對於非正式場合的對話和構成複雜句型至關重要。本課涵蓋了使用 **$\text{いります}$**（需要）來表達必要性，以及與調查和修理相關的詞彙。",
       ja: "第二十課では、動詞、名詞、形容詞の**普通形**（カジュアル形）を導入します。これは、非公式な会話や複雑な文を構成する上で不可欠です。本課では、**$\text{いります}$**（必要とする）を使った必要性の表現や、調査・修理に関連する語彙を扱います。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2001",
         expression: "要ります",
@@ -14592,7 +14592,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c21",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 21",
+      en: "Minna no Nihongo — Elementary I, Lesson 21",
       zh: "大家的日本語 初級I 第二十一課",
       ja: "みんなの日本語 初級I 第二十一課",
     },
@@ -14601,7 +14601,7 @@ export const DECKS: Deck[] = [
       zh: "第二十一課著重於使用普通形（休閒形式）在引號助詞 **$\text{と}$** 之前嵌入完整的句子。這使學習者能夠表達轉述的思想（**$\text{と}$ $\text{思います}$**）和轉述的言語（**$\text{と}$ $\text{言います}$**）。本課還介紹了關於必要性、意見和時事的新詞彙。",
       ja: "第二十一課は、引用助詞 **$\text{と}$** の前に普通形を用いて完全な節を埋め込むことに焦点を当てています。これにより、学習者は思考の伝達（**$\text{と}$ $\text{思います}$**）や発言の伝達（**$\text{と}$ $\text{言います}$**）を表現できます。また、必要性、意見、時事に関連する語彙も導入されます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2101",
         expression: "思います",
@@ -15243,7 +15243,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c22",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 22",
+      en: "Minna no Nihongo — Elementary I, Lesson 22",
       zh: "大家的日本語 初級I 第二十二課",
       ja: "みんなの日本語 初級I 第二十二課",
     },
@@ -15252,7 +15252,7 @@ export const DECKS: Deck[] = [
       zh: "第二十二課介紹了使用**普通形子句**來修飾名詞（名詞修飾子句，類似於關係子句）。這個結構對於複雜的描述至關重要（例如：「戴帽子的人」）。新詞彙包括穿戴各類衣物的動詞以及與住房和日常生活相關的詞彙。",
       ja: "第二十二課では、**普通形の節**を用いて名詞を修飾する方法（名詞修飾節）を導入します。これは、複雑な描写（例：「帽子をかぶっている人」）に不可欠な構造です。新しい語彙には、様々な種類の衣類を身につける動詞や、住居と日常生活に関連する用語が含まれます。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2201",
         expression: "着ます",
@@ -15637,7 +15637,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c23",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 23",
+      en: "Minna no Nihongo — Elementary I, Lesson 23",
       zh: "大家的日本語 初級I 第二十三課",
       ja: "みんなの日本語 初級I 第二十三課",
     },
@@ -15646,7 +15646,7 @@ export const DECKS: Deck[] = [
       zh: "第二十三課介紹了運動和操作動詞，以及與機器和交通相關的名詞。語法上，涵蓋了使用**$\text{～て}$ $\text{います}$** 形式來描述習慣性動作，以及 $\text{触ります}$（摸）和 $\text{気をつけます}$（注意）動詞與助詞 **$\text{に}$** 的用法。",
       ja: "第二十三課では、動作や操作を表す動詞と、機械や交通に関する名詞を導入します。文法的には、習慣的動作を説明するための **$\text{～て}$ $\text{います}$** の使用、および $\text{触ります}$ や $\text{気をつけます}$ と助詞 **$\text{に}$** の使用を扱います。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2301",
         expression: "聞きます",
@@ -16212,7 +16212,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c24",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 24",
+      en: "Minna no Nihongo — Elementary I, Lesson 24",
       zh: "大家的日本語 初級I 第二十四課",
       ja: "みんなの日本語 初級I 第二十四課",
     },
@@ -16221,7 +16221,7 @@ export const DECKS: Deck[] = [
       zh: "第二十四課介紹了主要的恩惠動詞：**$\text{くれます}$**（別人給予/為說話者做事），以及 $\text{Te}$ 形模式：**$\text{て}$ $\text{あげます}$**（為別人做事）和 **$\text{て}$ $\text{もらいます}$**（接受恩惠）。詞彙集中於社交支持、引導和準備等動作。",
       ja: "第二十四課では、主要な授受動詞（あげます・もらいます・**$\text{くれます}$**）を導入します。特に**$\text{くれます}$**（相手が自分に何かをする）と、$\text{て}$ $\text{形}$ を使った恩恵の表現（**$\text{て}$ $\text{あげます}$**、**$\text{て}$ $\text{もらいます}$**、**$\text{て}$ $\text{くれます}$**）が中心です。語彙は、社会的サポート、案内、準備の行動に焦点を当てています。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2401",
         expression: "くれます",
@@ -16560,7 +16560,7 @@ export const DECKS: Deck[] = [
   {
     uuid: "p7q8r9s0-1t2u-3v4w-5x6y-7z8a9b0c25",
     title: {
-      en: "Minna no Nihongo — Elementary Level 1, Lesson 25",
+      en: "Minna no Nihongo — Elementary I, Lesson 25",
       zh: "大家的日本語 初級I 第二十五課",
       ja: "みんなの日本語 初級I 第二十五課",
     },
@@ -16569,7 +16569,7 @@ export const DECKS: Deck[] = [
       zh: "第二十五課是《大家的日本語 初級I》的最後一課，重點介紹了必不可少的**$\text{た}$ $\text{ら}$ $\text{條件}$ $\text{形式}$**（如果/當 $sim$ 時）和結構 $\text{～ば}$ $\text{いい}$（如果 $sim$ 就好了）。詞彙包括思考和抵達的動詞、與未來計劃相關的名詞，以及重要的道別用語。",
       ja: "第二十五課は『みんなの日本語 初級I』の最終課であり、不可欠な**$\text{た}$ $\text{ら}$ $\text{条件形}$**（もし～なら/～たら）と、$\text{～ば}$ $\text{いい}$（～すればよい）の構文に焦点を当てています。語彙には、考慮や到着の動詞、将来の計画に関する名詞、そして重要な別れの挨拶が含まれています。",
     },
-    cards: [
+    words: [
       {
         uuid: "70a1b2c3-4d5e-6f70-8a9b-0c1d2e3f2501",
         expression: "考えます",
@@ -16883,10 +16883,10 @@ export type Deck = {
     zh: string;
     ja: string;
   };
-  cards: Card[];
+  words: Word[];
 };
 
-export type Card = {
+export type Word = {
   uuid: string;
   expression: string;
   reading: string;

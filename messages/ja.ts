@@ -82,6 +82,9 @@ const messages: EnMessages = {
     words: "{count} 語彙",
     loadMore: "もっと読み込む",
   },
+  unit: {
+    title: "クイズモード",
+  },
   sidebar: {
     default: {
       home: "ホーム",

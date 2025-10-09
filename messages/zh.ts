@@ -78,6 +78,9 @@ const messages: EnMessages = {
     words: "{count} 個詞彙",
     loadMore: "加載更多",
   },
+  unit: {
+    title: "測驗模式",
+  },
   sidebar: {
     default: {
       home: "首頁",

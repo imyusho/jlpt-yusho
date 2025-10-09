@@ -78,6 +78,9 @@ const messages = {
     words: "{count} words",
     loadMore: "Load more",
   },
+  unit: {
+    title: "Quiz Mode",
+  },
   sidebar: {
     default: {
       home: "Home",
