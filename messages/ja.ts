@@ -90,10 +90,6 @@ const messages: EnMessages = {
       title: "学習",
       vocabulary: "単語",
     },
-    quiz: {
-      title: "テスト",
-      vocabulary: "単語テスト",
-    },
   },
   supabase: {
     signInWithOtpSuccess:

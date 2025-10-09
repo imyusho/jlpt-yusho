@@ -86,10 +86,6 @@ const messages = {
       title: "Learning",
       vocabulary: "Vocabulary",
     },
-    quiz: {
-      title: "Quiz",
-      vocabulary: "Vocabulary",
-    },
   },
   supabase: {
     signInWithOtpSuccess:

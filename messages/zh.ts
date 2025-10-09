@@ -86,10 +86,6 @@ const messages: EnMessages = {
       title: "學習",
       vocabulary: "單字",
     },
-    quiz: {
-      title: "測驗",
-      vocabulary: "單字測驗",
-    },
   },
   supabase: {
     signInWithOtpSuccess:

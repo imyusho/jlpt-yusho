@@ -36,15 +36,6 @@ export const useSidebarData = (): SidebarData => {
             },
           ],
         },
-        {
-          title: t("quiz.title"),
-          items: [
-            {
-              title: t("quiz.vocabulary"),
-              url: "/quiz/vocabulary",
-            },
-          ],
-        },
       ],
     };
   }, [t]);

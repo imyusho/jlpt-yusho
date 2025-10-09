@@ -1,4 +1,4 @@
-import { UNITS } from "@/app/assets/api/units";
+import { DECKS } from "@/app/assets/api/units";
 import {
   Card,
   CardContent,
@@ -15,25 +15,34 @@ export default async function Page({
   params,
 }: PageProps<"/[locale]/learning/vocabulary/[uuid]">) {
   const { locale: localeParam, uuid } = await params;
-  const unit = UNITS.find((x) => x.uuid === uuid);
+  const deck = DECKS.find((x) => x.uuid === uuid);
   const locale = hasLocale(routing.locales, localeParam)
     ? localeParam
     : DEFAULT_LOCALE;
 
-  if (!unit) return "404";
+  if (!deck) return "404";
 
   return (
     <main className="dashboard max-w-300 w-full mx-auto p-4">
-      <h1>{unit.title[locale]}</h1>
+      <h1>{deck.title[locale]}</h1>
       <ul className="grid gap-4">
-        {unit.vocabulary.map((x, i) => (
+        {deck.cards.map((x, i) => (
           <li key={i}>
             <Card className="size-full">
-              <CardHeader className="gap-4">
-                <CardTitle>{x}</CardTitle>
-                <CardDescription className="text-balance line-clamp-1"></CardDescription>
+              <CardHeader>
+                <CardTitle>{x.expression}</CardTitle>
+                <CardDescription>{x.reading}</CardDescription>
               </CardHeader>
-              <CardContent className="text-primary"></CardContent>
+              <CardContent className="text-primary grid gap-4">
+                <div>
+                  <div>{x.definition}</div>
+                  <div>{locale !== "ja" && x.meaning[locale]}</div>
+                </div>
+                <div>
+                  <div>{x.example}</div>
+                  <div>{locale !== "ja" && x.exampleMeaning[locale]}</div>
+                </div>
+              </CardContent>
             </Card>
           </li>
         ))}
