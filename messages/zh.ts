@@ -10,6 +10,15 @@ const messages: EnMessages = {
       nameMin: "姓名至少需要 {min} 個字元",
       nameMax: "姓名不能超過 {max} 個字元",
     },
+    interval: {
+      second: "{value} 秒",
+      minute: "{value} 分鐘",
+      hour: "{value} 小時",
+      day: "{value} 天",
+      week: "{value} 週",
+      month: "{value} 個月",
+      year: "{value} 年",
+    },
   },
   home: {
     meta: {

@@ -10,6 +10,15 @@ const messages: EnMessages = {
       nameMin: "名前は最低 {min} 文字必要です",
       nameMax: "名前は最大 {max} 文字までです",
     },
+    interval: {
+      second: "{value} 秒",
+      minute: "{value} 分",
+      hour: "{value} 時間",
+      day: "{value} 日",
+      week: "{value} 週間",
+      month: "{value} か月",
+      year: "{value} 年",
+    },
   },
   home: {
     meta: {

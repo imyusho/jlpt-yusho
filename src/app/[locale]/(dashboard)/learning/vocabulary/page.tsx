@@ -28,7 +28,7 @@ export default function Page({
       <h1>{t("title")}</h1>
       <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
         {DECKS.map((x) => {
-          const vocabularyPreview = x.words.map((x) => x.reading).slice(0, 5);
+          const vocabularyPreview = x.words.map((x) => x.reading).slice(0, 3);
 
           return (
             <li key={x.uuid}>

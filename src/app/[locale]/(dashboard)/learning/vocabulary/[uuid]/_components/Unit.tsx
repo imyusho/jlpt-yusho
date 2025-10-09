@@ -4,6 +4,8 @@ import { Deck } from "@/app/assets/api/units";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { useAuth } from "@/context/AuthContext";
+import { useRepetition } from "@/hooks/use-repetition";
 import { routing } from "@/i18n/routing";
 import { getShuffled } from "@/lib/utils";
 import { Shuffle } from "lucide-react";
@@ -20,6 +22,11 @@ export const Unit: FC<Props> = ({ deck, locale }) => {
   const t = useTranslations("unit");
   const [isQuiz, setIsQuiz] = useState(false);
   const [words, setWrods] = useState(deck.words);
+
+  const { user } = useAuth();
+  const { repetitions, upsertRepetition, removeRepetition } = useRepetition(
+    user?.id
+  );
 
   return (
     <div>
@@ -40,7 +47,24 @@ export const Unit: FC<Props> = ({ deck, locale }) => {
       <ul className="grid gap-4">
         {words.map((word) => (
           <li key={word.uuid}>
-            <WordCard locale={locale} word={word} isQuiz={isQuiz} />
+            <WordCard
+              locale={locale}
+              word={word}
+              isQuiz={isQuiz}
+              repetition={repetitions.find((x) => x.cardUuid === word.uuid)}
+              onRepetitionChange={(x) => {
+                if (x.interval === null) {
+                  removeRepetition(word.uuid);
+                  return;
+                }
+
+                upsertRepetition({
+                  cardUuid: word.uuid,
+                  interval: x.interval,
+                  nextTime: new Date(Date.now() + x.interval),
+                });
+              }}
+            />
           </li>
         ))}
       </ul>

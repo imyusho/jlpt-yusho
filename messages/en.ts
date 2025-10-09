@@ -8,6 +8,15 @@ const messages = {
       nameMin: "Name must be at least {min} characters",
       nameMax: "Name cannot exceed {max} characters",
     },
+    interval: {
+      second: "{value, plural, one {# second} other {# seconds}}",
+      minute: "{value, plural, one {# minute} other {# minutes}}",
+      hour: "{value, plural, one {# hour} other {# hours}}",
+      day: "{value, plural, one {# day} other {# days}}",
+      week: "{value, plural, one {# week} other {# weeks}}",
+      month: "{value, plural, one {# month} other {# months}}",
+      year: "{value, plural, one {# year} other {# years}}",
+    },
   },
   home: {
     meta: {

@@ -29,7 +29,7 @@ export const DECKS: Deck[] = [
       },
       {
         uuid: "2a3e5c7b-8f6d-41a2-b9c0-7d4f8e1g2h3i",
-        expression: "私たち",
+        expression: "私達",
         reading: "わたしたち",
         definition: "一人称複数の代名詞",
         meaning: {
@@ -44,7 +44,7 @@ export const DECKS: Deck[] = [
       },
       {
         uuid: "c9b0d1e2-3f4g-5h6i-7j8k-9l0m1n2o3p4q",
-        expression: "あなた",
+        expression: "貴方",
         reading: "あなた",
         definition: "二人称の代名詞",
         meaning: {
@@ -334,7 +334,7 @@ export const DECKS: Deck[] = [
         definition: "電力、照明",
         meaning: {
           en: "electricity, light",
-          zh: "電、燈光",
+          zh: "電、電燈",
         },
         example: "でんきをつけます。",
         exampleMeaning: {
