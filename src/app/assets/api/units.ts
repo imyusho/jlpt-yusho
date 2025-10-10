@@ -16871,6 +16871,8 @@ export const DECKS: Deck[] = [
   },
 ];
 
+export const WORDS: Word[] = DECKS.flatMap((x) => x.words);
+
 export type Deck = {
   uuid: string;
   title: {
