@@ -61,13 +61,13 @@ export const WordCardImpl: FC<Props> = ({
           <CardHeader>
             <CardTitle
               className={cn(
-                "transition-opacity",
+                "transition-opacity text-2xl",
                 isAnswerVisible ? "opacity-100" : "opacity-0"
               )}
             >
               {word.expression}
             </CardTitle>
-            <CardDescription className="text-foreground">
+            <CardDescription className="text-foreground text-lg">
               {word.reading}
             </CardDescription>
           </CardHeader>
@@ -96,7 +96,7 @@ export const WordCardImpl: FC<Props> = ({
           <ToggleGroup
             type="single"
             variant="outline"
-            orientation="vertical"
+            // orientation="vertical"
             className="w-full mt-4 @md:mt-0"
             onClick={(e) => e.stopPropagation()}
             value={String(repetition?.interval ?? "")}
@@ -107,8 +107,8 @@ export const WordCardImpl: FC<Props> = ({
               });
             }}
           >
-            <ToggleGroupItem value={String(60 * 1000)}>
-              {t("minute", { value: 1 })}
+            <ToggleGroupItem value={String(1000)}>
+              {t("second", { value: 1 })}
             </ToggleGroupItem>
             <ToggleGroupItem value={String(60 * 60 * 1000)}>
               {t("hour", { value: 1 })}
@@ -118,6 +118,9 @@ export const WordCardImpl: FC<Props> = ({
             </ToggleGroupItem>
             <ToggleGroupItem value={String(7 * 24 * 60 * 60 * 1000)}>
               {t("week", { value: 1 })}
+            </ToggleGroupItem>
+            <ToggleGroupItem value={String(30 * 24 * 60 * 60 * 1000)}>
+              {t("month", { value: 1 })}
             </ToggleGroupItem>
           </ToggleGroup>
         </CardContent>
