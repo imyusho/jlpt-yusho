@@ -171,10 +171,10 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
           en: "company employee",
           zh: "公司職員",
         },
-        example: "わたしはIMCのかいしゃいんです。",
+        example: "わたしはかいしゃいんです。",
         exampleMeaning: {
-          en: "I am an IMC company employee.",
-          zh: "我是IMC公司的職員。",
+          en: "I’m an office worker.",
+          zh: "我是上班族",
         },
       },
       {
