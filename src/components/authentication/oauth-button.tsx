@@ -3,7 +3,7 @@
 import googleIcon from "@/app/assets/svgs/google.svg";
 import { authService } from "@/lib/authService";
 import { useLocalizedSupabaseErrorMessage } from "@/lib/supabaseUtils";
-import { cn } from "@/lib/utils";
+import { cn, getDomain } from "@/lib/utils";
 import { Provider } from "@supabase/supabase-js";
 import Image from "next/image";
 import { ReactNode, useState } from "react";
@@ -33,9 +33,7 @@ export function OauthButton({
         setIsSigningIn(true);
         const { error } = await authService.signInWithOAuth({
           provider,
-          options: {
-            redirectTo: process.env.NEXT_PUBLIC_REDIRECT_URL,
-          },
+          options: { redirectTo: getDomain() },
         });
         if (error) {
           toastWhenError(error);

@@ -10,8 +10,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export function getDomain() {
+  return `${window.location.protocol}//${window.location.host}`;
+}
+
 export function getEmailConfirmationRedirectUrl() {
-  const domain = `${window.location.protocol}//${window.location.host}`;
+  const domain = getDomain();
   return `${domain}/email-confirmation-redirect`;
 }
 
