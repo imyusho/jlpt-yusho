@@ -3841,6 +3841,3534 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
     ],
   },
+  {
+    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e006",
+    title: {
+      en: "Lesson 6",
+      zh: "第六課",
+      ja: "第六課",
+    },
+    description: {
+      en: "Introduce transitive verbs for daily actions, common food/drink items, leisure activities, and the use of the direct object particle $\text{を (o)}$.",
+      zh: "介紹日常動作的及物動詞、常見食物/飲料、休閒活動，以及直接受詞助詞 $\text{を (o)}$ 的用法。",
+      ja: "日常の行動を表す他動詞、飲食物、レジャー活動、そして直接目的語の助詞 $\text{を (o)}$ の使い方を学びます。",
+    },
+    words: [
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e801",
+        expression: "食べます",
+        reading: "たべます",
+        definition: "食物を口に入れて飲み込む。",
+        meaning: {
+          en: "eat",
+          zh: "吃",
+        },
+        example: "パンを食べます。",
+        exampleMeaning: {
+          en: "I eat bread.",
+          zh: "我吃麵包。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e802",
+        expression: "飲みます",
+        reading: "のみます",
+        definition: "液体を口に入れて体内に入れる。",
+        meaning: {
+          en: "drink",
+          zh: "喝",
+        },
+        example: "みずを飲みます。",
+        exampleMeaning: {
+          en: "I drink water.",
+          zh: "我喝水。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e803",
+        expression: "吸います",
+        reading: "すいます",
+        definition: "空気や煙などを鼻や口から吸い込む。",
+        meaning: {
+          en: "smoke, inhale",
+          zh: "吸",
+        },
+        example: "たばこを吸いますか。",
+        exampleMeaning: {
+          en: "Do you smoke?",
+          zh: "你抽菸嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e804",
+        expression: "見ます",
+        reading: "みます",
+        definition: "目で対象を捉える。",
+        meaning: {
+          en: "see, look at, watch",
+          zh: "看",
+        },
+        example: "テレビを見ます。",
+        exampleMeaning: {
+          en: "I watch TV.",
+          zh: "我看電視。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e805",
+        expression: "聞きます",
+        reading: "ききます",
+        definition: "音を耳で捉える。または尋ねる。",
+        meaning: {
+          en: "hear, listen",
+          zh: "聽",
+        },
+        example: "音楽を聞きます。",
+        exampleMeaning: {
+          en: "I listen to music.",
+          zh: "我聽音樂。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e806",
+        expression: "読みます",
+        reading: "よみます",
+        definition: "文字を音声に出したり意味を理解したりする。",
+        meaning: {
+          en: "read",
+          zh: "閱讀",
+        },
+        example: "新聞を読みます。",
+        exampleMeaning: {
+          en: "I read the newspaper.",
+          zh: "我讀報紙。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e807",
+        expression: "書きます",
+        reading: "かきます",
+        definition: "文字や文章などを記す。",
+        meaning: {
+          en: "write, draw",
+          zh: "書寫",
+        },
+        example: "レポートを書きます。",
+        exampleMeaning: {
+          en: "I write a report.",
+          zh: "我寫報告。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e808",
+        expression: "買います",
+        reading: "かいます",
+        definition: "金銭を払って手に入れる。",
+        meaning: {
+          en: "buy",
+          zh: "購買",
+        },
+        example: "スーパーで魚を買います。",
+        exampleMeaning: {
+          en: "I buy fish at the supermarket.",
+          zh: "我在超市買魚。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e809",
+        expression: "撮ります",
+        reading: "とります",
+        definition: "写真や動画を記録する。",
+        meaning: {
+          en: "take (a photo)",
+          zh: "拍攝〔照片〕",
+        },
+        example: "しゃしんを撮ります。",
+        exampleMeaning: {
+          en: "I take photos.",
+          zh: "我拍照。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e810",
+        expression: "します",
+        reading: "します",
+        definition: "行う、する。動作を表す。",
+        meaning: {
+          en: "do",
+          zh: "做",
+        },
+        example: "しゅくだいをします。",
+        exampleMeaning: {
+          en: "I do homework.",
+          zh: "我做作業。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e811",
+        expression: "会います",
+        reading: "あいます",
+        definition: "人と面会する。助詞 $\text{に (ni)}$ と共に使う。",
+        meaning: {
+          en: "meet, see (a person) [friend]",
+          zh: "〔跟朋友〕見面",
+        },
+        example: "友達に会います。",
+        exampleMeaning: {
+          en: "I meet a friend.",
+          zh: "我跟朋友見面。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e812",
+        expression: "ごはん",
+        reading: "ごはん",
+        definition: "調理された米飯。食事の総称。",
+        meaning: {
+          en: "cooked rice, meal",
+          zh: "白飯、飯",
+        },
+        example: "ひるごはんを食べます。",
+        exampleMeaning: {
+          en: "I eat lunch.",
+          zh: "我吃午餐。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e813",
+        expression: "朝ごはん",
+        reading: "あさごはん",
+        definition: "朝の食事。",
+        meaning: {
+          en: "breakfast",
+          zh: "早餐",
+        },
+        example: "毎朝、パンとコーヒーで朝ごはんです。",
+        exampleMeaning: {
+          en: "I have bread and coffee for breakfast every morning.",
+          zh: "我每天早上吃麵包和咖啡當早餐。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e814",
+        expression: "昼ごはん",
+        reading: "ひるごはん",
+        definition: "昼の食事。",
+        meaning: {
+          en: "lunch",
+          zh: "午餐",
+        },
+        example: "昼ごはんはもう食べましたか。",
+        exampleMeaning: {
+          en: "Have you eaten lunch already?",
+          zh: "你已經吃過午餐了嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e815",
+        expression: "晩ごはん",
+        reading: "ばんごはん",
+        definition: "晩の食事。",
+        meaning: {
+          en: "dinner",
+          zh: "晚餐",
+        },
+        example: "晩ごはんをいっしょに食べませんか。",
+        exampleMeaning: {
+          en: "Would you like to eat dinner together?",
+          zh: "要不要一起吃晚餐？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e816",
+        expression: "パン",
+        reading: "パン",
+        definition: "小麦粉などを焼いて作った食物。",
+        meaning: {
+          en: "bread",
+          zh: "麵包",
+        },
+        example: "パンとぎゅうにゅうを買いました。",
+        exampleMeaning: {
+          en: "I bought bread and milk.",
+          zh: "我買了麵包和牛奶。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e817",
+        expression: "卵",
+        reading: "たまご",
+        definition: "鳥や魚の産む丸いもの。特に鶏卵。",
+        meaning: {
+          en: "egg",
+          zh: "蛋",
+        },
+        example: "たまごを食べます。",
+        exampleMeaning: {
+          en: "I eat eggs.",
+          zh: "我吃蛋。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e818",
+        expression: "肉",
+        reading: "にく",
+        definition: "動物の身。",
+        meaning: {
+          en: "meat",
+          zh: "肉",
+        },
+        example: "晩ごはんは肉でした。",
+        exampleMeaning: {
+          en: "Dinner was meat.",
+          zh: "晚餐是肉。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e819",
+        expression: "魚",
+        reading: "さかな",
+        definition: "水中に生息する脊椎動物。",
+        meaning: {
+          en: "fish",
+          zh: "魚",
+        },
+        example: "さかなを食べますか。",
+        exampleMeaning: {
+          en: "Do you eat fish?",
+          zh: "你吃魚嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e820",
+        expression: "野菜",
+        reading: "やさい",
+        definition: "食用にする草本植物。",
+        meaning: {
+          en: "vegetable",
+          zh: "蔬菜",
+        },
+        example: "毎日やさいを食べます。",
+        exampleMeaning: {
+          en: "I eat vegetables every day.",
+          zh: "我每天吃蔬菜。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e821",
+        expression: "果物",
+        reading: "くだもの",
+        definition: "木の果実で食用になるもの。",
+        meaning: {
+          en: "fruit",
+          zh: "水果",
+        },
+        example: "果物を買います。",
+        exampleMeaning: {
+          en: "I buy fruit.",
+          zh: "我買水果。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e822",
+        expression: "水",
+        reading: "みず",
+        definition: "液体のH2O。",
+        meaning: {
+          en: "water",
+          zh: "水",
+        },
+        example: "みずを飲みます。",
+        exampleMeaning: {
+          en: "I drink water.",
+          zh: "我喝水。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e823",
+        expression: "お茶",
+        reading: "おちゃ",
+        definition: "茶の葉を煮出した飲み物。日本茶。",
+        meaning: {
+          en: "tea, green tea",
+          zh: "茶",
+        },
+        example: "お茶をどうぞ。",
+        exampleMeaning: {
+          en: "Please have some tea.",
+          zh: "請喝茶。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e824",
+        expression: "紅茶",
+        reading: "こうちゃ",
+        definition: "発酵させた茶葉を用いた飲み物。",
+        meaning: {
+          en: "black tea",
+          zh: "紅茶",
+        },
+        example: "毎朝、紅茶を飲みます。",
+        exampleMeaning: {
+          en: "I drink black tea every morning.",
+          zh: "我每天早上喝紅茶。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e825",
+        expression: "牛乳(ミルク)",
+        reading: "ぎゅうにゅう(ミルク)",
+        definition: "牛の乳。",
+        meaning: {
+          en: "milk",
+          zh: "牛奶",
+        },
+        example: "ぎゅうにゅうは好きですか。",
+        exampleMeaning: {
+          en: "Do you like milk?",
+          zh: "你喜歡牛奶嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e826",
+        expression: "ジュース",
+        reading: "ジュース",
+        definition: "果物や野菜の搾り汁。",
+        meaning: {
+          en: "juice",
+          zh: "果汁",
+        },
+        example: "ジュースを飲みます。",
+        exampleMeaning: {
+          en: "I drink juice.",
+          zh: "我喝果汁。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e827",
+        expression: "ビール",
+        reading: "ビール",
+        definition: "麦芽などを発酵させて作った酒。",
+        meaning: {
+          en: "beer",
+          zh: "啤酒",
+        },
+        example: "ビールを飲みましょう。",
+        exampleMeaning: {
+          en: "Let's drink beer.",
+          zh: "我們喝啤酒吧。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e828",
+        expression: "お酒",
+        reading: "おさけ",
+        definition: "酒類の総称。",
+        meaning: {
+          en: "alcohol, sake",
+          zh: "酒類、日本酒",
+        },
+        example: "お酒を飲みますか。",
+        exampleMeaning: {
+          en: "Do you drink alcohol?",
+          zh: "你喝酒嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e829",
+        expression: "たばこ",
+        reading: "たばこ",
+        definition: "喫煙用のタバコ。",
+        meaning: {
+          en: "cigarette, tobacco",
+          zh: "香菸",
+        },
+        example: "たばこを吸います。",
+        exampleMeaning: {
+          en: "I smoke a cigarette.",
+          zh: "我抽香菸。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e830",
+        expression: "手紙",
+        reading: "てがみ",
+        definition: "文章で伝える書面。",
+        meaning: {
+          en: "letter",
+          zh: "信",
+        },
+        example: "友達に手紙を書きます。",
+        exampleMeaning: {
+          en: "I write a letter to my friend.",
+          zh: "我寫信給朋友。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e831",
+        expression: "レポート",
+        reading: "レポート",
+        definition: "報告書、研究成果などをまとめた文書。",
+        meaning: {
+          en: "report",
+          zh: "報告",
+        },
+        example: "あした、レポートを出します。",
+        exampleMeaning: {
+          en: "I will submit the report tomorrow.",
+          zh: "我明天要交報告。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e832",
+        expression: "写真",
+        reading: "しゃしん",
+        definition: "カメラで写し取った画像。",
+        meaning: {
+          en: "photograph",
+          zh: "照片",
+        },
+        example: "家族のしゃしんを撮ります。",
+        exampleMeaning: {
+          en: "I take photos of my family.",
+          zh: "我拍家人的照片。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e833",
+        expression: "ビデオ",
+        reading: "ビデオ",
+        definition: "映像を記録・再生する技術または機器。",
+        meaning: {
+          en: "video, video tape",
+          zh: "影片、錄影帶",
+        },
+        example: "ビデオを見ます。",
+        exampleMeaning: {
+          en: "I watch a video.",
+          zh: "我看影片。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e834",
+        expression: "店",
+        reading: "みせ",
+        definition: "物を売買する場所。",
+        meaning: {
+          en: "shop, store",
+          zh: "商店",
+        },
+        example: "あの店でワインを買いました。",
+        exampleMeaning: {
+          en: "I bought wine at that store.",
+          zh: "我在那間商店買了葡萄酒。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e835",
+        expression: "庭",
+        reading: "にわ",
+        definition: "家屋に付属した空き地。",
+        meaning: {
+          en: "garden, yard",
+          zh: "庭院、院子",
+        },
+        example: "庭に花があります。",
+        exampleMeaning: {
+          en: "There are flowers in the garden.",
+          zh: "庭院裡有花。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e836",
+        expression: "宿題",
+        reading: "しゅくだい",
+        definition: "学生に課せられた家庭での学習課題。",
+        meaning: {
+          en: "homework",
+          zh: "作業",
+        },
+        example: "しゅくだいをします。",
+        exampleMeaning: {
+          en: "I do homework.",
+          zh: "我做作業。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e837",
+        expression: "テニス",
+        reading: "テニス",
+        definition: "ラケットを使う球技。",
+        meaning: {
+          en: "tennis",
+          zh: "網球",
+        },
+        example: "毎日テニスをします。",
+        exampleMeaning: {
+          en: "I play tennis every day.",
+          zh: "我每天打網球。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e838",
+        expression: "サッカー",
+        reading: "サッカー",
+        definition: "足でボールを扱う球技。",
+        meaning: {
+          en: "soccer, football",
+          zh: "足球",
+        },
+        example: "日曜日にサッカーを見ます。",
+        exampleMeaning: {
+          en: "I watch soccer on Sunday.",
+          zh: "我星期天看足球。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e839",
+        expression: "お花見",
+        reading: "おはなみ",
+        definition: "桜などの花を見て楽しむ行事。",
+        meaning: {
+          en: "cherry-blossom viewing",
+          zh: "賞花",
+        },
+        example: "来週、お花見をします。",
+        exampleMeaning: {
+          en: "We will go cherry-blossom viewing next week.",
+          zh: "我們下週要去賞花。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e840",
+        expression: "何",
+        reading: "なに",
+        definition:
+          "事柄などを尋ねる疑問詞。 $\text{を (o)}$ と共に使う時 $\text{なに (nani)}$ と読む。",
+        meaning: {
+          en: "what",
+          zh: "什麼",
+        },
+        example: "あなたはなにを食べますか。",
+        exampleMeaning: {
+          en: "What do you eat?",
+          zh: "你吃什麼？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e841",
+        expression: "いっしょに",
+        reading: "いっしょに",
+        definition: "共に、同時に。",
+        meaning: {
+          en: "together",
+          zh: "一起",
+        },
+        example: "いっしょに映画を見ませんか。",
+        exampleMeaning: {
+          en: "Would you like to watch a movie together?",
+          zh: "要不要一起看電影？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e842",
+        expression: "ちょっと",
+        reading: "ちょっと",
+        definition: "少しの時間。誘いを断る時の婉曲的な表現。",
+        meaning: {
+          en: "a little, a bit; expression of hesitation",
+          zh: "一會、一點",
+        },
+        example: "すみません、ちょっと…",
+        exampleMeaning: {
+          en: "Excuse me, (I can't) a little...",
+          zh: "對不起，有點（困難）...",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e843",
+        expression: "いつも",
+        reading: "いつも",
+        definition: "絶えず、常に。",
+        meaning: {
+          en: "always, usually",
+          zh: "經常、總是",
+        },
+        example: "いつもコーヒーを飲みます。",
+        exampleMeaning: {
+          en: "I always drink coffee.",
+          zh: "我經常喝咖啡。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e844",
+        expression: "ときどき",
+        reading: "ときどき",
+        definition: "時々、たまに。",
+        meaning: {
+          en: "sometimes",
+          zh: "有時",
+        },
+        example: "ときどき映画を見ます。",
+        exampleMeaning: {
+          en: "I sometimes watch movies.",
+          zh: "我有時看電影。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e845",
+        expression: "それから",
+        reading: "それから",
+        definition: "その後、さらに。",
+        meaning: {
+          en: "and then, after that",
+          zh: "然後",
+        },
+        example: "パンを食べます。それから、コーヒーを飲みます。",
+        exampleMeaning: {
+          en: "I eat bread. And then, I drink coffee.",
+          zh: "我吃麵包。然後，我喝咖啡。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e846",
+        expression: "ええ",
+        reading: "ええ",
+        definition: "「はい」よりやや砕けた肯定の返事。",
+        meaning: {
+          en: "yes (informal)",
+          zh: "是的",
+        },
+        example: "「お茶を飲みますか。」「ええ、飲みます。」",
+        exampleMeaning: {
+          en: '"Do you drink tea?" "Yes, I do."',
+          zh: "「你喝茶嗎？」 「是的，我喝。」",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e847",
+        expression: "いいですね。",
+        reading: "いいですね",
+        definition: "相手の提案に同意や感嘆を示す。",
+        meaning: {
+          en: "That's good/nice.",
+          zh: "好啊。",
+        },
+        example: "「いっしょに映画を見ませんか。」「いいですね。」",
+        exampleMeaning: {
+          en: '"Would you like to watch a movie together?" "That sounds nice."',
+          zh: "「要不要一起看電影？」 「好啊。」",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e848",
+        expression: "わかりました。",
+        reading: "わかりました",
+        definition: "相手の言ったことを理解したことを伝える。",
+        meaning: {
+          en: "I see, I understand.",
+          zh: "我明白了。",
+        },
+        example: "「あした9じに来てください。」「はい、わかりました。」",
+        exampleMeaning: {
+          en: '"Please come at 9 o\'clock tomorrow." "Yes, I understand."',
+          zh: "「請明天九點來。」 「好的，我明白了。」",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e849",
+        expression: "何ですか。",
+        reading: "なんですか",
+        definition:
+          "用件を尋ねる時に使う。 $\text{なに (nani)}$ ではなく $\text{なん (nan)}$ と読む。",
+        meaning: {
+          en: "What is it?",
+          zh: "什麼事?",
+        },
+        example: "「すみません。」「はい、何ですか。」",
+        exampleMeaning: {
+          en: '"Excuse me." "Yes, what is it?"',
+          zh: "「不好意思。」 「是，什麼事？」",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e850",
+        expression: "じゃ、また[あした]。",
+        reading: "じゃ、また[あした]",
+        definition: "別れ際のカジュアルな挨拶。",
+        meaning: {
+          en: "See you [tomorrow] (informal, at parting)",
+          zh: "那麼,〔明天〕再見。",
+        },
+        example: "「しつれいします。」「じゃ、またあした。」",
+        exampleMeaning: {
+          en: '"Goodbye (to leave)." "Well, see you tomorrow."',
+          zh: "「我告辭了。」 「那麼，明天見。」",
+        },
+      },
+    ],
+  },
+  {
+    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f007",
+    title: {
+      en: "Lesson 7",
+      zh: "第七課",
+      ja: "第七課",
+    },
+    description: {
+      en: "Introduce verbs of giving/receiving and lending/borrowing, tools, and the use of the $\text{で (de)}$ particle for means/tools.",
+      zh: "介紹給予/接受和借出/借入的動詞、工具，以及用於表示手段/工具的助詞 $\text{で (de)}$ 的用法。",
+      ja: "授受動詞（あげる・もらう・貸す・借りる）、道具、そして手段・方法を表す助詞 $\text{で (de)}$ の使い方を学びます。",
+    },
+    words: [
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        expression: "切ります",
+        reading: "きります",
+        definition: "刃物などで断ち分ける。",
+        meaning: {
+          en: "cut, slice",
+          zh: "切、剪",
+        },
+        example: "ナイフで肉を切ります。",
+        exampleMeaning: {
+          en: "I cut the meat with a knife.",
+          zh: "我用刀子切肉。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        expression: "送ります",
+        reading: "おくります",
+        definition: "手紙や荷物などを先方へ届ける。",
+        meaning: {
+          en: "send",
+          zh: "寄、送",
+        },
+        example: "友達にメールを送ります。",
+        exampleMeaning: {
+          en: "I send an email to my friend.",
+          zh: "我寄電子郵件給朋友。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        expression: "あげます",
+        reading: "あげます",
+        definition: "目下の人や対等な人に物を与える。",
+        meaning: {
+          en: "give",
+          zh: "給",
+        },
+        example: "わたしはマリアさんにはなをあげます。",
+        exampleMeaning: {
+          en: "I give flowers to Maria.",
+          zh: "我送花給瑪麗亞。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        expression: "もらいます",
+        reading: "もらいます",
+        definition: "目下の人や対等な人から物を受け取る。",
+        meaning: {
+          en: "receive, get",
+          zh: "得到",
+        },
+        example: "わたしはマリアさんにプレゼントをもらいます。",
+        exampleMeaning: {
+          en: "I receive a present from Maria.",
+          zh: "我收到瑪麗亞的禮物。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        expression: "貸します",
+        reading: "かします",
+        definition: "所有物を一時的に他人に使わせる。",
+        meaning: {
+          en: "lend",
+          zh: "借給",
+        },
+        example: "友達におかねを貸します。",
+        exampleMeaning: {
+          en: "I lend money to my friend.",
+          zh: "我借錢給朋友。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        expression: "借ります",
+        reading: "かります",
+        definition: "他人の所有物を一時的に使うために受け取る。",
+        meaning: {
+          en: "borrow",
+          zh: "借",
+        },
+        example: "山田さんにパソコンを借ります。",
+        exampleMeaning: {
+          en: "I borrow a PC from Mr. Yamada.",
+          zh: "我向山田先生借電腦。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        expression: "教えます",
+        reading: "おしえます",
+        definition: "知識や技能を相手に伝える。",
+        meaning: {
+          en: "teach, tell",
+          zh: "教、告訴",
+        },
+        example: "マリアさんに日本語を教えます。",
+        exampleMeaning: {
+          en: "I teach Japanese to Maria.",
+          zh: "我教瑪麗亞日語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        expression: "習います",
+        reading: "ならいます",
+        definition: "知識や技能を教えを受けて身につける。",
+        meaning: {
+          en: "learn",
+          zh: "學習",
+        },
+        example: "先生に英語を習います。",
+        exampleMeaning: {
+          en: "I learn English from the teacher.",
+          zh: "我跟老師學習英語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        expression: "かけます",
+        reading: "かけます",
+        definition: "電話で相手を呼び出す。",
+        meaning: {
+          en: "make [a telephone call]",
+          zh: "打[電話]",
+        },
+        example: "友達に電話をかけます。",
+        exampleMeaning: {
+          en: "I make a telephone call to my friend.",
+          zh: "我打電話給朋友。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        expression: "手",
+        reading: "て",
+        definition: "腕の先端部。",
+        meaning: {
+          en: "hand",
+          zh: "手",
+        },
+        example: "手で食べます。",
+        exampleMeaning: {
+          en: "I eat with my hands.",
+          zh: "我用手吃。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        expression: "はし",
+        reading: "はし",
+        definition: "食物を挟んで口に運ぶ道具。",
+        meaning: {
+          en: "chopsticks",
+          zh: "筷子",
+        },
+        example: "はしでごはんを食べます。",
+        exampleMeaning: {
+          en: "I eat rice with chopsticks.",
+          zh: "我用筷子吃飯。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        expression: "スプーン",
+        reading: "スプーン",
+        definition: "食物をすくう西洋の道具。",
+        meaning: {
+          en: "spoon",
+          zh: "湯匙",
+        },
+        example: "スプーンでスープを飲みます。",
+        exampleMeaning: {
+          en: "I drink soup with a spoon.",
+          zh: "我用湯匙喝湯。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        expression: "ナイフ",
+        reading: "ナイフ",
+        definition: "刃物のこと。",
+        meaning: {
+          en: "knife",
+          zh: "刀子",
+        },
+        example: "ナイフで切ります。",
+        exampleMeaning: {
+          en: "I cut it with a knife.",
+          zh: "我用刀子切。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        expression: "フォーク",
+        reading: "フォーク",
+        definition: "食物を刺して食べる西洋の道具。",
+        meaning: {
+          en: "fork",
+          zh: "叉子",
+        },
+        example: "フォークでパスタを食べます。",
+        exampleMeaning: {
+          en: "I eat pasta with a fork.",
+          zh: "我用叉子吃義大利麵。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        expression: "はさみ",
+        reading: "はさみ",
+        definition: "物を切断する道具。",
+        meaning: {
+          en: "scissors",
+          zh: "剪刀",
+        },
+        example: "はさみで紙を切ります。",
+        exampleMeaning: {
+          en: "I cut paper with scissors.",
+          zh: "我用剪刀剪紙。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        expression: "パソコン",
+        reading: "パソコン",
+        definition: "パーソナルコンピューターの略。",
+        meaning: {
+          en: "personal computer, PC",
+          zh: "個人電腦",
+        },
+        example: "パソコンでレポートを書きます。",
+        exampleMeaning: {
+          en: "I write a report on the PC.",
+          zh: "我用電腦寫報告。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        expression: "ケータイ",
+        reading: "ケータイ",
+        definition: "携帯電話の略。",
+        meaning: {
+          en: "mobile phone, cell phone",
+          zh: "手機",
+        },
+        example: "ケータイで電話をかけます。",
+        exampleMeaning: {
+          en: "I make a call on my mobile phone.",
+          zh: "我用手機打電話。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        expression: "メール",
+        reading: "メール",
+        definition: "電子メールの略。",
+        meaning: {
+          en: "e-mail",
+          zh: "電子郵件",
+        },
+        example: "先生にメールを送ります。",
+        exampleMeaning: {
+          en: "I send an email to the teacher.",
+          zh: "我寄電子郵件給老師。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        expression: "年賀状",
+        reading: "ねんがじょう",
+        definition: "新年の挨拶状。",
+        meaning: {
+          en: "New Year's card",
+          zh: "賀年卡",
+        },
+        example: "友達に年賀状を送ります。",
+        exampleMeaning: {
+          en: "I send a New Year's card to my friend.",
+          zh: "我寄賀年卡給朋友。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        expression: "パンチ",
+        reading: "パンチ",
+        definition: "穴を開ける文房具。",
+        meaning: {
+          en: "hole punch",
+          zh: "打洞機",
+        },
+        example: "パンチで紙に穴を開けます。",
+        exampleMeaning: {
+          en: "I make a hole in the paper with a hole punch.",
+          zh: "我用打洞機在紙上打洞。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        expression: "ホッチキス",
+        reading: "ホッチキス",
+        definition: "書類などを綴じる文房具。",
+        meaning: {
+          en: "stapler",
+          zh: "釘書機",
+        },
+        example: "ホッチキスでレポートを留めます。",
+        exampleMeaning: {
+          en: "I staple the report with a stapler.",
+          zh: "我用釘書機釘報告。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        expression: "セロテープ",
+        reading: "セロテープ",
+        definition: "透明な粘着テープ。",
+        meaning: {
+          en: "Sellotape, Scotch tape",
+          zh: "透明膠帶",
+        },
+        example: "セロテープで紙を貼ります。",
+        exampleMeaning: {
+          en: "I stick the paper with Sellotape.",
+          zh: "我用透明膠帶貼紙。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        expression: "消しゴム",
+        reading: "けしゴム",
+        definition: "鉛筆の跡などを消す道具。",
+        meaning: {
+          en: "eraser",
+          zh: "橡皮擦",
+        },
+        example: "消しゴムで字を消します。",
+        exampleMeaning: {
+          en: "I erase the letters with an eraser.",
+          zh: "我用橡皮擦擦字。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        expression: "紙",
+        reading: "かみ",
+        definition: "文字を書いたり包んだりする薄いもの。",
+        meaning: {
+          en: "paper",
+          zh: "紙",
+        },
+        example: "紙に絵を書きます。",
+        exampleMeaning: {
+          en: "I draw a picture on paper.",
+          zh: "我在紙上畫圖。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        expression: "花",
+        reading: "はな",
+        definition: "植物の美しく咲く部分。",
+        meaning: {
+          en: "flower",
+          zh: "花",
+        },
+        example: "母に花をあげます。",
+        exampleMeaning: {
+          en: "I give flowers to my mother.",
+          zh: "我送花給母親。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        expression: "シャツ",
+        reading: "シャツ",
+        definition: "肌着や上着として着る衣服。",
+        meaning: {
+          en: "shirt",
+          zh: "襯衫",
+        },
+        example: "あたらしいシャツを買います。",
+        exampleMeaning: {
+          en: "I buy a new shirt.",
+          zh: "我買一件新襯衫。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        expression: "プレゼント",
+        reading: "プレゼント",
+        definition: "贈答品、贈り物。",
+        meaning: {
+          en: "present, gift",
+          zh: "禮物",
+        },
+        example: "たんじょうびにプレゼントをもらいました。",
+        exampleMeaning: {
+          en: "I received a present on my birthday.",
+          zh: "我生日收到禮物了。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        expression: "荷物",
+        reading: "にもつ",
+        definition: "運ぶべき品物、手荷物。",
+        meaning: {
+          en: "luggage, parcel",
+          zh: "行李、包裹",
+        },
+        example: "大きい荷物を送ります。",
+        exampleMeaning: {
+          en: "I send a big parcel.",
+          zh: "我寄一個大包裹。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        expression: "お金",
+        reading: "おかね",
+        definition: "貨幣。",
+        meaning: {
+          en: "money",
+          zh: "錢",
+        },
+        example: "銀行でお金を借ります。",
+        exampleMeaning: {
+          en: "I borrow money from the bank.",
+          zh: "我向銀行借錢。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        expression: "切符",
+        reading: "きっぷ",
+        definition: "乗り物や入場のための券。",
+        meaning: {
+          en: "ticket",
+          zh: "車票、入場券",
+        },
+        example: "駅で切符を買います。",
+        exampleMeaning: {
+          en: "I buy a ticket at the station.",
+          zh: "我在車站買票。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        expression: "クリスマス",
+        reading: "クリスマス",
+        definition: "キリストの降誕を祝う祭り。",
+        meaning: {
+          en: "Christmas",
+          zh: "聖誕節",
+        },
+        example: "クリスマスにパーティーをします。",
+        exampleMeaning: {
+          en: "I will have a party on Christmas.",
+          zh: "我聖誕節要辦派對。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        expression: "父",
+        reading: "ちち",
+        definition: "自分の父親（他人との会話で使う）。",
+        meaning: {
+          en: "my father",
+          zh: "家父",
+        },
+        example: "わたしの父は先生です。",
+        exampleMeaning: {
+          en: "My father is a teacher.",
+          zh: "我的父親是老師。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        expression: "母",
+        reading: "はは",
+        definition: "自分の母親（他人との会話で使う）。",
+        meaning: {
+          en: "my mother",
+          zh: "家母",
+        },
+        example: "わたしの母は看護師です。",
+        exampleMeaning: {
+          en: "My mother is a nurse.",
+          zh: "我的母親是護士。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        expression: "お父さん",
+        reading: "おとうさん",
+        definition: "他人の父親、または自分の父親への呼びかけ。",
+        meaning: {
+          en: "(someone else's) father, (addressing one's own father)",
+          zh: "(別人的)父親、(稱呼自己的父親時也使用)",
+        },
+        example: "山田さんのお父さんは元気ですか。",
+        exampleMeaning: {
+          en: "Is Mr. Yamada's father well?",
+          zh: "山田先生的父親還好嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        expression: "お母さん",
+        reading: "おかあさん",
+        definition: "他人の母親、または自分の母親への呼びかけ。",
+        meaning: {
+          en: "(someone else's) mother, (addressing one's own mother)",
+          zh: "(別人的)母親、(稱呼自己的母親時也使用)",
+        },
+        example: "お母さん、いつもありがとう。",
+        exampleMeaning: {
+          en: "Mom, thank you always.",
+          zh: "母親，一直以來謝謝您。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        expression: "もう",
+        reading: "もう",
+        definition: "動作が完了したことを示す副詞。",
+        meaning: {
+          en: "already",
+          zh: "已經",
+        },
+        example: "もうお昼ごはんを食べました。",
+        exampleMeaning: {
+          en: "I've already eaten lunch.",
+          zh: "我已經吃過午餐了。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        expression: "まだ",
+        reading: "まだ",
+        definition: "動作が未完了であることを示す副詞。",
+        meaning: {
+          en: "not yet, still",
+          zh: "尚未、還没",
+        },
+        example: "まだお昼ごはんを食べていません。",
+        exampleMeaning: {
+          en: "I haven't eaten lunch yet.",
+          zh: "我還沒吃午餐。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        expression: "これから",
+        reading: "これから",
+        definition: "今から、今後。",
+        meaning: {
+          en: "from now on, soon (implies future action)",
+          zh: "從現在起(要去做某事)",
+        },
+        example: "これから勉強します。",
+        exampleMeaning: {
+          en: "I'm going to study now.",
+          zh: "我從現在開始要念書。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        expression: "いらっしゃい",
+        reading: "いらっしゃい",
+        definition: "人を招き入れる時の歓迎の挨拶。",
+        meaning: {
+          en: "Welcome.",
+          zh: "歡迎。",
+        },
+        example: "「いらっしゃい。」「しつれいします。」",
+        exampleMeaning: {
+          en: '"Welcome." "Excuse me for intruding."',
+          zh: "「歡迎。」 「打擾了。」",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        expression: "どうぞお上がりください",
+        reading: "どうぞおあがりください",
+        definition: "家の中に入るように促す丁寧な表現。",
+        meaning: {
+          en: "Please come in/up (polite invitation to enter a home)",
+          zh: "請進。",
+        },
+        example: "どうぞお上がりください。",
+        exampleMeaning: {
+          en: "Please come in.",
+          zh: "請進。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        expression: "失礼します",
+        reading: "しつれいします",
+        definition: "他人の家に入る時などに述べる挨拶。",
+        meaning: {
+          en: "Excuse me (used when entering or leaving a private space)",
+          zh: "打擾了。",
+        },
+        example: "お宅へ入る時、「失礼します。」と言います。",
+        exampleMeaning: {
+          en: 'When entering someone\'s house, one says, "Excuse me."',
+          zh: "進入別人家時，會說「打擾了」。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        expression: "〜はいかがですか",
+        reading: "〜は いかがですか",
+        definition: "「どうですか」の丁寧な表現。勧誘する時に使う。",
+        meaning: {
+          en: "How about [〜]? / Would you like [〜]?",
+          zh: "你覺得〔〜〕怎麼樣?",
+        },
+        example: "コーヒーはいかがですか。",
+        exampleMeaning: {
+          en: "How about some coffee?",
+          zh: "來點咖啡怎麼樣？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        expression: "いただきます",
+        reading: "いただきます",
+        definition: "食事を始める時の挨拶。",
+        meaning: {
+          en: "Thank you for the meal (used before eating)",
+          zh: "我開動了。(用於用餐之前)",
+        },
+        example: "食事の前に「いただきます。」と言います。",
+        exampleMeaning: {
+          en: 'Before a meal, one says, "Itadakimasu."',
+          zh: "用餐之前會說「我開動了」。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        expression: "ごちそうさま[でした]",
+        reading: "ごちそうさま[でした]",
+        definition: "食事を終えた時の感謝の挨拶。",
+        meaning: {
+          en: "Thank you for the meal (used after eating)",
+          zh: "我吃飽了。/謝謝招待。(用於用餐之後)",
+        },
+        example: "食事の後に「ごちそうさまでした。」と言います。",
+        exampleMeaning: {
+          en: 'After a meal, one says, "Gochisōsama deshita."',
+          zh: "用餐之後會說「謝謝招待」。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f845",
+        expression: "〜、すてきですね。",
+        reading: "〜、すてきですね",
+        definition: "美しいものや素晴らしいことへの感嘆を表す。",
+        meaning: {
+          en: "[〜], That's nice/lovely! (admiration)",
+          zh: "〔〜,〕真不錯啊!",
+        },
+        example: "「これは母が作りました。」「わあ、すてきですね。」",
+        exampleMeaning: {
+          en: '"My mother made this." "Wow, that\'s lovely!"',
+          zh: "「這是我母親做的。」 「哇，真不錯啊！」",
+        },
+      },
+    ],
+  },
+  {
+    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f008",
+    title: {
+      en: "Lesson 8",
+      zh: "第八課",
+      ja: "第八課",
+    },
+    description: {
+      en: "Introduce $\text{な-adjectives}$ and $\text{い-adjectives}$ used to describe people, places, and things, along with adverbs and conjunctions for qualification and connection.",
+      zh: "介紹用於描述人物、地點和事物的 $\text{な-形容詞}$ 和 $\text{い-形容詞}$，以及用於修飾和連接的副詞和連接詞。",
+      ja: "人、場所、物を描写するための $\text{な}$ 形容詞と $\text{い}$ 形容詞、そして修飾・接続の副詞と接続詞を学びます。",
+    },
+    words: [
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        expression: "ハンサム[な]",
+        reading: "ハンサム[な]",
+        definition: "顔立ちが整って美しい。",
+        meaning: {
+          en: "handsome",
+          zh: "英俊",
+        },
+        example: "彼はおもしろくて、ハンサムです。",
+        exampleMeaning: {
+          en: "He is interesting and handsome.",
+          zh: "他又有趣又英俊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        expression: "きれい[な]",
+        reading: "きれい[な]",
+        definition: "清潔で美しい。",
+        meaning: {
+          en: "beautiful, clean, pretty",
+          zh: "漂亮、乾淨",
+        },
+        example: "ここはとてもきれいなところです。",
+        exampleMeaning: {
+          en: "This is a very beautiful place.",
+          zh: "這是個非常漂亮的地方。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        expression: "静か[な]",
+        reading: "しずか[な]",
+        definition: "音や動きがなく、落ち着いている。",
+        meaning: {
+          en: "quiet",
+          zh: "安靜",
+        },
+        example: "私のうちは静かです。",
+        exampleMeaning: {
+          en: "My house is quiet.",
+          zh: "我的家很安靜。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        expression: "にぎやか[な]",
+        reading: "にぎやか[な]",
+        definition: "人や車が多く、活気がある。",
+        meaning: {
+          en: "lively, bustling",
+          zh: "熱鬧",
+        },
+        example: "東京はにぎやかな町です。",
+        exampleMeaning: {
+          en: "Tokyo is a bustling city.",
+          zh: "東京是一個熱鬧的城市。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        expression: "有名[な]",
+        reading: "ゆうめい[な]",
+        definition: "広く知られている。",
+        meaning: {
+          en: "famous",
+          zh: "有名",
+        },
+        example: "あの山はとても有名です。",
+        exampleMeaning: {
+          en: "That mountain is very famous.",
+          zh: "那座山很有名。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        expression: "親切[な]",
+        reading: "しんせつ[な]",
+        definition:
+          "人に対して優しく、思いやりがある。（自分の親族には使わない）",
+        meaning: {
+          en: "kind, thoughtful (not used for one's own family)",
+          zh: "親切(不用於自己的親屬)",
+        },
+        example: "先生はとても親切です。",
+        exampleMeaning: {
+          en: "The teacher is very kind.",
+          zh: "老師非常親切。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        expression: "元気[な]",
+        reading: "げんき[な]",
+        definition: "健康で活発な様子。",
+        meaning: {
+          en: "healthy, energetic",
+          zh: "健康、有精神",
+        },
+        example: "お父さんは元気ですか。",
+        exampleMeaning: {
+          en: "Is your father well?",
+          zh: "您的父親健康嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        expression: "暇[な]",
+        reading: "ひま[な]",
+        definition: "用事がなく、時間がある。",
+        meaning: {
+          en: "free (time), spare time",
+          zh: "有時間、有空",
+        },
+        example: "日曜日は暇ですか。",
+        exampleMeaning: {
+          en: "Are you free on Sunday?",
+          zh: "你星期天有空嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        expression: "便利[な]",
+        reading: "べんり[な]",
+        definition: "都合がよく、役に立つ。",
+        meaning: {
+          en: "convenient",
+          zh: "方便",
+        },
+        example: "このパソコンはとても便利です。",
+        exampleMeaning: {
+          en: "This PC is very convenient.",
+          zh: "這台電腦很方便。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        expression: "すてき[な]",
+        reading: "すてき[な]",
+        definition: "非常に素晴らしく、魅力的である。",
+        meaning: {
+          en: "nice, lovely, wonderful",
+          zh: "非常好、美妙",
+        },
+        example: "すてきなプレゼントですね。",
+        exampleMeaning: {
+          en: "That's a lovely present.",
+          zh: "真是個美妙的禮物啊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        expression: "大きい",
+        reading: "おおきい",
+        definition: "規模や量が多い。",
+        meaning: {
+          en: "big, large",
+          zh: "大",
+        },
+        example: "大きいみせで買い物をします。",
+        exampleMeaning: {
+          en: "I shop at a big store.",
+          zh: "我在一家大商店購物。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        expression: "小さい",
+        reading: "ちいさい",
+        definition: "規模や量が少ない。",
+        meaning: {
+          en: "small, little",
+          zh: "小",
+        },
+        example: "小さいかばんを買いました。",
+        exampleMeaning: {
+          en: "I bought a small bag.",
+          zh: "我買了一個小包包。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        expression: "新しい",
+        reading: "あたらしい",
+        definition: "時間が経っていない。古くない。",
+        meaning: {
+          en: "new, fresh",
+          zh: "新、新鮮",
+        },
+        example: "これは新しい車です。",
+        exampleMeaning: {
+          en: "This is a new car.",
+          zh: "這是輛新車。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        expression: "古い",
+        reading: "ふるい",
+        definition: "時間が経っている。新しくない。",
+        meaning: {
+          en: "old (not new), stale",
+          zh: "舊、不新鮮",
+        },
+        example: "あの建物はとても古いです。",
+        exampleMeaning: {
+          en: "That building is very old.",
+          zh: "那棟建築物很舊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        expression: "いい (良い)",
+        reading: "いい (よい)",
+        definition: "優れている、望ましい。",
+        meaning: {
+          en: "good",
+          zh: "好",
+        },
+        example: "いい天気ですね。",
+        exampleMeaning: {
+          en: "The weather is good, isn't it?",
+          zh: "天氣很好呢。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        expression: "悪い",
+        reading: "わるい",
+        definition: "劣っている、望ましくない。",
+        meaning: {
+          en: "bad",
+          zh: "壞",
+        },
+        example: "わるいニュースを聞きました。",
+        exampleMeaning: {
+          en: "I heard bad news.",
+          zh: "我聽到一個壞消息。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        expression: "暑い",
+        reading: "あつい",
+        definition: "気温が高い。",
+        meaning: {
+          en: "hot (weather)",
+          zh: "熱",
+        },
+        example: "今日はとても暑いです。",
+        exampleMeaning: {
+          en: "It is very hot today.",
+          zh: "今天非常熱。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        expression: "熱い",
+        reading: "あつい",
+        definition: "温度が高い。",
+        meaning: {
+          en: "hot (thing)",
+          zh: "熱",
+        },
+        example: "熱いコーヒーを飲みます。",
+        exampleMeaning: {
+          en: "I drink hot coffee.",
+          zh: "我喝熱咖啡。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        expression: "寒い",
+        reading: "さむい",
+        definition: "気温が低い。",
+        meaning: {
+          en: "cold (weather)",
+          zh: "冷",
+        },
+        example: "北海道は寒いですか。",
+        exampleMeaning: {
+          en: "Is Hokkaido cold?",
+          zh: "北海道冷嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        expression: "冷たい",
+        reading: "つめたい",
+        definition: "温度が低い。",
+        meaning: {
+          en: "cold, cool (thing/touch)",
+          zh: "冰、涼",
+        },
+        example: "冷たいジュースを飲みます。",
+        exampleMeaning: {
+          en: "I drink cold juice.",
+          zh: "我喝冰果汁。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        expression: "難しい",
+        reading: "むずかしい",
+        definition: "理解や実行が容易でない。",
+        meaning: {
+          en: "difficult",
+          zh: "難",
+        },
+        example: "日本語は難しいです。",
+        exampleMeaning: {
+          en: "Japanese is difficult.",
+          zh: "日語很難。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        expression: "易しい",
+        reading: "やさしい",
+        definition: "理解や実行が容易である。",
+        meaning: {
+          en: "easy",
+          zh: "簡單",
+        },
+        example: "この問題は易しいです。",
+        exampleMeaning: {
+          en: "This problem is easy.",
+          zh: "這個問題很簡單。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        expression: "高い",
+        reading: "たかい",
+        definition: "値段や位置が高い。",
+        meaning: {
+          en: "expensive, high",
+          zh: "貴、高",
+        },
+        example: "このカメラは高いです。",
+        exampleMeaning: {
+          en: "This camera is expensive.",
+          zh: "這台相機很貴。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        expression: "安い",
+        reading: "やすい",
+        definition: "値段が低い。",
+        meaning: {
+          en: "inexpensive, cheap",
+          zh: "便宜",
+        },
+        example: "あの店は野菜が安いです。",
+        exampleMeaning: {
+          en: "Vegetables are cheap at that store.",
+          zh: "那家店的蔬菜很便宜。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        expression: "低い",
+        reading: "ひくい",
+        definition: "位置が低い。背丈が低い。",
+        meaning: {
+          en: "low, short (height)",
+          zh: "低、矮",
+        },
+        example: "低い山に登ります。",
+        exampleMeaning: {
+          en: "I will climb a low mountain.",
+          zh: "我爬一座矮山。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        expression: "おもしろい",
+        reading: "おもしろい",
+        definition: "興味深い、おかしい。",
+        meaning: {
+          en: "interesting, funny",
+          zh: "有趣",
+        },
+        example: "おもしろい映画を見ました。",
+        exampleMeaning: {
+          en: "I watched an interesting movie.",
+          zh: "我看了一部有趣的電影。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        expression: "おいしい",
+        reading: "おいしい",
+        definition: "味がよい。",
+        meaning: {
+          en: "delicious, tasty",
+          zh: "好吃",
+        },
+        example: "この食べ物はおいしいです。",
+        exampleMeaning: {
+          en: "This food is delicious.",
+          zh: "這個食物很好吃。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        expression: "忙しい",
+        reading: "いそがしい",
+        definition: "すべきことが多く、手があかない。",
+        meaning: {
+          en: "busy",
+          zh: "忙",
+        },
+        example: "今週は忙しいです。",
+        exampleMeaning: {
+          en: "I am busy this week.",
+          zh: "我這星期很忙。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        expression: "楽しい",
+        reading: "たのしい",
+        definition: "心が満たされて、愉快である。",
+        meaning: {
+          en: "enjoyable, pleasant",
+          zh: "愉快、高興",
+        },
+        example: "パーティーはとても楽しかったです。",
+        exampleMeaning: {
+          en: "The party was very enjoyable.",
+          zh: "派對非常愉快。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        expression: "白い",
+        reading: "しろい",
+        definition: "雪のような色。",
+        meaning: {
+          en: "white",
+          zh: "白色",
+        },
+        example: "白いシャツを買いました。",
+        exampleMeaning: {
+          en: "I bought a white shirt.",
+          zh: "我買了一件白色襯衫。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        expression: "黒い",
+        reading: "くろい",
+        definition: "炭のような色。",
+        meaning: {
+          en: "black",
+          zh: "黑色",
+        },
+        example: "くろいかばんはかっこいいです。",
+        exampleMeaning: {
+          en: "A black bag is cool.",
+          zh: "黑色包包很酷。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        expression: "赤い",
+        reading: "あかい",
+        definition: "血のような色。",
+        meaning: {
+          en: "red",
+          zh: "紅色",
+        },
+        example: "赤いりんごを食べます。",
+        exampleMeaning: {
+          en: "I eat a red apple.",
+          zh: "我吃一個紅蘋果。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        expression: "青い",
+        reading: "あおい",
+        definition: "空や海のような色。",
+        meaning: {
+          en: "blue",
+          zh: "藍色",
+        },
+        example: "青いシャツが好きです。",
+        exampleMeaning: {
+          en: "I like blue shirts.",
+          zh: "我喜歡藍色襯衫。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        expression: "桜",
+        reading: "さくら",
+        definition: "春に美しい花を咲かせる木。",
+        meaning: {
+          en: "cherry blossom",
+          zh: "櫻花",
+        },
+        example: "桜はきれいです。",
+        exampleMeaning: {
+          en: "Cherry blossoms are beautiful.",
+          zh: "櫻花很漂亮。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        expression: "山",
+        reading: "やま",
+        definition: "地表が高く盛り上がった所。",
+        meaning: {
+          en: "mountain",
+          zh: "山",
+        },
+        example: "富士山は高い山です。",
+        exampleMeaning: {
+          en: "Mt. Fuji is a tall mountain.",
+          zh: "富士山是一座高山。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        expression: "町",
+        reading: "まち",
+        definition: "都市や村より大きな人の集住地。",
+        meaning: {
+          en: "town, city, neighborhood",
+          zh: "市鎮、街道",
+        },
+        example: "わたしの町はとてもきれいです。",
+        exampleMeaning: {
+          en: "My town is very beautiful.",
+          zh: "我的城市很漂亮。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        expression: "食べ物",
+        reading: "たべもの",
+        definition: "食用のもの、食品。",
+        meaning: {
+          en: "food",
+          zh: "食物",
+        },
+        example: "日本の食べ物はおいしいです。",
+        exampleMeaning: {
+          en: "Japanese food is delicious.",
+          zh: "日本的食物很好吃。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        expression: "所",
+        reading: "ところ",
+        definition: "場所、場所を示す語。",
+        meaning: {
+          en: "place",
+          zh: "地方",
+        },
+        example: "ここは有名なところです。",
+        exampleMeaning: {
+          en: "This is a famous place.",
+          zh: "這是個有名的地方。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        expression: "寮",
+        reading: "りょう",
+        definition: "学生や従業員のための共同宿泊施設。",
+        meaning: {
+          en: "dormitory",
+          zh: "宿舍",
+        },
+        example: "彼は寮に住んでいます。",
+        exampleMeaning: {
+          en: "He lives in a dormitory.",
+          zh: "他住在宿舍裡。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        expression: "レストラン",
+        reading: "レストラン",
+        definition: "食事を提供する飲食店。",
+        meaning: {
+          en: "restaurant",
+          zh: "餐廳",
+        },
+        example: "あのレストランはとても有名です。",
+        exampleMeaning: {
+          en: "That restaurant is very famous.",
+          zh: "那家餐廳很有名。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        expression: "生活",
+        reading: "せいかつ",
+        definition: "日々の暮らし。",
+        meaning: {
+          en: "life, living",
+          zh: "生活",
+        },
+        example: "日本の生活はどうですか。",
+        exampleMeaning: {
+          en: "How is life in Japan?",
+          zh: "在日本的生活怎麼樣？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        expression: "お仕事",
+        reading: "おしごと",
+        definition: "職業、仕事（丁寧語）。",
+        meaning: {
+          en: "work, job (~をします: do work)",
+          zh: "工作(〜をします:工作)",
+        },
+        example: "お仕事は大変ですか。",
+        exampleMeaning: {
+          en: "Is your job tough?",
+          zh: "你的工作辛苦嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        expression: "どう",
+        reading: "どう",
+        definition: "状態や様子を尋ねる疑問詞。",
+        meaning: {
+          en: "how",
+          zh: "怎麼樣",
+        },
+        example: "あの映画はどうですか。",
+        exampleMeaning: {
+          en: "How is that movie?",
+          zh: "那部電影怎麼樣？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        expression: "どんな",
+        reading: "どんな",
+        definition: "種類や性質を尋ねる連体詞。",
+        meaning: {
+          en: "what kind of ~",
+          zh: "什麼樣的〜",
+        },
+        example: "どんな食べ物が好きですか。",
+        exampleMeaning: {
+          en: "What kind of food do you like?",
+          zh: "你喜歡什麼樣的食物？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f845",
+        expression: "とても",
+        reading: "とても",
+        definition: "程度がはなはだしい。",
+        meaning: {
+          en: "very, extremely",
+          zh: "非常",
+        },
+        example: "この町はとてもきれいです。",
+        exampleMeaning: {
+          en: "This town is very beautiful.",
+          zh: "這個城市非常漂亮。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f846",
+        expression: "あまり",
+        reading: "あまり",
+        definition: "程度が低いことを否定的に言う時に使う。",
+        meaning: {
+          en: "not so ~ (used with negative verb)",
+          zh: "不太〜(用於否定句)",
+        },
+        example: "あまり忙しくないです。",
+        exampleMeaning: {
+          en: "I'm not so busy.",
+          zh: "我不太忙。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f847",
+        expression: "そして",
+        reading: "そして",
+        definition: "前の事柄に続けて後の事柄を述べる接続詞。",
+        meaning: {
+          en: "and (used to connect sentences)",
+          zh: "於是(用於連接句子時)",
+        },
+        example: "この町は静かです。そして、きれいです。",
+        exampleMeaning: {
+          en: "This town is quiet. And, it's beautiful.",
+          zh: "這個城市很安靜。於是，也很漂亮。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f848",
+        expression: "〜が、〜",
+        reading: "〜が、〜",
+        definition: "前後の事柄を対比・逆接でつなぐ接続助詞。",
+        meaning: {
+          en: "~ but ~",
+          zh: "~但是〜",
+        },
+        example: "日本語は難しいですが、おもしろいです。",
+        exampleMeaning: {
+          en: "Japanese is difficult, but interesting.",
+          zh: "日語很難，但是很有趣。",
+        },
+      },
+    ],
+  },
+  {
+    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f009",
+    title: {
+      en: "Lesson 9",
+      zh: "第九課",
+      ja: "第九課",
+    },
+    description: {
+      en: "Introduce verbs for understanding ($\text{わかります}$) and possession ($\text{あります}$), and $\text{な-adjectives}$ expressing preference and ability, using the particle $\text{が (ga)}$.",
+      zh: "介紹表示理解（$\text{わかります}$）和擁有（$\text{あります}$）的動詞，以及表達偏好和能力的 $\text{な-形容詞}$，並使用助詞 $\text{が (ga)}$。",
+      ja: "理解（$\text{わかります}$）と所有（$\text{あります}$）の動詞、好みや能力を表す $\text{な}$ 形容詞を学び、助詞 $\text{が (ga)}$ の新しい使い方を習得します。",
+    },
+    words: [
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        expression: "わかります",
+        reading: "わかります",
+        definition: "理解する、意味が分かる。",
+        meaning: {
+          en: "understand, know",
+          zh: "懂、明白",
+        },
+        example: "わたしは日本語がよくわかります。",
+        exampleMeaning: {
+          en: "I understand Japanese well.",
+          zh: "我很懂日語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        expression: "あります",
+        reading: "あります",
+        definition: "（無生物が）存在する、所有する。",
+        meaning: {
+          en: "have, exist (inanimate)",
+          zh: "有",
+        },
+        example: "わたしはお金があります。",
+        exampleMeaning: {
+          en: "I have money.",
+          zh: "我有錢。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        expression: "好き[な]",
+        reading: "すき[な]",
+        definition: "好ましい、気に入っている。",
+        meaning: {
+          en: "like, favorite",
+          zh: "喜歡",
+        },
+        example: "わたしは音楽が好きです。",
+        exampleMeaning: {
+          en: "I like music.",
+          zh: "我喜歡音樂。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        expression: "嫌い[な]",
+        reading: "きらい[な]",
+        definition: "好まない、憎い、厭（いと）わしい。",
+        meaning: {
+          en: "dislike, hate",
+          zh: "不喜歡",
+        },
+        example: "わたしは魚が嫌いです。",
+        exampleMeaning: {
+          en: "I dislike fish.",
+          zh: "我不喜歡魚。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        expression: "上手[な]",
+        reading: "じょうず[な]",
+        definition: "技能が優れている。（自分のことには使わない）",
+        meaning: {
+          en: "good at, skillful (not used for one's own abilities)",
+          zh: "好、擅長",
+        },
+        example: "ミラーさんは絵が上手です。",
+        exampleMeaning: {
+          en: "Mr. Miller is good at painting.",
+          zh: "米勒先生擅長畫畫。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        expression: "下手[な]",
+        reading: "へた[な]",
+        definition: "技能が劣っている。（自分のことにも使う）",
+        meaning: {
+          en: "poor at, unskillful",
+          zh: "不好、不擅長",
+        },
+        example: "わたしは歌が下手です。",
+        exampleMeaning: {
+          en: "I am poor at singing.",
+          zh: "我不擅長唱歌。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        expression: "飲み物",
+        reading: "のみもの",
+        definition: "飲用するもの。",
+        meaning: {
+          en: "drink, beverage",
+          zh: "飲料",
+        },
+        example: "何か飲み物がありますか。",
+        exampleMeaning: {
+          en: "Do you have any drinks?",
+          zh: "有什麼飲料嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        expression: "料理",
+        reading: "りょうり",
+        definition: "食材を加工して食べ物を作ること。また、その食べ物。",
+        meaning: {
+          en: "dish, cooking",
+          zh: "料理、菜餚",
+        },
+        example: "日本料理が好きです。",
+        exampleMeaning: {
+          en: "I like Japanese food/cuisine.",
+          zh: "我喜歡日本料理。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        expression: "スポーツ",
+        reading: "スポーツ",
+        definition: "身体を動かす競技や活動。",
+        meaning: {
+          en: "sport, physical exercise",
+          zh: "體育、運動",
+        },
+        example: "どんなスポーツが好きですか。",
+        exampleMeaning: {
+          en: "What kind of sports do you like?",
+          zh: "你喜歡什麼運動？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        expression: "野球",
+        reading: "やきゅう",
+        definition: "ボールとバットを使う球技。",
+        meaning: {
+          en: "baseball",
+          zh: "棒球",
+        },
+        example: "わたしは野球が好きです。",
+        exampleMeaning: {
+          en: "I like baseball.",
+          zh: "我喜歡棒球。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        expression: "ダンス",
+        reading: "ダンス",
+        definition: "音楽に合わせて体を動かすこと。",
+        meaning: {
+          en: "dance",
+          zh: "舞",
+        },
+        example: "ダンスが上手になりたいです。",
+        exampleMeaning: {
+          en: "I want to become good at dancing.",
+          zh: "我想變得擅長跳舞。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        expression: "旅行",
+        reading: "りょこう",
+        definition: "家を離れて他の土地へ行くこと。",
+        meaning: {
+          en: "trip, travel",
+          zh: "旅行",
+        },
+        example: "旅行が好きです。",
+        exampleMeaning: {
+          en: "I like to travel.",
+          zh: "我喜歡旅行。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        expression: "音楽",
+        reading: "おんがく",
+        definition: "音を組み立てて表現する芸術。",
+        meaning: {
+          en: "music",
+          zh: "音樂",
+        },
+        example: "どんな音楽が好きですか。",
+        exampleMeaning: {
+          en: "What kind of music do you like?",
+          zh: "你喜歡什麼樣的音樂？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        expression: "歌",
+        reading: "うた",
+        definition: "歌詞をつけて歌うもの。",
+        meaning: {
+          en: "song",
+          zh: "歌",
+        },
+        example: "この歌を知っていますか。",
+        exampleMeaning: {
+          en: "Do you know this song?",
+          zh: "你知道這首歌嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        expression: "クラシック",
+        reading: "クラシック",
+        definition: "西洋の伝統的な芸術音楽。",
+        meaning: {
+          en: "classical music",
+          zh: "古典音樂",
+        },
+        example: "クラシックをよく聞きます。",
+        exampleMeaning: {
+          en: "I often listen to classical music.",
+          zh: "我經常聽古典音樂。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        expression: "ジャズ",
+        reading: "ジャズ",
+        definition: "アメリカで生まれた音楽ジャンル。",
+        meaning: {
+          en: "jazz",
+          zh: "爵士樂",
+        },
+        example: "ジャズが好きです。",
+        exampleMeaning: {
+          en: "I like jazz.",
+          zh: "我喜歡爵士樂。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        expression: "コンサート",
+        reading: "コンサート",
+        definition: "音楽の演奏会。",
+        meaning: {
+          en: "concert",
+          zh: "音樂會、演唱會",
+        },
+        example: "あしたコンサートに行きます。",
+        exampleMeaning: {
+          en: "I'm going to a concert tomorrow.",
+          zh: "我明天要去聽演唱會。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        expression: "カラオケ",
+        reading: "カラオケ",
+        definition: "伴奏に合わせて歌う娯楽。",
+        meaning: {
+          en: "karaoke",
+          zh: "卡拉 OK、KTV",
+        },
+        example: "週末にカラオケをします。",
+        exampleMeaning: {
+          en: "I'll do karaoke on the weekend.",
+          zh: "我週末會去唱卡拉 OK。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        expression: "歌舞伎",
+        reading: "かぶき",
+        definition: "日本の伝統的な舞台芸術。",
+        meaning: {
+          en: "Kabuki (traditional Japanese musical drama)",
+          zh: "歌舞伎(日本傳統戲劇之一)",
+        },
+        example: "歌舞伎を見たことがありますか。",
+        exampleMeaning: {
+          en: "Have you ever seen Kabuki?",
+          zh: "你看過歌舞伎嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        expression: "絵",
+        reading: "え",
+        definition: "描かれた図や画像。",
+        meaning: {
+          en: "painting, picture, drawing",
+          zh: "畫",
+        },
+        example: "絵を描くのが好きです。",
+        exampleMeaning: {
+          en: "I like drawing pictures.",
+          zh: "我喜歡畫畫。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        expression: "字",
+        reading: "じ",
+        definition: "文字。",
+        meaning: {
+          en: "letter, character, handwriting",
+          zh: "字",
+        },
+        example: "あなたの字はとてもきれいです。",
+        exampleMeaning: {
+          en: "Your handwriting is very beautiful.",
+          zh: "你的字很漂亮。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        expression: "漢字",
+        reading: "かんじ",
+        definition: "中国から伝わった文字。",
+        meaning: {
+          en: "Kanji (Chinese characters)",
+          zh: "漢字",
+        },
+        example: "漢字は難しいです。",
+        exampleMeaning: {
+          en: "Kanji is difficult.",
+          zh: "漢字很難。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        expression: "ひらがな",
+        reading: "ひらがな",
+        definition: "日本の表音文字。",
+        meaning: {
+          en: "Hiragana (cursive Japanese syllabary)",
+          zh: "平假名",
+        },
+        example: "ひらがなはもうわかりますか。",
+        exampleMeaning: {
+          en: "Do you already understand Hiragana?",
+          zh: "你已經懂平假名了嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        expression: "かたかな",
+        reading: "かたかな",
+        definition: "日本の表音文字（主に外来語に用いる）。",
+        meaning: {
+          en: "Katakana (angular Japanese syllabary)",
+          zh: "片假名",
+        },
+        example: "かたかなで名前を書きます。",
+        exampleMeaning: {
+          en: "I write my name in Katakana.",
+          zh: "我用片假名寫名字。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        expression: "ローマ字",
+        reading: "ローマじ",
+        definition: "アルファベット。",
+        meaning: {
+          en: "Roman letters (alphabet)",
+          zh: "羅馬字母",
+        },
+        example: "あなたの名前をローマ字で書いてください。",
+        exampleMeaning: {
+          en: "Please write your name in Roman letters.",
+          zh: "請用羅馬字母寫你的名字。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        expression: "細かいお金",
+        reading: "こまかい おかね",
+        definition: "少額の硬貨。",
+        meaning: {
+          en: "small change",
+          zh: "零錢",
+        },
+        example: "細かいお金がありますか。",
+        exampleMeaning: {
+          en: "Do you have small change?",
+          zh: "你有零錢嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        expression: "チケット",
+        reading: "チケット",
+        definition: "切符、入場券。",
+        meaning: {
+          en: "ticket",
+          zh: "票",
+        },
+        example: "コンサートのチケットを買います。",
+        exampleMeaning: {
+          en: "I buy a concert ticket.",
+          zh: "我買演唱會的票。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        expression: "時間",
+        reading: "じかん",
+        definition: "時の流れ、予定された期間。",
+        meaning: {
+          en: "time",
+          zh: "時間",
+        },
+        example: "日本語を勉強する時間がありません。",
+        exampleMeaning: {
+          en: "I don't have time to study Japanese.",
+          zh: "我沒有時間學習日語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        expression: "用事",
+        reading: "ようじ",
+        definition: "しなければならないこと、用件。",
+        meaning: {
+          en: "something to do, errands",
+          zh: "事情",
+        },
+        example: "きょうは用事があります。",
+        exampleMeaning: {
+          en: "I have something to do today.",
+          zh: "我今天有事。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        expression: "約束",
+        reading: "やくそく",
+        definition: "人と交わした取り決め。",
+        meaning: {
+          en: "appointment, promise",
+          zh: "約定",
+        },
+        example: "土曜日に友達と約束があります。",
+        exampleMeaning: {
+          en: "I have an appointment with a friend on Saturday.",
+          zh: "我星期六和朋友有約定。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        expression: "アルバイト",
+        reading: "アルバイト",
+        definition: "学業の傍らや本業以外の仕事。（ドイツ語由来）",
+        meaning: {
+          en: "part-time job",
+          zh: "打工",
+        },
+        example: "アルバイトをしています。",
+        exampleMeaning: {
+          en: "I'm doing a part-time job.",
+          zh: "我在打工。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        expression: "ご主人",
+        reading: "ごしゅじん",
+        definition: "他人の夫（敬称）。",
+        meaning: {
+          en: "(someone else's) husband",
+          zh: "(別人的)丈夫",
+        },
+        example: "奥さんのご主人はエンジニアですか。",
+        exampleMeaning: {
+          en: "Is your wife's husband an engineer?",
+          zh: "您太太的丈夫是工程師嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        expression: "夫/主人",
+        reading: "おっと/しゅじん",
+        definition: "自分の夫（謙譲語）。",
+        meaning: {
+          en: "my husband",
+          zh: "(自己的)丈夫",
+        },
+        example: "わたしの夫は銀行員です。",
+        exampleMeaning: {
+          en: "My husband is a banker.",
+          zh: "我的丈夫是銀行員。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        expression: "奥さん",
+        reading: "おくさん",
+        definition: "他人の妻（敬称）。",
+        meaning: {
+          en: "(someone else's) wife",
+          zh: "(別人的)妻子",
+        },
+        example: "ミラーさんの奥さんは日本語がわかりますか。",
+        exampleMeaning: {
+          en: "Does Mr. Miller's wife understand Japanese?",
+          zh: "米勒先生的妻子懂日語嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        expression: "妻/家内",
+        reading: "つま/かない",
+        definition: "自分の妻（謙譲語）。",
+        meaning: {
+          en: "my wife",
+          zh: "(自己的)妻子",
+        },
+        example: "わたしの妻は毎日アルバイトをします。",
+        exampleMeaning: {
+          en: "My wife works part-time every day.",
+          zh: "我的妻子每天都打工。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        expression: "子ども",
+        reading: "こども",
+        definition: "子供、自分の子。",
+        meaning: {
+          en: "child, children",
+          zh: "小孩",
+        },
+        example: "わたしには子どもが二人います。",
+        exampleMeaning: {
+          en: "I have two children.",
+          zh: "我有兩個孩子。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        expression: "よく",
+        reading: "よく",
+        definition: "程度が非常に高い、しばしば。",
+        meaning: {
+          en: "well, often, very",
+          zh: "很、非常",
+        },
+        example: "わたしは日本語がよくわかります。",
+        exampleMeaning: {
+          en: "I understand Japanese very well.",
+          zh: "我很懂日語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        expression: "だいたい",
+        reading: "だいたい",
+        definition: "おおよそ、概ね。",
+        meaning: {
+          en: "mostly, roughly",
+          zh: "大致、大概",
+        },
+        example: "漢字はだいたいわかります。",
+        exampleMeaning: {
+          en: "I mostly understand Kanji.",
+          zh: "我大致上懂漢字。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        expression: "たくさん",
+        reading: "たくさん",
+        definition: "量が多いさま。",
+        meaning: {
+          en: "many, much",
+          zh: "很多",
+        },
+        example: "わたしは本をたくさん持っています。",
+        exampleMeaning: {
+          en: "I have many books.",
+          zh: "我有很多書。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        expression: "少し",
+        reading: "すこし",
+        definition: "量が少ないさま。",
+        meaning: {
+          en: "a little, a few",
+          zh: "一些、一點",
+        },
+        example: "日本語が少しわかります。",
+        exampleMeaning: {
+          en: "I understand a little Japanese.",
+          zh: "我懂一點日語。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        expression: "全然",
+        reading: "ぜんぜん",
+        definition: "完全に、全く（後に否定を伴う）。",
+        meaning: {
+          en: "not at all (used with negative)",
+          zh: "完全 (後接否定)",
+        },
+        example: "お金が全然ありません。",
+        exampleMeaning: {
+          en: "I have no money at all.",
+          zh: "我完全沒有錢。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        expression: "早く、速く",
+        reading: "はやく",
+        definition: "時間が早い、動作が速い。",
+        meaning: {
+          en: "early, quickly",
+          zh: "早、快",
+        },
+        example: "もっと速く走ります。",
+        exampleMeaning: {
+          en: "I run faster.",
+          zh: "我跑得更快。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        expression: "〜から",
+        reading: "〜から",
+        definition: "理由や原因を示す接続助詞。",
+        meaning: {
+          en: "because ~",
+          zh: "因為〜",
+        },
+        example: "用事がありますから、帰りません。",
+        exampleMeaning: {
+          en: "I'm not going home because I have something to do.",
+          zh: "我今天有事，所以不回去。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        expression: "どうして",
+        reading: "どうして",
+        definition: "理由を尋ねる疑問詞。",
+        meaning: {
+          en: "why",
+          zh: "怎麼、為什麼",
+        },
+        example: "どうして日本語を勉強しますか。",
+        exampleMeaning: {
+          en: "Why do you study Japanese?",
+          zh: "你為什麼學習日語？",
+        },
+      },
+    ],
+  },
+  {
+    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f010",
+    title: {
+      en: "Lesson 10",
+      zh: "第十課",
+      ja: "第十課",
+    },
+    description: {
+      en: "Introduce verbs of existence: $\text{あります}$ for inanimate objects and $\text{います}$ for animate beings. Also introduces common location nouns and the particle $\text{に (ni)}$ for location.",
+      zh: "介紹存在的動詞：$\text{あります}$ 用於非活動性物體，$\text{います}$ 用於活動性人或動物。還介紹了常見的位置名詞和用於地點的助詞 $\text{に (ni)}$。",
+      ja: "存在を表す動詞（無生物は $\text{あります}$、有生物は $\text{います}$）を学びます。また、場所を表す名詞と、場所を示す助詞 $\text{に (ni)}$ を習得します。",
+    },
+    words: [
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        expression: "あります",
+        reading: "あります",
+        definition: "無生物の存在を示す。",
+        meaning: {
+          en: "be, exist (inanimate objects)",
+          zh: "在、有(不會活動的東西)",
+        },
+        example: "机の上に本があります。",
+        exampleMeaning: {
+          en: "There is a book on the desk.",
+          zh: "桌子上有書。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        expression: "います",
+        reading: "います",
+        definition: "人や動物など、有生物の存在を示す。",
+        meaning: {
+          en: "be, exist (animate beings: people, animals)",
+          zh: "在、有(會活動的人、動物)",
+        },
+        example: "部屋にだれかいますか。",
+        exampleMeaning: {
+          en: "Is someone in the room?",
+          zh: "房間裡有人嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        expression: "いろいろ[な]",
+        reading: "いろいろ[な]",
+        definition: "様々、多種多様。",
+        meaning: {
+          en: "various, all sorts of",
+          zh: "各式各樣",
+        },
+        example: "いろいろな花があります。",
+        exampleMeaning: {
+          en: "There are various kinds of flowers.",
+          zh: "有各式各樣的花。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        expression: "男の人",
+        reading: "おとこのひと",
+        definition: "男性。",
+        meaning: {
+          en: "man",
+          zh: "男人",
+        },
+        example: "あそこにおとこの人がいます。",
+        exampleMeaning: {
+          en: "There is a man over there.",
+          zh: "那裡有一個男人。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        expression: "女の人",
+        reading: "おんなのひと",
+        definition: "女性。",
+        meaning: {
+          en: "woman",
+          zh: "女人",
+        },
+        example: "となりにおんなの人がいます。",
+        exampleMeaning: {
+          en: "There is a woman next door.",
+          zh: "旁邊有一個女人。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        expression: "男の子",
+        reading: "おとこのこ",
+        definition: "男の子ども。",
+        meaning: {
+          en: "boy",
+          zh: "男孩",
+        },
+        example: "公園におとこの子がいます。",
+        exampleMeaning: {
+          en: "There is a boy in the park.",
+          zh: "公園裡有一個男孩。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        expression: "女の子",
+        reading: "おんなのこ",
+        definition: "女の子ども。",
+        meaning: {
+          en: "girl",
+          zh: "女孩",
+        },
+        example: "あそこにおんなのこがいます。",
+        exampleMeaning: {
+          en: "There is a girl over there.",
+          zh: "那裡有一個女孩。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        expression: "犬",
+        reading: "いぬ",
+        definition: "代表的な家畜の一つ。",
+        meaning: {
+          en: "dog",
+          zh: "狗",
+        },
+        example: "わたしの家に犬がいます。",
+        exampleMeaning: {
+          en: "I have a dog in my house.",
+          zh: "我的家裡有狗。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        expression: "猫",
+        reading: "ねこ",
+        definition: "代表的な家畜の一つ。",
+        meaning: {
+          en: "cat",
+          zh: "貓",
+        },
+        example: "あそこに猫がいますよ。",
+        exampleMeaning: {
+          en: "There is a cat over there.",
+          zh: "那裡有貓哦。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        expression: "パンダ",
+        reading: "パンダ",
+        definition: "白と黒の毛皮を持つ動物。",
+        meaning: {
+          en: "panda",
+          zh: "貓熊",
+        },
+        example: "上野動物園にパンダがいます。",
+        exampleMeaning: {
+          en: "There are pandas at Ueno Zoo.",
+          zh: "上野動物園有貓熊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        expression: "象",
+        reading: "ぞう",
+        definition: "大きな鼻を持つ動物。",
+        meaning: {
+          en: "elephant",
+          zh: "大象",
+        },
+        example: "動物園で象を見ました。",
+        exampleMeaning: {
+          en: "I saw an elephant at the zoo.",
+          zh: "我在動物園看到了大象。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        expression: "木",
+        reading: "き",
+        definition: "幹と枝を持つ大きな植物。",
+        meaning: {
+          en: "tree, wood",
+          zh: "樹木",
+        },
+        example: "公園に大きな木があります。",
+        exampleMeaning: {
+          en: "There is a big tree in the park.",
+          zh: "公園裡有一棵大樹。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        expression: "物",
+        reading: "もの",
+        definition: "物体、品物。",
+        meaning: {
+          en: "thing, object",
+          zh: "東西",
+        },
+        example: "箱の中に何かありますか。",
+        exampleMeaning: {
+          en: "Is there anything in the box?",
+          zh: "箱子裡有什麼東西嗎？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        expression: "電池",
+        reading: "でんち",
+        definition: "電気を供給する装置。",
+        meaning: {
+          en: "battery",
+          zh: "電池",
+        },
+        example: "リモコンに電池がありません。",
+        exampleMeaning: {
+          en: "There is no battery in the remote control.",
+          zh: "遙控器裡沒有電池。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        expression: "箱",
+        reading: "はこ",
+        definition: "物を入れる四角い容器。",
+        meaning: {
+          en: "box, case",
+          zh: "箱子",
+        },
+        example: "この箱は小さいです。",
+        exampleMeaning: {
+          en: "This box is small.",
+          zh: "這個箱子很小。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        expression: "スイッチ",
+        reading: "スイッチ",
+        definition: "電気回路を開閉する装置。",
+        meaning: {
+          en: "switch",
+          zh: "開關",
+        },
+        example: "スイッチはどこですか。",
+        exampleMeaning: {
+          en: "Where is the switch?",
+          zh: "開關在哪裡？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        expression: "冷蔵庫",
+        reading: "れいぞうこ",
+        definition: "食物などを低温で保存する箱。",
+        meaning: {
+          en: "refrigerator",
+          zh: "冰箱",
+        },
+        example: "冷蔵庫の中にビールがあります。",
+        exampleMeaning: {
+          en: "There is beer in the refrigerator.",
+          zh: "冰箱裡有啤酒。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        expression: "テーブル",
+        reading: "テーブル",
+        definition: "西洋式の食卓や台。",
+        meaning: {
+          en: "table",
+          zh: "餐桌、桌子",
+        },
+        example: "テーブルの上に本を置きます。",
+        exampleMeaning: {
+          en: "I put the book on the table.",
+          zh: "我把書放在桌子上。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        expression: "ベッド",
+        reading: "ベッド",
+        definition: "寝るための家具。",
+        meaning: {
+          en: "bed",
+          zh: "床",
+        },
+        example: "ベッドの下に猫がいます。",
+        exampleMeaning: {
+          en: "There is a cat under the bed.",
+          zh: "床底下有一隻貓。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        expression: "棚",
+        reading: "たな",
+        definition: "物を載せるための台。",
+        meaning: {
+          en: "shelf",
+          zh: "架子",
+        },
+        example: "棚の上にカメラがあります。",
+        exampleMeaning: {
+          en: "There is a camera on the shelf.",
+          zh: "架子上有相機。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        expression: "ドア",
+        reading: "ドア",
+        definition: "出入口の扉。",
+        meaning: {
+          en: "door",
+          zh: "門",
+        },
+        example: "ドアの前に犬がいます。",
+        exampleMeaning: {
+          en: "There is a dog in front of the door.",
+          zh: "門前有一隻狗。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        expression: "窓",
+        reading: "まど",
+        definition: "壁に設けた採光や通気のための開口部。",
+        meaning: {
+          en: "window",
+          zh: "窗户",
+        },
+        example: "窓のそばに猫がいます。",
+        exampleMeaning: {
+          en: "There is a cat near the window.",
+          zh: "窗戶旁邊有一隻貓。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        expression: "ポスト",
+        reading: "ポスト",
+        definition: "郵便物を投函する箱、または掲示板。",
+        meaning: {
+          en: "postbox, mailbox",
+          zh: "郵筒、信箱",
+        },
+        example: "ポストの隣にコンビニがあります。",
+        exampleMeaning: {
+          en: "There is a convenience store next to the postbox.",
+          zh: "郵筒旁邊有一家便利商店。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        expression: "ビル",
+        reading: "ビル",
+        definition: "高層建築物。",
+        meaning: {
+          en: "building",
+          zh: "大樓",
+        },
+        example: "あのビルはとても高いです。",
+        exampleMeaning: {
+          en: "That building is very tall.",
+          zh: "那棟大樓非常高。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        expression: "ATM",
+        reading: "エーティーエム",
+        definition: "自動現金預け払い機。",
+        meaning: {
+          en: "ATM, automatic teller machine",
+          zh: "自動櫃員機、自動提款機",
+        },
+        example: "銀行にATMがあります。",
+        exampleMeaning: {
+          en: "There is an ATM at the bank.",
+          zh: "銀行有自動提款機。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        expression: "コンビニ",
+        reading: "コンビニ",
+        definition: "コンビニエンスストアの略。",
+        meaning: {
+          en: "convenience store",
+          zh: "便利商店、超商",
+        },
+        example: "駅の前にコンビニがあります。",
+        exampleMeaning: {
+          en: "There is a convenience store in front of the station.",
+          zh: "車站前面有一家便利商店。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        expression: "公園",
+        reading: "こうえん",
+        definition: "公共の休息・遊楽の場所。",
+        meaning: {
+          en: "park",
+          zh: "公園",
+        },
+        example: "うちの近くに公園があります。",
+        exampleMeaning: {
+          en: "There is a park near my house.",
+          zh: "我家附近有一個公園。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        expression: "喫茶店",
+        reading: "きっさてん",
+        definition: "茶やコーヒーなどを飲ませる店。",
+        meaning: {
+          en: "coffee shop, cafe",
+          zh: "咖啡店",
+        },
+        example: "あの喫茶店は静かです。",
+        exampleMeaning: {
+          en: "That coffee shop is quiet.",
+          zh: "那家咖啡店很安靜。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        expression: "〜屋",
+        reading: "〜や",
+        definition: "〜を売る店、〜を商売とする人。",
+        meaning: {
+          en: "~ store, ~ shop (e.g., $\text{本屋}$ book store)",
+          zh: "〜店",
+        },
+        example: "パン屋でパンを買います。",
+        exampleMeaning: {
+          en: "I buy bread at the bakery.",
+          zh: "我在麵包店買麵包。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        expression: "乗り場",
+        reading: "のりば",
+        definition: "乗り物に乗り込む場所。",
+        meaning: {
+          en: "a stop/platform (for a vehicle)",
+          zh: "乘車處(計程車、電車等)",
+        },
+        example: "タクシー乗り場はあそこです。",
+        exampleMeaning: {
+          en: "The taxi stand is over there.",
+          zh: "計程車乘車處在那邊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        expression: "県",
+        reading: "けん",
+        definition: "日本の行政区画の一つ。",
+        meaning: {
+          en: "prefecture",
+          zh: "縣",
+        },
+        example: "大阪府と京都府は県ではありません。",
+        exampleMeaning: {
+          en: "Osaka Prefecture and Kyoto Prefecture are not (called) prefectures.",
+          zh: "大阪府和京都府不叫縣。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        expression: "上",
+        reading: "うえ",
+        definition: "上方、頭上。",
+        meaning: {
+          en: "on, above",
+          zh: "上",
+        },
+        example: "テーブルの上に花があります。",
+        exampleMeaning: {
+          en: "There are flowers on the table.",
+          zh: "桌子上有花。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        expression: "下",
+        reading: "した",
+        definition: "下方、足元。",
+        meaning: {
+          en: "under, below",
+          zh: "下",
+        },
+        example: "いすの下に箱があります。",
+        exampleMeaning: {
+          en: "There is a box under the chair.",
+          zh: "椅子下面有一個箱子。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        expression: "前",
+        reading: "まえ",
+        definition: "手前、正面。",
+        meaning: {
+          en: "front, in front of",
+          zh: "前",
+        },
+        example: "ドアの前にミラーさんがいます。",
+        exampleMeaning: {
+          en: "Mr. Miller is in front of the door.",
+          zh: "米勒先生在門前。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        expression: "後ろ",
+        reading: "うしろ",
+        definition: "背面、後方。",
+        meaning: {
+          en: "back, behind",
+          zh: "後",
+        },
+        example: "車の後ろに猫がいます。",
+        exampleMeaning: {
+          en: "There is a cat behind the car.",
+          zh: "車後有一隻貓。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        expression: "右",
+        reading: "みぎ",
+        definition: "右側。",
+        meaning: {
+          en: "right (side)",
+          zh: "右",
+        },
+        example: "ポストの右に電話があります。",
+        exampleMeaning: {
+          en: "There is a telephone to the right of the postbox.",
+          zh: "郵筒右邊有電話。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        expression: "左",
+        reading: "ひだり",
+        definition: "左側。",
+        meaning: {
+          en: "left (side)",
+          zh: "左",
+        },
+        example: "銀行は郵便局の左にあります。",
+        exampleMeaning: {
+          en: "The bank is to the left of the post office.",
+          zh: "銀行在郵局的左邊。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        expression: "中",
+        reading: "なか",
+        definition: "内側、内部。",
+        meaning: {
+          en: "in, inside",
+          zh: "中間、裡面",
+        },
+        example: "箱の中に何がありますか。",
+        exampleMeaning: {
+          en: "What is inside the box?",
+          zh: "箱子裡面有什麼？",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        expression: "外",
+        reading: "そと",
+        definition: "外側、外部。",
+        meaning: {
+          en: "outside",
+          zh: "外面",
+        },
+        example: "公園の外で待ちます。",
+        exampleMeaning: {
+          en: "I will wait outside the park.",
+          zh: "我在公園外面等。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        expression: "隣",
+        reading: "となり",
+        definition: "すぐそば。",
+        meaning: {
+          en: "next to, neighboring",
+          zh: "旁邊",
+        },
+        example: "隣にコンビニがあります。",
+        exampleMeaning: {
+          en: "There is a convenience store next to it.",
+          zh: "旁邊有一家便利商店。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        expression: "近く",
+        reading: "ちかく",
+        definition: "距離が近い所。",
+        meaning: {
+          en: "near, vicinity",
+          zh: "附近",
+        },
+        example: "駅の近くに住んでいます。",
+        exampleMeaning: {
+          en: "I live near the station.",
+          zh: "我住在車站附近。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        expression: "間",
+        reading: "あいだ",
+        definition: "二つの物の中。",
+        meaning: {
+          en: "between, among",
+          zh: "〜之間",
+        },
+        example: "テーブルとベッドの間にいすがあります。",
+        exampleMeaning: {
+          en: "There is a chair between the table and the bed.",
+          zh: "桌子和床之間有一把椅子。",
+        },
+      },
+      {
+        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        expression: "〜や〜[など]",
+        reading: "〜や〜[など]",
+        definition: "同類の例をいくつか並べる。",
+        meaning: {
+          en: "~ and ~ (and so on)",
+          zh: "〜和〜(等)",
+        },
+        example: "本やペンなどが箱の中にあります。",
+        exampleMeaning: {
+          en: "There are books, pens, and so on in the box.",
+          zh: "箱子裡有書、筆等東西。",
+        },
+      },
+    ],
+  },
 ];
 
 export const COLLECTIONS = [
