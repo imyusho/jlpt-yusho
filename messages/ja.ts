@@ -87,7 +87,6 @@ const messages: EnMessages = {
     reset: "パスワードを設定",
   },
   vocabulary: {
-    title: "語彙",
     words: "{count} 語彙",
     loadMore: "もっと読み込む",
   },
@@ -98,10 +97,7 @@ const messages: EnMessages = {
     default: {
       home: "ホーム",
     },
-    learning: {
-      title: "学習",
-      vocabulary: "単語",
-    },
+    vocabulary: "単語",
   },
   supabase: {
     signInWithOtpSuccess:

@@ -6,7 +6,7 @@ import { useRepetition } from "@/hooks/use-repetition";
 import { routing } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { use } from "react";
-import { WordCard } from "../learning/vocabulary/[uuid]/_components/WordCard";
+import { WordCard } from "../vocabulary/[collectionUuid]/[uuid]/_components/WordCard";
 
 const DEFAULT_LOCALE = "en";
 

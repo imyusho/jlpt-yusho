@@ -1,4 +1,4 @@
-import { DECKS } from "@/app/assets/api/units";
+import { COLLECTIONS } from "@/app/assets/api/units";
 import { routing } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import { Unit } from "./_components/Unit";
@@ -7,9 +7,10 @@ const DEFAULT_LOCALE = "en";
 
 export default async function Page({
   params,
-}: PageProps<"/[locale]/learning/vocabulary/[uuid]">) {
-  const { locale: localeParam, uuid } = await params;
-  const deck = DECKS.find((x) => x.uuid === uuid);
+}: PageProps<"/[locale]/vocabulary/[collectionUuid]/[uuid]">) {
+  const { locale: localeParam, collectionUuid, uuid } = await params;
+  const collection = COLLECTIONS.find((x) => x.uuid === collectionUuid);
+  const deck = collection?.decks.find((x) => x.uuid === uuid);
   const locale = hasLocale(routing.locales, localeParam)
     ? localeParam
     : DEFAULT_LOCALE;

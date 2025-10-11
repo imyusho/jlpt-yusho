@@ -83,7 +83,6 @@ const messages = {
     reset: "Set New Password",
   },
   vocabulary: {
-    title: "Vocabulary",
     words: "{count} words",
     loadMore: "Load more",
   },
@@ -94,10 +93,7 @@ const messages = {
     default: {
       home: "Home",
     },
-    learning: {
-      title: "Learning",
-      vocabulary: "Vocabulary",
-    },
+    vocabulary: "Vocabulary",
   },
   supabase: {
     signInWithOtpSuccess:

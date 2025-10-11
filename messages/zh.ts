@@ -83,7 +83,6 @@ const messages: EnMessages = {
     reset: "設定新密碼",
   },
   vocabulary: {
-    title: "詞彙",
     words: "{count} 個詞彙",
     loadMore: "加載更多",
   },
@@ -94,10 +93,7 @@ const messages: EnMessages = {
     default: {
       home: "首頁",
     },
-    learning: {
-      title: "學習",
-      vocabulary: "單字",
-    },
+    vocabulary: "單字",
   },
   supabase: {
     signInWithOtpSuccess:

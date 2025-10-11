@@ -1,4 +1,5 @@
-import { useTranslations } from "next-intl";
+import { COLLECTIONS } from "@/app/assets/api/units";
+import { useLocale, useTranslations } from "next-intl";
 import { useMemo } from "react";
 
 type SidebarData = {
@@ -13,6 +14,7 @@ type SidebarData = {
 };
 
 export const useSidebarData = (): SidebarData => {
+  const locale = useLocale();
   const t = useTranslations("sidebar");
 
   return useMemo(() => {
@@ -28,15 +30,15 @@ export const useSidebarData = (): SidebarData => {
           ],
         },
         {
-          title: t("learning.title"),
-          items: [
-            {
-              title: t("learning.vocabulary"),
-              url: "/learning/vocabulary",
-            },
-          ],
+          title: t("vocabulary"),
+          items: COLLECTIONS.map((x) => {
+            return {
+              title: x.title[locale],
+              url: `/vocabulary/${x.uuid}`,
+            };
+          }),
         },
       ],
     };
-  }, [t]);
+  }, [t, locale]);
 };

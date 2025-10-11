@@ -1,4 +1,4 @@
-import { DECKS } from "@/app/assets/api/units";
+import { COLLECTIONS } from "@/app/assets/api/units";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -8,32 +8,29 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
-import { hasLocale, useTranslations } from "next-intl";
-import { use } from "react";
+import { getLocale, getTranslations } from "next-intl/server";
 
-const DEFAULT_LOCALE = "en";
-
-export default function Page({
+export default async function Page({
   params,
-}: PageProps<"/[locale]/learning/vocabulary">) {
-  const t = useTranslations("vocabulary");
-  const { locale: localeParam } = use(params);
-  const locale = hasLocale(routing.locales, localeParam)
-    ? localeParam
-    : DEFAULT_LOCALE;
+}: PageProps<"/[locale]/vocabulary/[collectionUuid]">) {
+  const t = await getTranslations("vocabulary");
+  const locale = await getLocale();
+  const { collectionUuid } = await params;
+  const collection = COLLECTIONS.find((x) => x.uuid === collectionUuid);
+
+  if (!collection) return "404";
 
   return (
     <main className="dashboard max-w-300 w-full mx-auto p-4">
-      <h1>{t("title")}</h1>
+      <h1>{collection.title[locale]}</h1>
       <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
-        {DECKS.map((x) => {
+        {collection.decks.map((x) => {
           const vocabularyPreview = x.words.map((x) => x.reading).slice(0, 3);
 
           return (
             <li key={x.uuid}>
               <Link
-                href={`/learning/vocabulary/${x.uuid}`}
+                href={`/vocabulary/${collectionUuid}/${x.uuid}`}
                 className="no-underline"
               >
                 <Card className="size-full hover:bg-muted hover:border-secondary">
