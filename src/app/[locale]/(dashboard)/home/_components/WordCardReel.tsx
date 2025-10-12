@@ -3,34 +3,29 @@
 import * as React from "react";
 
 import { WORDS } from "@/app/assets/api/units";
-import { useAuth } from "@/context/AuthContext";
-import { Repetition, useRepetition } from "@/hooks/use-repetition";
+import { Repetition } from "@/hooks/use-repetition";
 import { useLocale } from "next-intl";
 import { useRef } from "react";
 import { WordCard } from "../../vocabulary/[collectionUuid]/[uuid]/_components/WordCard";
 
 type Props = {
-  filter: Parameters<Array<Repetition>["filter"]>[0];
+  repetitions: Repetition[];
+  upsertRepetition: (newRep: Repetition) => void;
+  removeRepetition: (cardUuid: string) => void;
 };
 
-export const WordCardReel: React.FC<Props> = ({ filter }) => {
+export const WordCardReel: React.FC<Props> = ({
+  repetitions,
+  upsertRepetition,
+  removeRepetition,
+}) => {
   const locale = useLocale();
 
-  const { user } = useAuth();
-  const { repetitions, upsertRepetition, removeRepetition } = useRepetition(
-    user?.id
-  );
-
   const containerRef = useRef<HTMLUListElement>(null);
-  const shownRepetitions = repetitions
-    .filter(filter)
-    .sort((a, b) =>
-      a.nextTime > b.nextTime ? 1 : a.nextTime < b.nextTime ? -1 : 0
-    );
 
   return (
     <ul ref={containerRef} className="flex w-full overflow-x-hidden snap-x">
-      {shownRepetitions.map((repetition) => {
+      {repetitions.map((repetition) => {
         const word = WORDS.find((x) => x.uuid === repetition.cardUuid);
         if (!word) return null;
 
