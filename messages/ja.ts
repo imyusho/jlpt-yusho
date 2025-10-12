@@ -26,6 +26,8 @@ const messages: EnMessages = {
       description:
         "JLPT のためのよりスマートな学習。すべての JLPT レベル (N5 から N1) に合わせたインタラクティブな演習で、語彙、文法、漢字、リスニングを練習します。",
     },
+    expired: "期限到",
+    notYetExpired: "期限前",
   },
   loginForm: {
     title: "アカウントにログイン",

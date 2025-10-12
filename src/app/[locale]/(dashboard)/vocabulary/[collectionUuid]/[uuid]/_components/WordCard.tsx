@@ -15,7 +15,7 @@ import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { FC, useMemo, useState } from "react";
+import { FC, HTMLAttributes, useMemo, useState } from "react";
 
 type Props = {
   locale: (typeof routing.locales)[number];
@@ -30,6 +30,7 @@ type Props = {
     },
     e: React.MouseEvent<HTMLButtonElement>
   ) => void;
+  className?: HTMLAttributes<HTMLDivElement>["className"];
 };
 
 export const WordCard: FC<Props> = ({ isQuiz = false, ...rest }) => {
@@ -45,6 +46,7 @@ export const WordCardImpl: FC<Props> = ({
   repetitionType = "button",
   repetition,
   onRepetitionClick,
+  className,
 }) => {
   const t = useTranslations("shared.interval");
   const [shouldRevealAnswer, setShouldRevealAnswer] = useState(false);
@@ -65,8 +67,9 @@ export const WordCardImpl: FC<Props> = ({
   return (
     <Card
       className={cn(
-        "@container grid grid-cols-[1fr_auto]",
-        isQuiz && "cursor-pointer"
+        "@container grid grid-cols-[1fr_auto] grid-rows-[auto_1fr]",
+        isQuiz && "cursor-pointer",
+        className
       )}
       onClick={() => {
         if (!isQuiz) return;
@@ -88,12 +91,12 @@ export const WordCardImpl: FC<Props> = ({
 
       <CardContent
         className={cn(
-          "text-primary grid gap-4 transition-opacity col-span-2",
+          "text-primary transition-opacity col-span-2",
           isAnswerVisible ? "opacity-100" : "opacity-0"
         )}
       >
         <div>{locale === "ja" ? word.definition : word.meaning[locale]}</div>
-        <div>
+        <div className="mt-4">
           <div>{word.example}</div>
           <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
         </div>

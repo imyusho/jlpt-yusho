@@ -26,6 +26,8 @@ const messages: EnMessages = {
       description:
         "更聰明地學習JLPT。 通過為所有JLPT級別（N5至N1）量身定制的互動練習來練習詞彙，語法，漢字和聽力。",
     },
+    expired: "到期",
+    notYetExpired: "未到期",
   },
   loginForm: {
     title: "登入",

@@ -114,6 +114,9 @@
   .dashboard h1 {
     @apply text-3xl font-semibold mt-6 mb-18;
   }
+  .dashboard h2 {
+    @apply text-2xl font-semibold mt-6 mb-4;
+  }
 }
 
 @layer base {

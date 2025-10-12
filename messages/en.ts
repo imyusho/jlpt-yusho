@@ -24,6 +24,8 @@ const messages = {
       description:
         "Study smarter for the JLPT. Practice vocabulary, grammar, kanji, and listening with interactive exercises tailored for all JLPT levels (N5 to N1).",
     },
+    expired: "Due",
+    notYetExpired: "Pending",
   },
   loginForm: {
     title: "Log in to your account",
