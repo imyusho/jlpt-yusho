@@ -20,37 +20,46 @@ export default function Page() {
   const sortedDueRepetitions = sortedRepetitions.filter(
     (x) => x.nextTime.getTime() <= Date.now()
   );
+  const sortedNotYetDueRepetitions = sortedRepetitions.filter(
+    (x) => x.nextTime.getTime() > Date.now()
+  );
 
   return (
     <main className="dashboard max-w-300 w-full mx-auto p-4">
-      <div className="flex items-center justify-between">
-        <h2>{t("expired")}</h2>
-        <Button
-          variant="ghost"
-          className="rounded-full size-10 mt-3"
-          onClick={() => {
-            sortedDueRepetitions.forEach((x) => {
-              x.nextTime = new Date(Date.now() - Math.random() * 1000);
-              upsertRepetition(x);
-            });
-          }}
-        >
-          <Shuffle />
-        </Button>
-      </div>
-      <WordCardReel
-        repetitions={sortedDueRepetitions}
-        upsertRepetition={upsertRepetition}
-        removeRepetition={removeRepetition}
-      />
-      <h2>{t("notYetExpired")}</h2>
-      <WordCardReel
-        repetitions={sortedRepetitions.filter(
-          (x) => x.nextTime.getTime() > Date.now()
-        )}
-        upsertRepetition={upsertRepetition}
-        removeRepetition={removeRepetition}
-      />
+      {sortedDueRepetitions.length && (
+        <>
+          <div className="flex items-center justify-between">
+            <h2>{t("expired")}</h2>
+            <Button
+              variant="ghost"
+              className="rounded-full size-10 mt-3"
+              onClick={() => {
+                sortedDueRepetitions.forEach((x) => {
+                  x.nextTime = new Date(Date.now() - Math.random() * 1000);
+                  upsertRepetition(x);
+                });
+              }}
+            >
+              <Shuffle />
+            </Button>
+          </div>
+          <WordCardReel
+            repetitions={sortedDueRepetitions}
+            upsertRepetition={upsertRepetition}
+            removeRepetition={removeRepetition}
+          />
+        </>
+      )}
+      {sortedNotYetDueRepetitions.length && (
+        <>
+          <h2>{t("notYetExpired")}</h2>
+          <WordCardReel
+            repetitions={sortedNotYetDueRepetitions}
+            upsertRepetition={upsertRepetition}
+            removeRepetition={removeRepetition}
+          />
+        </>
+      )}
     </main>
   );
 }
