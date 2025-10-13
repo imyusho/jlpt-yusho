@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const LOCAL_STORAGE_REPETITIONS_KEY = "LOCAL_STORAGE_REPETITIONS_KEY";
 
 export type Repetition = {
-  cardUuid: string;
+  cardId: string;
   interval: number;
   nextTime: Date;
 };
@@ -37,16 +37,16 @@ export function useRepetition(userId?: string) {
   };
 
   const upsertRepetition = (newRep: Repetition) => {
-    const existing = repetitions.find((r) => r.cardUuid === newRep.cardUuid);
+    const existing = repetitions.find((r) => r.cardId === newRep.cardId);
     const newReps = existing
-      ? repetitions.map((r) => (r.cardUuid === newRep.cardUuid ? newRep : r))
+      ? repetitions.map((r) => (r.cardId === newRep.cardId ? newRep : r))
       : [...repetitions, newRep];
     setRepetitions(newReps);
     persist(newReps);
   };
 
-  const removeRepetition = (cardUuid: string) => {
-    const newReps = repetitions.filter((r) => r.cardUuid !== cardUuid);
+  const removeRepetition = (cardId: string) => {
+    const newReps = repetitions.filter((r) => r.cardId !== cardId);
     setRepetitions(newReps);
     persist(newReps);
   };

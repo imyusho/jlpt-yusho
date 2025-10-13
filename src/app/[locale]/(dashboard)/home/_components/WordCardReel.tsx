@@ -6,7 +6,7 @@ import { WORDS } from "@/app/assets/api/units";
 import { Repetition } from "@/hooks/use-repetition";
 import { useLocale } from "next-intl";
 import { useRef } from "react";
-import { WordCard } from "../../vocabulary/[collectionId]/[wordId]/_components/WordCard";
+import { WordCard } from "../../vocabulary/[collectionId]/[cardId]/_components/WordCard";
 
 type Props = {
   repetitions: Repetition[];
@@ -26,7 +26,7 @@ export const WordCardReel: React.FC<Props> = ({
   return (
     <ul ref={containerRef} className="flex w-full overflow-x-hidden snap-x">
       {repetitions.map((repetition) => {
-        const word = WORDS.find((x) => x.id === repetition.cardUuid);
+        const word = WORDS.find((x) => x.id === repetition.cardId);
         if (!word) return null;
 
         return (
@@ -64,7 +64,7 @@ export const WordCardReel: React.FC<Props> = ({
                   }
 
                   upsertRepetition({
-                    cardUuid: word.id,
+                    cardId: word.id,
                     interval: x.interval,
                     nextTime: new Date(Date.now() + x.interval),
                   });

@@ -26,10 +26,12 @@ export default function Page() {
 
   return (
     <main className="dashboard max-w-300 w-full mx-auto p-4">
-      {sortedDueRepetitions.length && (
+      {sortedDueRepetitions.length > 0 && (
         <>
           <div className="flex items-center justify-between">
-            <h2>{t("expired")}</h2>
+            <h2>
+              {t("expired")} ({sortedDueRepetitions.length})
+            </h2>
             <Button
               variant="ghost"
               className="rounded-full size-10 mt-3"
@@ -50,9 +52,11 @@ export default function Page() {
           />
         </>
       )}
-      {sortedNotYetDueRepetitions.length && (
+      {sortedNotYetDueRepetitions.length > 0 && (
         <>
-          <h2>{t("notYetExpired")}</h2>
+          <h2>
+            {t("notYetExpired")} ({sortedNotYetDueRepetitions.length})
+          </h2>
           <WordCardReel
             repetitions={sortedNotYetDueRepetitions}
             upsertRepetition={upsertRepetition}

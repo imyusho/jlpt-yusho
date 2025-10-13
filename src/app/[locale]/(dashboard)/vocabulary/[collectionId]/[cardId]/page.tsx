@@ -7,10 +7,10 @@ const DEFAULT_LOCALE = "en";
 
 export default async function Page({
   params,
-}: PageProps<"/[locale]/vocabulary/[collectionId]/[wordId]">) {
-  const { locale: localeParam, collectionId, wordId } = await params;
+}: PageProps<"/[locale]/vocabulary/[collectionId]/[cardId]">) {
+  const { locale: localeParam, collectionId, cardId } = await params;
   const collection = COLLECTIONS.find((x) => x.uuid === collectionId);
-  const deck = collection?.decks.find((x) => x.id === wordId);
+  const deck = collection?.decks.find((x) => x.id === cardId);
   const locale = hasLocale(routing.locales, localeParam)
     ? localeParam
     : DEFAULT_LOCALE;

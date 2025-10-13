@@ -46,7 +46,7 @@ export const Unit: FC<Props> = ({ deck, locale }) => {
       </div>
       <ul className="grid gap-4">
         {words.map((word) => {
-          const repetition = repetitions.find((x) => x.cardUuid === word.id);
+          const repetition = repetitions.find((x) => x.cardId === word.id);
           return (
             <li key={word.id}>
               <WordCard
@@ -65,7 +65,7 @@ export const Unit: FC<Props> = ({ deck, locale }) => {
                   }
 
                   upsertRepetition({
-                    cardUuid: word.id,
+                    cardId: word.id,
                     interval: x.interval,
                     nextTime: new Date(Date.now() + x.interval),
                   });
