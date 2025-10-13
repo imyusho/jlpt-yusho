@@ -12,11 +12,11 @@ import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function Page({
   params,
-}: PageProps<"/[locale]/vocabulary/[collectionUuid]">) {
+}: PageProps<"/[locale]/vocabulary/[collectionId]">) {
   const t = await getTranslations("vocabulary");
   const locale = await getLocale();
-  const { collectionUuid } = await params;
-  const collection = COLLECTIONS.find((x) => x.uuid === collectionUuid);
+  const { collectionId } = await params;
+  const collection = COLLECTIONS.find((x) => x.uuid === collectionId);
 
   if (!collection) return "404";
 
@@ -28,9 +28,9 @@ export default async function Page({
           const vocabularyPreview = x.words.map((x) => x.reading).slice(0, 3);
 
           return (
-            <li key={x.uuid}>
+            <li key={x.id}>
               <Link
-                href={`/vocabulary/${collectionUuid}/${x.uuid}`}
+                href={`/vocabulary/${collectionId}/${x.id}`}
                 className="no-underline"
               >
                 <Card className="size-full hover:bg-muted hover:border-secondary">

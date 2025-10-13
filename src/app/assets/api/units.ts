@@ -1,6 +1,6 @@
 const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a001",
+    id: "1",
     title: {
       en: "Lesson 1",
       zh: "第一課",
@@ -13,7 +13,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a801",
+        id: "1-0",
         expression: "私",
         reading: "わたし",
         definition: "一人称の代名詞。",
@@ -28,7 +28,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a802",
+        id: "1-1",
         expression: "あなた",
         reading: "あなた",
         definition: "二人称の代名詞。",
@@ -43,7 +43,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a803",
+        id: "1-2",
         expression: "あの人",
         reading: "あのひと",
         definition: "三人称の代名詞。",
@@ -58,7 +58,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a804",
+        id: "1-3",
         expression: "あの方",
         reading: "あのかた",
         definition: "「あのひと」の丁寧な言い方。",
@@ -73,7 +73,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a805",
+        id: "1-4",
         expression: "〜さん",
         reading: "〜さん",
         definition: "人の名前に付けて敬意を表す接尾語。",
@@ -88,7 +88,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a806",
+        id: "1-5",
         expression: "〜ちゃん",
         reading: "〜ちゃん",
         definition: "主として子供の愛称に用いる接尾語。",
@@ -103,7 +103,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a807",
+        id: "1-6",
         expression: "〜人",
         reading: "〜じん",
         definition: "国籍を表す接尾語。",
@@ -118,7 +118,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a808",
+        id: "1-7",
         expression: "先生",
         reading: "せんせい",
         definition: "教える人、教師。",
@@ -133,7 +133,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a809",
+        id: "1-8",
         expression: "教師",
         reading: "きょうし",
         definition: "職業としての教師。",
@@ -148,7 +148,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a810",
+        id: "1-9",
         expression: "学生",
         reading: "がくせい",
         definition: "学校で学ぶ人、学生。",
@@ -163,7 +163,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a811",
+        id: "1-10",
         expression: "会社員",
         reading: "かいしゃいん",
         definition: "会社に勤めている人。",
@@ -178,7 +178,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a812",
+        id: "1-11",
         expression: "社員",
         reading: "しゃいん",
         definition: "会社の職員。",
@@ -193,7 +193,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a813",
+        id: "1-12",
         expression: "銀行員",
         reading: "ぎんこういん",
         definition: "銀行に勤めている人。",
@@ -208,7 +208,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a814",
+        id: "1-13",
         expression: "医者",
         reading: "いしゃ",
         definition: "病気の人を治療する職業の人、医師。",
@@ -223,7 +223,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a815",
+        id: "1-14",
         expression: "研究者",
         reading: "けんきゅうしゃ",
         definition: "研究をする人。",
@@ -238,7 +238,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a816",
+        id: "1-15",
         expression: "大学",
         reading: "だいがく",
         definition: "高等教育機関の一つ。",
@@ -253,7 +253,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a817",
+        id: "1-16",
         expression: "病院",
         reading: "びょういん",
         definition: "病人やけが人を診察・治療する施設。",
@@ -268,7 +268,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a818",
+        id: "1-17",
         expression: "誰",
         reading: "だれ",
         definition: "人を尋ねる疑問詞。",
@@ -283,7 +283,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a819",
+        id: "1-18",
         expression: "どなた",
         reading: "どなた",
         definition: "「だれ」の丁寧な言い方。",
@@ -298,7 +298,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a820",
+        id: "1-19",
         expression: "〜歳",
         reading: "〜さい",
         definition: "年齢を表す助数詞。",
@@ -313,7 +313,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a821",
+        id: "1-20",
         expression: "何歳",
         reading: "なんさい",
         definition: "年齢を尋ねる疑問詞。",
@@ -328,7 +328,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a822",
+        id: "1-21",
         expression: "おいくつ",
         reading: "おいくつ",
         definition: "「なんさい」の丁寧な言い方。",
@@ -343,7 +343,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a823",
+        id: "1-22",
         expression: "はい",
         reading: "はい",
         definition: "肯定の返事。",
@@ -358,7 +358,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a824",
+        id: "1-23",
         expression: "いいえ",
         reading: "いいえ",
         definition: "否定の返事。",
@@ -373,7 +373,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a825",
+        id: "1-24",
         expression: "初めまして。",
         reading: "はじめまして",
         definition: "初対面の人への挨拶の言葉。",
@@ -388,7 +388,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a826",
+        id: "1-25",
         expression: "〜から来ました。",
         reading: "〜からきました",
         definition: "出身地を言う時の表現。",
@@ -403,7 +403,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a827",
+        id: "1-26",
         expression: "どうぞよろしくお願いします。",
         reading: "どうぞよろしくおねがいします",
         definition: "自己紹介の締めの言葉。",
@@ -418,7 +418,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a828",
+        id: "1-27",
         expression: "失礼ですが",
         reading: "しつれいですが",
         definition: "相手に失礼なことを尋ねる際の枕詞。",
@@ -433,7 +433,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a829",
+        id: "1-28",
         expression: "お名前は？",
         reading: "おなまえは？",
         definition: "相手の名前を尋ねる表現。",
@@ -448,7 +448,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a830",
+        id: "1-29",
         expression: "こちらは〜さんです。",
         reading: "こちらは〜さんです。",
         definition: "人を相手に紹介する時の表現。",
@@ -463,7 +463,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a831",
+        id: "1-30",
         expression: "アメリカ",
         reading: "アメリカ",
         definition: "国名。",
@@ -478,7 +478,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a832",
+        id: "1-31",
         expression: "イギリス",
         reading: "イギリス",
         definition: "国名。",
@@ -493,7 +493,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a833",
+        id: "1-32",
         expression: "インド",
         reading: "インド",
         definition: "国名。",
@@ -508,7 +508,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a834",
+        id: "1-33",
         expression: "インドネシア",
         reading: "インドネシア",
         definition: "国名。",
@@ -523,7 +523,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a835",
+        id: "1-34",
         expression: "韓国",
         reading: "かんこく",
         definition: "国名。",
@@ -538,7 +538,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a836",
+        id: "1-35",
         expression: "タイ",
         reading: "タイ",
         definition: "国名。",
@@ -553,7 +553,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a837",
+        id: "1-36",
         expression: "中国",
         reading: "ちゅうごく",
         definition: "国名。",
@@ -568,7 +568,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a838",
+        id: "1-37",
         expression: "ドイツ",
         reading: "ドイツ",
         definition: "国名。",
@@ -583,7 +583,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a839",
+        id: "1-38",
         expression: "日本",
         reading: "にほん",
         definition: "国名。",
@@ -598,7 +598,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9a840",
+        id: "1-39",
         expression: "ブラジル",
         reading: "ブラジル",
         definition: "国名。",
@@ -615,7 +615,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b002",
+    id: "2",
     title: {
       en: "Lesson 2",
       zh: "第二課",
@@ -628,7 +628,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b801",
+        id: "2-0",
         expression: "これ",
         reading: "これ",
         definition: "話者から近い物を指す代名詞。",
@@ -643,7 +643,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b802",
+        id: "2-1",
         expression: "それ",
         reading: "それ",
         definition: "聞き手から近い物を指す代名詞。",
@@ -658,7 +658,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b803",
+        id: "2-2",
         expression: "あれ",
         reading: "あれ",
         definition: "話者と聞き手の両方から遠い物を指す代名詞。",
@@ -673,7 +673,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b804",
+        id: "2-3",
         expression: "この",
         reading: "この",
         definition: "話者から近い物を修飾する連体詞。",
@@ -688,7 +688,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b805",
+        id: "2-4",
         expression: "その",
         reading: "その",
         definition: "聞き手から近い物を修飾する連体詞。",
@@ -703,7 +703,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b806",
+        id: "2-5",
         expression: "あの",
         reading: "あの",
         definition: "話者と聞き手の両方から遠い物を修飾する連体詞。",
@@ -718,7 +718,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b807",
+        id: "2-6",
         expression: "本",
         reading: "ほん",
         definition: "書物、書籍。",
@@ -733,7 +733,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b808",
+        id: "2-7",
         expression: "辞書",
         reading: "じしょ",
         definition: "言葉の意味などを調べるための書物。",
@@ -748,7 +748,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b809",
+        id: "2-8",
         expression: "雑誌",
         reading: "ざっし",
         definition: "定期的に発行される出版物。",
@@ -763,7 +763,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b810",
+        id: "2-9",
         expression: "新聞",
         reading: "しんぶん",
         definition: "ニュースなどを報じる刊行物。",
@@ -778,7 +778,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b811",
+        id: "2-10",
         expression: "ノート",
         reading: "ノート",
         definition: "主に筆記に用いる紙の束。",
@@ -793,7 +793,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b812",
+        id: "2-11",
         expression: "手帳",
         reading: "てちょう",
         definition: "携帯用の小型の覚え書き。",
@@ -808,7 +808,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b813",
+        id: "2-12",
         expression: "名刺",
         reading: "めいし",
         definition: "名前や連絡先などを印刷したカード。",
@@ -823,7 +823,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b814",
+        id: "2-13",
         expression: "カード",
         reading: "カード",
         definition: "紙やプラスチック製の薄い札。",
@@ -838,7 +838,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b815",
+        id: "2-14",
         expression: "鉛筆",
         reading: "えんぴつ",
         definition: "筆記用具の一つ。",
@@ -853,7 +853,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b816",
+        id: "2-15",
         expression: "ボールペン",
         reading: "ボールペン",
         definition: "先端に小さなボールを使いインクで書く筆記具。",
@@ -868,7 +868,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b817",
+        id: "2-16",
         expression: "シャープペンシル",
         reading: "シャープペンシル",
         definition: "芯を繰り出して使う鉛筆型の筆記具。",
@@ -883,7 +883,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b818",
+        id: "2-17",
         expression: "鍵",
         reading: "かぎ",
         definition: "錠前を開け閉めするための金属の道具。",
@@ -898,7 +898,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b819",
+        id: "2-18",
         expression: "時計",
         reading: "とけい",
         definition: "時刻を知らせる器械。",
@@ -913,7 +913,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b820",
+        id: "2-19",
         expression: "傘",
         reading: "かさ",
         definition: "雨や日差しを防ぐための道具。",
@@ -928,7 +928,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b821",
+        id: "2-20",
         expression: "鞄",
         reading: "かばん",
         definition: "物を入れて持ち運ぶ袋状のもの。",
@@ -943,7 +943,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b822",
+        id: "2-21",
         expression: "CD",
         reading: "シーディー",
         definition: "音楽やデータを記録した光ディスク。",
@@ -958,7 +958,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b823",
+        id: "2-22",
         expression: "テレビ",
         reading: "テレビ",
         definition: "映像と音声を受信する装置。",
@@ -973,7 +973,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b824",
+        id: "2-23",
         expression: "ラジオ",
         reading: "ラジオ",
         definition: "無線で音声を受信する装置。",
@@ -988,7 +988,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b825",
+        id: "2-24",
         expression: "カメラ",
         reading: "カメラ",
         definition: "写真や動画を撮影する装置。",
@@ -1003,7 +1003,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b826",
+        id: "2-25",
         expression: "コンピューター",
         reading: "コンピューター",
         definition: "計算やデータ処理を行う機械。",
@@ -1018,7 +1018,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b827",
+        id: "2-26",
         expression: "車",
         reading: "くるま",
         definition: "人や物を運ぶための乗り物。",
@@ -1033,7 +1033,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b828",
+        id: "2-27",
         expression: "机",
         reading: "つくえ",
         definition: "書き物や作業に使う台。",
@@ -1048,7 +1048,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b829",
+        id: "2-28",
         expression: "椅子",
         reading: "いす",
         definition: "座るための家具。",
@@ -1063,7 +1063,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b830",
+        id: "2-29",
         expression: "チョコレート",
         reading: "チョコレート",
         definition: "カカオ豆を原料とした菓子。",
@@ -1078,7 +1078,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b831",
+        id: "2-30",
         expression: "コーヒー",
         reading: "コーヒー",
         definition: "コーヒー豆から淹れた飲み物。",
@@ -1093,7 +1093,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b832",
+        id: "2-31",
         expression: "お土産",
         reading: "おみやげ",
         definition: "旅先などで人に贈る記念の品。",
@@ -1108,7 +1108,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b833",
+        id: "2-32",
         expression: "英語",
         reading: "えいご",
         definition: "イギリスやアメリカなどで話される言語。",
@@ -1123,7 +1123,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b834",
+        id: "2-33",
         expression: "日本語",
         reading: "にほんご",
         definition: "日本で話される言語。",
@@ -1138,7 +1138,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b835",
+        id: "2-34",
         expression: "〜語",
         reading: "〜ご",
         definition: "特定の国や地域で話される言語を表す接尾語。",
@@ -1153,7 +1153,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b836",
+        id: "2-35",
         expression: "何",
         reading: "なん",
         definition: "物や事柄を問う疑問詞。",
@@ -1168,7 +1168,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b837",
+        id: "2-36",
         expression: "そう",
         reading: "そう",
         definition: "相手の言ったことを肯定する表現。",
@@ -1183,7 +1183,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b838",
+        id: "2-37",
         expression: "これからお世話になります。",
         reading: "これからおせわになります",
         definition: "今後、世話になることへの挨拶。",
@@ -1198,7 +1198,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b839",
+        id: "2-38",
         expression: "こちらこそよろしく。",
         reading: "こちらこそよろしく",
         definition: "相手からの挨拶への返答。",
@@ -1213,7 +1213,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b840",
+        id: "2-39",
         expression: "あのう",
         reading: "あのう",
         definition: "相手に声をかける時や、躊躇する時に使う言葉。",
@@ -1228,7 +1228,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b841",
+        id: "2-40",
         expression: "えっ",
         reading: "えっ",
         definition: "驚いた時や聞き返す時に発する声。",
@@ -1243,7 +1243,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b842",
+        id: "2-41",
         expression: "どうぞ",
         reading: "どうぞ",
         definition: "何かを勧める時に使う言葉。",
@@ -1258,7 +1258,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b843",
+        id: "2-42",
         expression: "どうもありがとうございます",
         reading: "どうもありがとうございます",
         definition: "感謝の意を表す、丁寧な言い方。",
@@ -1273,7 +1273,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b844",
+        id: "2-43",
         expression: "そうですか",
         reading: "そうですか",
         definition: "相手の言葉に納得や理解を示したり、尋ねたりする表現。",
@@ -1288,7 +1288,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b845",
+        id: "2-44",
         expression: "違います",
         reading: "ちがいます",
         definition: "相手の言葉を否定する表現。",
@@ -1303,7 +1303,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9b846",
+        id: "2-45",
         expression: "あ",
         reading: "あ",
         definition: "何かに気づいたり、思いついたりした時に発する声。",
@@ -1320,7 +1320,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c003",
+    id: "3",
     title: {
       en: "Lesson 3",
       zh: "第三課",
@@ -1333,7 +1333,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c801",
+        id: "3-0",
         expression: "ここ",
         reading: "ここ",
         definition: "話者から近い場所を指す代名詞。",
@@ -1348,7 +1348,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c802",
+        id: "3-1",
         expression: "そこ",
         reading: "そこ",
         definition: "聞き手から近い場所を指す代名詞。",
@@ -1363,7 +1363,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c803",
+        id: "3-2",
         expression: "あそこ",
         reading: "あそこ",
         definition: "話者と聞き手の両方から遠い場所を指す代名詞。",
@@ -1378,7 +1378,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c804",
+        id: "3-3",
         expression: "どこ",
         reading: "どこ",
         definition: "場所を尋ねる疑問詞。",
@@ -1393,7 +1393,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c805",
+        id: "3-4",
         expression: "こちら",
         reading: "こちら",
         definition: "「ここ」の丁寧な言い方。",
@@ -1408,7 +1408,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c806",
+        id: "3-5",
         expression: "そちら",
         reading: "そちら",
         definition: "「そこ」の丁寧な言い方。",
@@ -1423,7 +1423,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c807",
+        id: "3-6",
         expression: "あちら",
         reading: "あちら",
         definition: "「あそこ」の丁寧な言い方。",
@@ -1438,7 +1438,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c808",
+        id: "3-7",
         expression: "どちら",
         reading: "どちら",
         definition: "「どこ」の丁寧な言い方、または方向を尋ねる疑問詞。",
@@ -1453,7 +1453,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c809",
+        id: "3-8",
         expression: "教室",
         reading: "きょうしつ",
         definition: "授業を行う部屋。",
@@ -1468,7 +1468,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c810",
+        id: "3-9",
         expression: "食堂",
         reading: "しょくどう",
         definition: "食事をする場所、レストラン。",
@@ -1483,7 +1483,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c811",
+        id: "3-10",
         expression: "事務所",
         reading: "じむしょ",
         definition: "事務を行う場所。",
@@ -1498,7 +1498,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c812",
+        id: "3-11",
         expression: "会議室",
         reading: "かいぎしつ",
         definition: "会議をする部屋。",
@@ -1513,7 +1513,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c813",
+        id: "3-12",
         expression: "受付",
         reading: "うけつけ",
         definition: "来客の対応や事務手続きを行う場所。",
@@ -1528,7 +1528,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c814",
+        id: "3-13",
         expression: "ロビー",
         reading: "ロビー",
         definition: "建物の入口近くにある広い空間、待合室。",
@@ -1543,7 +1543,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c815",
+        id: "3-14",
         expression: "部屋",
         reading: "へや",
         definition: "建物内の区切られた空間。",
@@ -1558,7 +1558,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c816",
+        id: "3-15",
         expression: "トイレ",
         reading: "トイレ",
         definition: "便所、お手洗い。",
@@ -1573,7 +1573,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c817",
+        id: "3-16",
         expression: "お手洗い",
         reading: "おてあらい",
         definition: "「トイレ」の丁寧な言い方。",
@@ -1588,7 +1588,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c818",
+        id: "3-17",
         expression: "階段",
         reading: "かいだん",
         definition: "上り下りのための段差の続き。",
@@ -1603,7 +1603,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c819",
+        id: "3-18",
         expression: "エレベーター",
         reading: "エレベーター",
         definition: "人を上下に運ぶ昇降機。",
@@ -1618,7 +1618,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c820",
+        id: "3-19",
         expression: "エスカレーター",
         reading: "エスカレーター",
         definition: "階段状に移動する昇降機。",
@@ -1633,7 +1633,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c821",
+        id: "3-20",
         expression: "自動販売機",
         reading: "じどうはんばいき",
         definition: "貨幣を投入して商品を購入する機械。",
@@ -1648,7 +1648,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c822",
+        id: "3-21",
         expression: "電話",
         reading: "でんわ",
         definition: "離れた相手と会話する通信装置。",
@@ -1663,7 +1663,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c823",
+        id: "3-22",
         expression: "お国",
         reading: "おくに",
         definition: "「国」の丁寧語。故郷や出身国。",
@@ -1678,7 +1678,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c824",
+        id: "3-23",
         expression: "会社",
         reading: "かいしゃ",
         definition: "営利を目的とした組織。",
@@ -1693,7 +1693,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c825",
+        id: "3-24",
         expression: "うち",
         reading: "うち",
         definition: "自分の家、家族。",
@@ -1708,7 +1708,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c826",
+        id: "3-25",
         expression: "靴",
         reading: "くつ",
         definition: "足に履くもの。",
@@ -1723,7 +1723,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c827",
+        id: "3-26",
         expression: "ネクタイ",
         reading: "ネクタイ",
         definition: "男性がスーツ着用時などに首元に巻くもの。",
@@ -1738,7 +1738,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c828",
+        id: "3-27",
         expression: "ワイン",
         reading: "ワイン",
         definition: "ブドウを原料とする醸造酒。",
@@ -1753,7 +1753,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c829",
+        id: "3-28",
         expression: "売り場",
         reading: "うりば",
         definition: "商品を売る場所、コーナー。",
@@ -1768,7 +1768,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c830",
+        id: "3-29",
         expression: "地下",
         reading: "ちか",
         definition: "地表の下の部分。",
@@ -1783,7 +1783,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c831",
+        id: "3-30",
         expression: "〜階",
         reading: "〜かい/がい",
         definition: "建物の階数を数える助数詞。",
@@ -1798,7 +1798,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c832",
+        id: "3-31",
         expression: "何階",
         reading: "なんがい",
         definition: "階数を尋ねる疑問詞。",
@@ -1813,7 +1813,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c833",
+        id: "3-32",
         expression: "〜円",
         reading: "〜えん",
         definition: "日本の通貨単位。",
@@ -1828,7 +1828,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c834",
+        id: "3-33",
         expression: "いくら",
         reading: "いくら",
         definition: "値段を尋ねる疑問詞。",
@@ -1843,7 +1843,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c835",
+        id: "3-34",
         expression: "百",
         reading: "ひゃく",
         definition: "数の100。",
@@ -1858,7 +1858,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c836",
+        id: "3-35",
         expression: "千",
         reading: "せん",
         definition: "数の1,000。",
@@ -1873,7 +1873,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c837",
+        id: "3-36",
         expression: "万",
         reading: "まん",
         definition: "数の10,000。",
@@ -1888,7 +1888,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c838",
+        id: "3-37",
         expression: "いらっしゃいませ",
         reading: "いらっしゃいませ",
         definition: "店員が客を迎える時の挨拶。",
@@ -1903,7 +1903,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c839",
+        id: "3-38",
         expression: "〜を見せてください",
         reading: "〜をみせてください",
         definition: "何かを見るようにお願いする表現。",
@@ -1918,7 +1918,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c840",
+        id: "3-39",
         expression: "じゃ",
         reading: "じゃ",
         definition:
@@ -1934,7 +1934,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c841",
+        id: "3-40",
         expression: "〜をください",
         reading: "〜をください",
         definition: "何かを要求する表現。",
@@ -1949,7 +1949,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c842",
+        id: "3-41",
         expression: "すみません",
         reading: "すみません",
         definition: "呼びかけや謝罪、感謝を表す言葉。",
@@ -1964,7 +1964,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c843",
+        id: "3-42",
         expression: "どうも",
         reading: "どうも",
         definition: "感謝や挨拶を表す、簡略的な言葉。",
@@ -1979,7 +1979,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c844",
+        id: "3-43",
         expression: "イタリア",
         reading: "イタリア",
         definition: "国名。",
@@ -1994,7 +1994,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c845",
+        id: "3-44",
         expression: "スイス",
         reading: "スイス",
         definition: "国名。",
@@ -2009,7 +2009,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c846",
+        id: "3-45",
         expression: "フランス",
         reading: "フランス",
         definition: "国名。",
@@ -2024,7 +2024,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c847",
+        id: "3-46",
         expression: "ジャカルタ",
         reading: "ジャカルタ",
         definition: "インドネシアの首都。",
@@ -2039,7 +2039,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c848",
+        id: "3-47",
         expression: "バンコク",
         reading: "バンコク",
         definition: "タイの首都。",
@@ -2054,7 +2054,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c849",
+        id: "3-48",
         expression: "ベルリン",
         reading: "ベルリン",
         definition: "ドイツの首都。",
@@ -2069,7 +2069,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9c850",
+        id: "3-49",
         expression: "新大阪",
         reading: "しんおおさか",
         definition: "大阪府にあるJR西日本の駅名。",
@@ -2086,7 +2086,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d004",
+    id: "4",
     title: {
       en: "Lesson 4",
       zh: "第四課",
@@ -2099,7 +2099,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d801",
+        id: "4-0",
         expression: "起きます",
         reading: "おきます",
         definition: "睡眠から覚めて体を起こす。",
@@ -2114,7 +2114,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d802",
+        id: "4-1",
         expression: "寝ます",
         reading: "ねます",
         definition: "睡眠をとるために床に就く。",
@@ -2129,7 +2129,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d803",
+        id: "4-2",
         expression: "働きます",
         reading: "はたらきます",
         definition: "仕事をする。",
@@ -2144,7 +2144,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d804",
+        id: "4-3",
         expression: "休みます",
         reading: "やすみます",
         definition: "仕事や活動を一時やめて体を休める。",
@@ -2159,7 +2159,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d805",
+        id: "4-4",
         expression: "勉強します",
         reading: "べんきょうします",
         definition: "学問・技芸を学ぶ。",
@@ -2174,7 +2174,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d806",
+        id: "4-5",
         expression: "終わります",
         reading: "おわります",
         definition: "物事がすっかり済む。",
@@ -2189,7 +2189,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d807",
+        id: "4-6",
         expression: "デパート",
         reading: "デパート",
         definition: "百貨店。",
@@ -2204,7 +2204,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d808",
+        id: "4-7",
         expression: "銀行",
         reading: "ぎんこう",
         definition: "金銭を預貯金したり貸し出したりする機関。",
@@ -2219,7 +2219,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d809",
+        id: "4-8",
         expression: "郵便局",
         reading: "ゆうびんきょく",
         definition: "郵便業務を行う機関。",
@@ -2234,7 +2234,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d810",
+        id: "4-9",
         expression: "図書館",
         reading: "としょかん",
         definition: "図書を収集・保存し、一般に利用させる施設。",
@@ -2249,7 +2249,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d811",
+        id: "4-10",
         expression: "美術館",
         reading: "びじゅつかん",
         definition: "美術品を展示する施設。",
@@ -2264,7 +2264,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d812",
+        id: "4-11",
         expression: "今",
         reading: "いま",
         definition: "現在の時。",
@@ -2279,7 +2279,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d813",
+        id: "4-12",
         expression: "〜時",
         reading: "〜じ",
         definition: "時刻を表す助数詞。",
@@ -2294,7 +2294,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d814",
+        id: "4-13",
         expression: "〜分",
         reading: "〜ふん(〜ぷん)",
         definition: "時間の単位。",
@@ -2309,7 +2309,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d815",
+        id: "4-14",
         expression: "半",
         reading: "はん",
         definition: "30分のこと。",
@@ -2324,7 +2324,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d816",
+        id: "4-15",
         expression: "何時",
         reading: "なんじ",
         definition: "時刻を尋ねる疑問詞。",
@@ -2339,7 +2339,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d817",
+        id: "4-16",
         expression: "何分",
         reading: "なんぷん",
         definition: "分数を尋ねる疑問詞。",
@@ -2354,7 +2354,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d818",
+        id: "4-17",
         expression: "午前",
         reading: "ごぜん",
         definition: "正午より前の時間、A.M.。",
@@ -2369,7 +2369,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d819",
+        id: "4-18",
         expression: "午後",
         reading: "ごご",
         definition: "正午より後の時間、P.M.。",
@@ -2384,7 +2384,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d820",
+        id: "4-19",
         expression: "朝",
         reading: "あさ",
         definition: "日が昇ってから正午までの時間。",
@@ -2399,7 +2399,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d821",
+        id: "4-20",
         expression: "昼",
         reading: "ひる",
         definition: "正午の前後、昼間。",
@@ -2414,7 +2414,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d822",
+        id: "4-21",
         expression: "晩",
         reading: "ばん",
         definition: "日が沈んでから夜中までの時間。「夜（よる）」とも言う。",
@@ -2429,7 +2429,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d823",
+        id: "4-22",
         expression: "夜",
         reading: "よる",
         definition: "日没から日の出までの時間。「晩（ばん）」とも言う。",
@@ -2444,7 +2444,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d824",
+        id: "4-23",
         expression: "一昨日",
         reading: "おととい",
         definition: "昨日より前の日。",
@@ -2459,7 +2459,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d825",
+        id: "4-24",
         expression: "昨日",
         reading: "きのう",
         definition: "今日より前の日。",
@@ -2474,7 +2474,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d826",
+        id: "4-25",
         expression: "今日",
         reading: "きょう",
         definition: "現在の日。",
@@ -2489,7 +2489,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d827",
+        id: "4-26",
         expression: "明日",
         reading: "あした",
         definition: "今日より後の日。",
@@ -2504,7 +2504,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d828",
+        id: "4-27",
         expression: "明後日",
         reading: "あさって",
         definition: "明日より後の日。",
@@ -2519,7 +2519,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d829",
+        id: "4-28",
         expression: "今朝",
         reading: "けさ",
         definition: "今日の朝。",
@@ -2534,7 +2534,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d830",
+        id: "4-29",
         expression: "今晩",
         reading: "こんばん",
         definition: "今日の晩。",
@@ -2549,7 +2549,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d831",
+        id: "4-30",
         expression: "休み",
         reading: "やすみ",
         definition: "休むこと、休暇。",
@@ -2564,7 +2564,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d832",
+        id: "4-31",
         expression: "昼休み",
         reading: "ひるやすみ",
         definition: "昼の休憩時間。",
@@ -2579,7 +2579,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d833",
+        id: "4-32",
         expression: "試験",
         reading: "しけん",
         definition: "能力や学力をはかるための検査。",
@@ -2594,7 +2594,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d834",
+        id: "4-33",
         expression: "会議",
         reading: "かいぎ",
         definition: "集まって相談すること。",
@@ -2609,7 +2609,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d835",
+        id: "4-34",
         expression: "映画",
         reading: "えいが",
         definition: "活動写真、フィルム。",
@@ -2624,7 +2624,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d836",
+        id: "4-35",
         expression: "毎朝",
         reading: "まいあさ",
         definition: "毎日の朝。",
@@ -2639,7 +2639,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d837",
+        id: "4-36",
         expression: "毎晩",
         reading: "まいばん",
         definition: "毎日の晩。",
@@ -2654,7 +2654,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d838",
+        id: "4-37",
         expression: "毎日",
         reading: "まいにち",
         definition: "すべての日。",
@@ -2669,7 +2669,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d839",
+        id: "4-38",
         expression: "月曜日",
         reading: "げつようび",
         definition: "月を冠する曜日。",
@@ -2684,7 +2684,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d840",
+        id: "4-39",
         expression: "火曜日",
         reading: "かようび",
         definition: "火を冠する曜日。",
@@ -2699,7 +2699,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d841",
+        id: "4-40",
         expression: "水曜日",
         reading: "すいようび",
         definition: "水を冠する曜日。",
@@ -2714,7 +2714,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d842",
+        id: "4-41",
         expression: "木曜日",
         reading: "もくようび",
         definition: "木を冠する曜日。",
@@ -2729,7 +2729,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d843",
+        id: "4-42",
         expression: "金曜日",
         reading: "きんようび",
         definition: "金を冠する曜日。",
@@ -2744,7 +2744,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d844",
+        id: "4-43",
         expression: "土曜日",
         reading: "どようび",
         definition: "土を冠する曜日。",
@@ -2759,7 +2759,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d845",
+        id: "4-44",
         expression: "日曜日",
         reading: "にちようび",
         definition: "日を冠する曜日。",
@@ -2774,7 +2774,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d846",
+        id: "4-45",
         expression: "何曜日",
         reading: "なんようび",
         definition: "曜日を尋ねる疑問詞。",
@@ -2789,7 +2789,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d847",
+        id: "4-46",
         expression: "〜から",
         reading: "〜から",
         definition: "開始点を示す助詞。",
@@ -2804,7 +2804,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d848",
+        id: "4-47",
         expression: "〜まで",
         reading: "〜まで",
         definition: "終了点を示す助詞。",
@@ -2819,7 +2819,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d849",
+        id: "4-48",
         expression: "〜と〜",
         reading: "〜と〜",
         definition: "二つの名詞を対等につなぐ助詞。",
@@ -2834,7 +2834,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d850",
+        id: "4-49",
         expression: "番号",
         reading: "ばんごう",
         definition: "順序や区別のためにつける数字。",
@@ -2849,7 +2849,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d851",
+        id: "4-50",
         expression: "何番",
         reading: "なんばん",
         definition: "番号を尋ねる疑問詞。",
@@ -2864,7 +2864,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d852",
+        id: "4-51",
         expression: "そちら",
         reading: "そちら",
         definition:
@@ -2880,7 +2880,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d853",
+        id: "4-52",
         expression: "大変ですね。",
         reading: "たいへんですね",
         definition: "相手の苦労や努力をねぎらう言葉。",
@@ -2895,7 +2895,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d854",
+        id: "4-53",
         expression: "ニューヨーク",
         reading: "ニューヨーク",
         definition: "アメリカ合衆国の都市名。",
@@ -2910,7 +2910,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d855",
+        id: "4-54",
         expression: "北京",
         reading: "ペキン",
         definition: "中華人民共和国の首都。",
@@ -2925,7 +2925,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d856",
+        id: "4-55",
         expression: "ロサンゼルス",
         reading: "ロサンゼルス",
         definition: "アメリカ合衆国の都市名。",
@@ -2940,7 +2940,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9d857",
+        id: "4-56",
         expression: "ロンドン",
         reading: "ロンドン",
         definition: "イギリスの首都。",
@@ -2957,7 +2957,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e005",
+    id: "5",
     title: {
       en: "Lesson 5",
       zh: "第五課",
@@ -2970,7 +2970,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e801",
+        id: "5-0",
         expression: "行きます",
         reading: "いきます",
         definition: "話者から離れた所へ移動する。",
@@ -2985,7 +2985,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e802",
+        id: "5-1",
         expression: "来ます",
         reading: "きます",
         definition: "話者のいる所や話題の場所へ移動する。",
@@ -3000,7 +3000,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e803",
+        id: "5-2",
         expression: "帰ります",
         reading: "かえります",
         definition: "自宅や故郷などのもとの場所へ戻る。",
@@ -3015,7 +3015,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e804",
+        id: "5-3",
         expression: "学校",
         reading: "がっこう",
         definition: "教育を行う機関。",
@@ -3030,7 +3030,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e805",
+        id: "5-4",
         expression: "スーパー",
         reading: "スーパー",
         definition: "食料品や日用品を売る大型店舗。",
@@ -3045,7 +3045,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e806",
+        id: "5-5",
         expression: "駅",
         reading: "えき",
         definition: "列車が発着する場所。",
@@ -3060,7 +3060,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e807",
+        id: "5-6",
         expression: "飛行機",
         reading: "ひこうき",
         definition: "空を飛ぶ乗り物。",
@@ -3075,7 +3075,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e808",
+        id: "5-7",
         expression: "船",
         reading: "ふね",
         definition: "水上を航行する乗り物。",
@@ -3090,7 +3090,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e809",
+        id: "5-8",
         expression: "電車",
         reading: "でんしゃ",
         definition: "電気で走る鉄道車両。",
@@ -3105,7 +3105,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e810",
+        id: "5-9",
         expression: "地下鉄",
         reading: "ちかてつ",
         definition: "地下を走る鉄道。",
@@ -3120,7 +3120,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e811",
+        id: "5-10",
         expression: "新幹線",
         reading: "しんかんせん",
         definition: "日本の高速鉄道。",
@@ -3135,7 +3135,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e812",
+        id: "5-11",
         expression: "バス",
         reading: "バス",
         definition: "乗合自動車。",
@@ -3150,7 +3150,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e813",
+        id: "5-12",
         expression: "タクシー",
         reading: "タクシー",
         definition: "乗客を運ぶための営業用の自動車。",
@@ -3165,7 +3165,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e814",
+        id: "5-13",
         expression: "自転車",
         reading: "じてんしゃ",
         definition: "ペダルをこいで進む乗り物。",
@@ -3180,7 +3180,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e815",
+        id: "5-14",
         expression: "歩いて",
         reading: "あるいて",
         definition: "歩くという手段で移動する。",
@@ -3195,7 +3195,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e816",
+        id: "5-15",
         expression: "人",
         reading: "ひと",
         definition: "人間。",
@@ -3210,7 +3210,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e817",
+        id: "5-16",
         expression: "友達",
         reading: "ともだち",
         definition: "親しい間柄の人。",
@@ -3225,7 +3225,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e818",
+        id: "5-17",
         expression: "彼",
         reading: "かれ",
         definition: "あの男の人。「ボーイフレンド」の意味もある。",
@@ -3240,7 +3240,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e819",
+        id: "5-18",
         expression: "彼女",
         reading: "かのじょ",
         definition: "あの女の人。「ガールフレンド」の意味もある。",
@@ -3255,7 +3255,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e820",
+        id: "5-19",
         expression: "家族",
         reading: "かぞく",
         definition: "夫婦や親子など、血縁・婚姻で結ばれた集団。",
@@ -3270,7 +3270,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e821",
+        id: "5-20",
         expression: "一人で",
         reading: "ひとりで",
         definition: "他の人と一緒でなく、単独で。",
@@ -3285,7 +3285,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e822",
+        id: "5-21",
         expression: "先週",
         reading: "せんしゅう",
         definition: "今週より前の週。",
@@ -3300,7 +3300,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e823",
+        id: "5-22",
         expression: "今週",
         reading: "こんしゅう",
         definition: "現在の週。",
@@ -3315,7 +3315,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e824",
+        id: "5-23",
         expression: "来週",
         reading: "らいしゅう",
         definition: "今週より後の週。",
@@ -3330,7 +3330,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e825",
+        id: "5-24",
         expression: "先月",
         reading: "せんげつ",
         definition: "今月より前の月。",
@@ -3345,7 +3345,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e826",
+        id: "5-25",
         expression: "今月",
         reading: "こんげつ",
         definition: "現在の月。",
@@ -3360,7 +3360,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e827",
+        id: "5-26",
         expression: "来月",
         reading: "らいげつ",
         definition: "今月より後の月。",
@@ -3375,7 +3375,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e828",
+        id: "5-27",
         expression: "去年",
         reading: "きょねん",
         definition: "今年より前の年。",
@@ -3390,7 +3390,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e829",
+        id: "5-28",
         expression: "今年",
         reading: "ことし",
         definition: "現在の年。",
@@ -3405,7 +3405,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e830",
+        id: "5-29",
         expression: "来年",
         reading: "らいねん",
         definition: "今年より後の年。",
@@ -3420,7 +3420,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e831",
+        id: "5-30",
         expression: "〜年",
         reading: "〜ねん",
         definition: "年数を表す助数詞。",
@@ -3435,7 +3435,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e832",
+        id: "5-31",
         expression: "何年",
         reading: "なんねん",
         definition: "年数を尋ねる疑問詞。",
@@ -3450,7 +3450,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e833",
+        id: "5-32",
         expression: "〜月",
         reading: "〜がつ",
         definition: "月の名称を表す助数詞。",
@@ -3465,7 +3465,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e834",
+        id: "5-33",
         expression: "何月",
         reading: "なんがつ",
         definition: "月の名称を尋ねる疑問詞。",
@@ -3480,7 +3480,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e835",
+        id: "5-34",
         expression: "1日",
         reading: "ついたち",
         definition: "月の最初の日。",
@@ -3495,7 +3495,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e836",
+        id: "5-35",
         expression: "2日",
         reading: "ふつか",
         definition: "月の2日。または2日間。",
@@ -3510,7 +3510,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e837",
+        id: "5-36",
         expression: "3日",
         reading: "みっか",
         definition: "月の3日。または3日間。",
@@ -3525,7 +3525,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e838",
+        id: "5-37",
         expression: "4日",
         reading: "よっか",
         definition: "月の4日。または4日間。",
@@ -3540,7 +3540,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e839",
+        id: "5-38",
         expression: "5日",
         reading: "いつか",
         definition: "月の5日。または5日間。",
@@ -3555,7 +3555,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e840",
+        id: "5-39",
         expression: "6日",
         reading: "むいか",
         definition: "月の6日。または6日間。",
@@ -3570,7 +3570,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e841",
+        id: "5-40",
         expression: "7日",
         reading: "なのか",
         definition: "月の7日。または7日間。",
@@ -3585,7 +3585,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e842",
+        id: "5-41",
         expression: "8日",
         reading: "ようか",
         definition: "月の8日。または8日間。",
@@ -3600,7 +3600,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e843",
+        id: "5-42",
         expression: "9日",
         reading: "ここのか",
         definition: "月の9日。または9日間。",
@@ -3615,7 +3615,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e844",
+        id: "5-43",
         expression: "10日",
         reading: "とおか",
         definition: "月の10日。または10日間。",
@@ -3630,7 +3630,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e845",
+        id: "5-44",
         expression: "14日",
         reading: "じゅうよっか",
         definition: "月の14日。または14日間。",
@@ -3645,7 +3645,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e846",
+        id: "5-45",
         expression: "20日",
         reading: "はつか",
         definition: "月の20日。または20日間。",
@@ -3660,7 +3660,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e847",
+        id: "5-46",
         expression: "24日",
         reading: "にじゅうよっか",
         definition: "月の24日。または24日間。",
@@ -3675,7 +3675,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e848",
+        id: "5-47",
         expression: "〜日",
         reading: "〜にち",
         definition: "日付や日数を表す助数詞。",
@@ -3690,7 +3690,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e849",
+        id: "5-48",
         expression: "何日",
         reading: "なんにち",
         definition: "日付や日数を尋ねる疑問詞。",
@@ -3705,7 +3705,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e850",
+        id: "5-49",
         expression: "いつ",
         reading: "いつ",
         definition: "時を尋ねる疑問詞。",
@@ -3720,7 +3720,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e851",
+        id: "5-50",
         expression: "誕生日",
         reading: "たんじょうび",
         definition: "生まれた日。",
@@ -3735,7 +3735,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e852",
+        id: "5-51",
         expression: "どうもありがとうございました",
         reading: "どうもありがとうございました",
         definition: "非常に丁寧な感謝の表現。",
@@ -3750,7 +3750,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e853",
+        id: "5-52",
         expression: "どういたしまして",
         reading: "どういたしまして",
         definition: "感謝の言葉に対しての返事。",
@@ -3765,7 +3765,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e854",
+        id: "5-53",
         expression: "〜番線",
         reading: "〜ばんせん",
         definition: "駅のホームの番号を表す助数詞。",
@@ -3780,7 +3780,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e855",
+        id: "5-54",
         expression: "次の",
         reading: "つぎの",
         definition: "順序で一つ後の。",
@@ -3795,7 +3795,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e856",
+        id: "5-55",
         expression: "普通",
         reading: "ふつう",
         definition: "通常の、停車駅の多い列車。",
@@ -3810,7 +3810,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e857",
+        id: "5-56",
         expression: "急行",
         reading: "きゅうこう",
         definition: "停車駅が少ない速い列車。",
@@ -3825,7 +3825,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e858",
+        id: "5-57",
         expression: "特急",
         reading: "とっきゅう",
         definition: "特に速い列車。",
@@ -3842,7 +3842,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e006",
+    id: "6",
     title: {
       en: "Lesson 6",
       zh: "第六課",
@@ -3855,7 +3855,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e801",
+        id: "6-0",
         expression: "食べます",
         reading: "たべます",
         definition: "食物を口に入れて飲み込む。",
@@ -3870,7 +3870,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e802",
+        id: "6-1",
         expression: "飲みます",
         reading: "のみます",
         definition: "液体を口に入れて体内に入れる。",
@@ -3885,7 +3885,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e803",
+        id: "6-2",
         expression: "吸います",
         reading: "すいます",
         definition: "空気や煙などを鼻や口から吸い込む。",
@@ -3900,7 +3900,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e804",
+        id: "6-3",
         expression: "見ます",
         reading: "みます",
         definition: "目で対象を捉える。",
@@ -3915,7 +3915,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e805",
+        id: "6-4",
         expression: "聞きます",
         reading: "ききます",
         definition: "音を耳で捉える。または尋ねる。",
@@ -3930,7 +3930,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e806",
+        id: "6-5",
         expression: "読みます",
         reading: "よみます",
         definition: "文字を音声に出したり意味を理解したりする。",
@@ -3945,7 +3945,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e807",
+        id: "6-6",
         expression: "書きます",
         reading: "かきます",
         definition: "文字や文章などを記す。",
@@ -3960,7 +3960,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e808",
+        id: "6-7",
         expression: "買います",
         reading: "かいます",
         definition: "金銭を払って手に入れる。",
@@ -3975,7 +3975,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e809",
+        id: "6-8",
         expression: "撮ります",
         reading: "とります",
         definition: "写真や動画を記録する。",
@@ -3990,7 +3990,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e810",
+        id: "6-9",
         expression: "します",
         reading: "します",
         definition: "行う、する。動作を表す。",
@@ -4005,7 +4005,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e811",
+        id: "6-10",
         expression: "会います",
         reading: "あいます",
         definition: "人と面会する。助詞 $\text{に (ni)}$ と共に使う。",
@@ -4020,7 +4020,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e812",
+        id: "6-11",
         expression: "ごはん",
         reading: "ごはん",
         definition: "調理された米飯。食事の総称。",
@@ -4035,7 +4035,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e813",
+        id: "6-12",
         expression: "朝ごはん",
         reading: "あさごはん",
         definition: "朝の食事。",
@@ -4050,7 +4050,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e814",
+        id: "6-13",
         expression: "昼ごはん",
         reading: "ひるごはん",
         definition: "昼の食事。",
@@ -4065,7 +4065,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e815",
+        id: "6-14",
         expression: "晩ごはん",
         reading: "ばんごはん",
         definition: "晩の食事。",
@@ -4080,7 +4080,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e816",
+        id: "6-15",
         expression: "パン",
         reading: "パン",
         definition: "小麦粉などを焼いて作った食物。",
@@ -4095,7 +4095,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e817",
+        id: "6-16",
         expression: "卵",
         reading: "たまご",
         definition: "鳥や魚の産む丸いもの。特に鶏卵。",
@@ -4110,7 +4110,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e818",
+        id: "6-17",
         expression: "肉",
         reading: "にく",
         definition: "動物の身。",
@@ -4125,7 +4125,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e819",
+        id: "6-18",
         expression: "魚",
         reading: "さかな",
         definition: "水中に生息する脊椎動物。",
@@ -4140,7 +4140,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e820",
+        id: "6-19",
         expression: "野菜",
         reading: "やさい",
         definition: "食用にする草本植物。",
@@ -4155,7 +4155,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e821",
+        id: "6-20",
         expression: "果物",
         reading: "くだもの",
         definition: "木の果実で食用になるもの。",
@@ -4170,7 +4170,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e822",
+        id: "6-21",
         expression: "水",
         reading: "みず",
         definition: "液体のH2O。",
@@ -4185,7 +4185,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e823",
+        id: "6-22",
         expression: "お茶",
         reading: "おちゃ",
         definition: "茶の葉を煮出した飲み物。日本茶。",
@@ -4200,7 +4200,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e824",
+        id: "6-23",
         expression: "紅茶",
         reading: "こうちゃ",
         definition: "発酵させた茶葉を用いた飲み物。",
@@ -4215,7 +4215,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e825",
+        id: "6-24",
         expression: "牛乳(ミルク)",
         reading: "ぎゅうにゅう(ミルク)",
         definition: "牛の乳。",
@@ -4230,7 +4230,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e826",
+        id: "6-25",
         expression: "ジュース",
         reading: "ジュース",
         definition: "果物や野菜の搾り汁。",
@@ -4245,7 +4245,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e827",
+        id: "6-26",
         expression: "ビール",
         reading: "ビール",
         definition: "麦芽などを発酵させて作った酒。",
@@ -4260,7 +4260,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e828",
+        id: "6-27",
         expression: "お酒",
         reading: "おさけ",
         definition: "酒類の総称。",
@@ -4275,7 +4275,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e829",
+        id: "6-28",
         expression: "たばこ",
         reading: "たばこ",
         definition: "喫煙用のタバコ。",
@@ -4290,7 +4290,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e830",
+        id: "6-29",
         expression: "手紙",
         reading: "てがみ",
         definition: "文章で伝える書面。",
@@ -4305,7 +4305,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e831",
+        id: "6-30",
         expression: "レポート",
         reading: "レポート",
         definition: "報告書、研究成果などをまとめた文書。",
@@ -4320,7 +4320,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e832",
+        id: "6-31",
         expression: "写真",
         reading: "しゃしん",
         definition: "カメラで写し取った画像。",
@@ -4335,7 +4335,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e833",
+        id: "6-32",
         expression: "ビデオ",
         reading: "ビデオ",
         definition: "映像を記録・再生する技術または機器。",
@@ -4350,7 +4350,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e834",
+        id: "6-33",
         expression: "店",
         reading: "みせ",
         definition: "物を売買する場所。",
@@ -4365,7 +4365,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e835",
+        id: "6-34",
         expression: "庭",
         reading: "にわ",
         definition: "家屋に付属した空き地。",
@@ -4380,7 +4380,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e836",
+        id: "6-35",
         expression: "宿題",
         reading: "しゅくだい",
         definition: "学生に課せられた家庭での学習課題。",
@@ -4395,7 +4395,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e837",
+        id: "6-36",
         expression: "テニス",
         reading: "テニス",
         definition: "ラケットを使う球技。",
@@ -4410,7 +4410,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e838",
+        id: "6-37",
         expression: "サッカー",
         reading: "サッカー",
         definition: "足でボールを扱う球技。",
@@ -4425,7 +4425,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e839",
+        id: "6-38",
         expression: "お花見",
         reading: "おはなみ",
         definition: "桜などの花を見て楽しむ行事。",
@@ -4440,7 +4440,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e840",
+        id: "6-39",
         expression: "何",
         reading: "なに",
         definition:
@@ -4456,7 +4456,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e841",
+        id: "6-40",
         expression: "いっしょに",
         reading: "いっしょに",
         definition: "共に、同時に。",
@@ -4471,7 +4471,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e842",
+        id: "6-41",
         expression: "ちょっと",
         reading: "ちょっと",
         definition: "少しの時間。誘いを断る時の婉曲的な表現。",
@@ -4486,7 +4486,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e843",
+        id: "6-42",
         expression: "いつも",
         reading: "いつも",
         definition: "絶えず、常に。",
@@ -4501,7 +4501,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e844",
+        id: "6-43",
         expression: "ときどき",
         reading: "ときどき",
         definition: "時々、たまに。",
@@ -4516,7 +4516,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e845",
+        id: "6-44",
         expression: "それから",
         reading: "それから",
         definition: "その後、さらに。",
@@ -4531,7 +4531,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e846",
+        id: "6-45",
         expression: "ええ",
         reading: "ええ",
         definition: "「はい」よりやや砕けた肯定の返事。",
@@ -4546,7 +4546,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e847",
+        id: "6-46",
         expression: "いいですね。",
         reading: "いいですね",
         definition: "相手の提案に同意や感嘆を示す。",
@@ -4561,7 +4561,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e848",
+        id: "6-47",
         expression: "わかりました。",
         reading: "わかりました",
         definition: "相手の言ったことを理解したことを伝える。",
@@ -4576,7 +4576,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e849",
+        id: "6-48",
         expression: "何ですか。",
         reading: "なんですか",
         definition:
@@ -4592,7 +4592,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9e850",
+        id: "6-49",
         expression: "じゃ、また[あした]。",
         reading: "じゃ、また[あした]",
         definition: "別れ際のカジュアルな挨拶。",
@@ -4609,7 +4609,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f007",
+    id: "7",
     title: {
       en: "Lesson 7",
       zh: "第七課",
@@ -4622,7 +4622,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        id: "7-0",
         expression: "切ります",
         reading: "きります",
         definition: "刃物などで断ち分ける。",
@@ -4637,7 +4637,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        id: "7-1",
         expression: "送ります",
         reading: "おくります",
         definition: "手紙や荷物などを先方へ届ける。",
@@ -4652,7 +4652,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        id: "7-2",
         expression: "あげます",
         reading: "あげます",
         definition: "目下の人や対等な人に物を与える。",
@@ -4667,7 +4667,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        id: "7-3",
         expression: "もらいます",
         reading: "もらいます",
         definition: "目下の人や対等な人から物を受け取る。",
@@ -4682,7 +4682,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        id: "7-4",
         expression: "貸します",
         reading: "かします",
         definition: "所有物を一時的に他人に使わせる。",
@@ -4697,7 +4697,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        id: "7-5",
         expression: "借ります",
         reading: "かります",
         definition: "他人の所有物を一時的に使うために受け取る。",
@@ -4712,7 +4712,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        id: "7-6",
         expression: "教えます",
         reading: "おしえます",
         definition: "知識や技能を相手に伝える。",
@@ -4727,7 +4727,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        id: "7-7",
         expression: "習います",
         reading: "ならいます",
         definition: "知識や技能を教えを受けて身につける。",
@@ -4742,7 +4742,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        id: "7-8",
         expression: "かけます",
         reading: "かけます",
         definition: "電話で相手を呼び出す。",
@@ -4757,7 +4757,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        id: "7-9",
         expression: "手",
         reading: "て",
         definition: "腕の先端部。",
@@ -4772,7 +4772,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        id: "7-10",
         expression: "はし",
         reading: "はし",
         definition: "食物を挟んで口に運ぶ道具。",
@@ -4787,7 +4787,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        id: "7-11",
         expression: "スプーン",
         reading: "スプーン",
         definition: "食物をすくう西洋の道具。",
@@ -4802,7 +4802,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        id: "7-12",
         expression: "ナイフ",
         reading: "ナイフ",
         definition: "刃物のこと。",
@@ -4817,7 +4817,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        id: "7-13",
         expression: "フォーク",
         reading: "フォーク",
         definition: "食物を刺して食べる西洋の道具。",
@@ -4832,7 +4832,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        id: "7-14",
         expression: "はさみ",
         reading: "はさみ",
         definition: "物を切断する道具。",
@@ -4847,7 +4847,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        id: "7-15",
         expression: "パソコン",
         reading: "パソコン",
         definition: "パーソナルコンピューターの略。",
@@ -4862,7 +4862,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        id: "7-16",
         expression: "ケータイ",
         reading: "ケータイ",
         definition: "携帯電話の略。",
@@ -4877,7 +4877,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        id: "7-17",
         expression: "メール",
         reading: "メール",
         definition: "電子メールの略。",
@@ -4892,7 +4892,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        id: "7-18",
         expression: "年賀状",
         reading: "ねんがじょう",
         definition: "新年の挨拶状。",
@@ -4907,7 +4907,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        id: "7-19",
         expression: "パンチ",
         reading: "パンチ",
         definition: "穴を開ける文房具。",
@@ -4922,7 +4922,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        id: "7-20",
         expression: "ホッチキス",
         reading: "ホッチキス",
         definition: "書類などを綴じる文房具。",
@@ -4937,7 +4937,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        id: "7-21",
         expression: "セロテープ",
         reading: "セロテープ",
         definition: "透明な粘着テープ。",
@@ -4952,7 +4952,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        id: "7-22",
         expression: "消しゴム",
         reading: "けしゴム",
         definition: "鉛筆の跡などを消す道具。",
@@ -4967,7 +4967,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        id: "7-23",
         expression: "紙",
         reading: "かみ",
         definition: "文字を書いたり包んだりする薄いもの。",
@@ -4982,7 +4982,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        id: "7-24",
         expression: "花",
         reading: "はな",
         definition: "植物の美しく咲く部分。",
@@ -4997,7 +4997,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        id: "7-25",
         expression: "シャツ",
         reading: "シャツ",
         definition: "肌着や上着として着る衣服。",
@@ -5012,7 +5012,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        id: "7-26",
         expression: "プレゼント",
         reading: "プレゼント",
         definition: "贈答品、贈り物。",
@@ -5027,7 +5027,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        id: "7-27",
         expression: "荷物",
         reading: "にもつ",
         definition: "運ぶべき品物、手荷物。",
@@ -5042,7 +5042,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        id: "7-28",
         expression: "お金",
         reading: "おかね",
         definition: "貨幣。",
@@ -5057,7 +5057,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        id: "7-29",
         expression: "切符",
         reading: "きっぷ",
         definition: "乗り物や入場のための券。",
@@ -5072,7 +5072,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        id: "7-30",
         expression: "クリスマス",
         reading: "クリスマス",
         definition: "キリストの降誕を祝う祭り。",
@@ -5087,7 +5087,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        id: "7-31",
         expression: "父",
         reading: "ちち",
         definition: "自分の父親（他人との会話で使う）。",
@@ -5102,7 +5102,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        id: "7-32",
         expression: "母",
         reading: "はは",
         definition: "自分の母親（他人との会話で使う）。",
@@ -5117,7 +5117,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        id: "7-33",
         expression: "お父さん",
         reading: "おとうさん",
         definition: "他人の父親、または自分の父親への呼びかけ。",
@@ -5132,7 +5132,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        id: "7-34",
         expression: "お母さん",
         reading: "おかあさん",
         definition: "他人の母親、または自分の母親への呼びかけ。",
@@ -5147,7 +5147,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        id: "7-35",
         expression: "もう",
         reading: "もう",
         definition: "動作が完了したことを示す副詞。",
@@ -5162,7 +5162,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        id: "7-36",
         expression: "まだ",
         reading: "まだ",
         definition: "動作が未完了であることを示す副詞。",
@@ -5177,7 +5177,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        id: "7-37",
         expression: "これから",
         reading: "これから",
         definition: "今から、今後。",
@@ -5192,7 +5192,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        id: "7-38",
         expression: "いらっしゃい",
         reading: "いらっしゃい",
         definition: "人を招き入れる時の歓迎の挨拶。",
@@ -5207,7 +5207,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        id: "7-39",
         expression: "どうぞお上がりください",
         reading: "どうぞおあがりください",
         definition: "家の中に入るように促す丁寧な表現。",
@@ -5222,7 +5222,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        id: "7-40",
         expression: "失礼します",
         reading: "しつれいします",
         definition: "他人の家に入る時などに述べる挨拶。",
@@ -5237,7 +5237,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        id: "7-41",
         expression: "〜はいかがですか",
         reading: "〜は いかがですか",
         definition: "「どうですか」の丁寧な表現。勧誘する時に使う。",
@@ -5252,7 +5252,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        id: "7-42",
         expression: "いただきます",
         reading: "いただきます",
         definition: "食事を始める時の挨拶。",
@@ -5267,7 +5267,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        id: "7-43",
         expression: "ごちそうさま[でした]",
         reading: "ごちそうさま[でした]",
         definition: "食事を終えた時の感謝の挨拶。",
@@ -5282,7 +5282,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f845",
+        id: "7-44",
         expression: "〜、すてきですね。",
         reading: "〜、すてきですね",
         definition: "美しいものや素晴らしいことへの感嘆を表す。",
@@ -5299,7 +5299,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f008",
+    id: "8",
     title: {
       en: "Lesson 8",
       zh: "第八課",
@@ -5312,7 +5312,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        id: "8-0",
         expression: "ハンサム[な]",
         reading: "ハンサム[な]",
         definition: "顔立ちが整って美しい。",
@@ -5327,7 +5327,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        id: "8-1",
         expression: "きれい[な]",
         reading: "きれい[な]",
         definition: "清潔で美しい。",
@@ -5342,7 +5342,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        id: "8-2",
         expression: "静か[な]",
         reading: "しずか[な]",
         definition: "音や動きがなく、落ち着いている。",
@@ -5357,7 +5357,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        id: "8-3",
         expression: "にぎやか[な]",
         reading: "にぎやか[な]",
         definition: "人や車が多く、活気がある。",
@@ -5372,7 +5372,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        id: "8-4",
         expression: "有名[な]",
         reading: "ゆうめい[な]",
         definition: "広く知られている。",
@@ -5387,7 +5387,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        id: "8-5",
         expression: "親切[な]",
         reading: "しんせつ[な]",
         definition:
@@ -5403,7 +5403,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        id: "8-6",
         expression: "元気[な]",
         reading: "げんき[な]",
         definition: "健康で活発な様子。",
@@ -5418,7 +5418,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        id: "8-7",
         expression: "暇[な]",
         reading: "ひま[な]",
         definition: "用事がなく、時間がある。",
@@ -5433,7 +5433,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        id: "8-8",
         expression: "便利[な]",
         reading: "べんり[な]",
         definition: "都合がよく、役に立つ。",
@@ -5448,7 +5448,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        id: "8-9",
         expression: "すてき[な]",
         reading: "すてき[な]",
         definition: "非常に素晴らしく、魅力的である。",
@@ -5463,7 +5463,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        id: "8-10",
         expression: "大きい",
         reading: "おおきい",
         definition: "規模や量が多い。",
@@ -5478,7 +5478,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        id: "8-11",
         expression: "小さい",
         reading: "ちいさい",
         definition: "規模や量が少ない。",
@@ -5493,7 +5493,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        id: "8-12",
         expression: "新しい",
         reading: "あたらしい",
         definition: "時間が経っていない。古くない。",
@@ -5508,7 +5508,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        id: "8-13",
         expression: "古い",
         reading: "ふるい",
         definition: "時間が経っている。新しくない。",
@@ -5523,7 +5523,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        id: "8-14",
         expression: "いい (良い)",
         reading: "いい (よい)",
         definition: "優れている、望ましい。",
@@ -5538,7 +5538,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        id: "8-15",
         expression: "悪い",
         reading: "わるい",
         definition: "劣っている、望ましくない。",
@@ -5553,7 +5553,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        id: "8-16",
         expression: "暑い",
         reading: "あつい",
         definition: "気温が高い。",
@@ -5568,7 +5568,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        id: "8-17",
         expression: "熱い",
         reading: "あつい",
         definition: "温度が高い。",
@@ -5583,7 +5583,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        id: "8-18",
         expression: "寒い",
         reading: "さむい",
         definition: "気温が低い。",
@@ -5598,7 +5598,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        id: "8-19",
         expression: "冷たい",
         reading: "つめたい",
         definition: "温度が低い。",
@@ -5613,7 +5613,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        id: "8-20",
         expression: "難しい",
         reading: "むずかしい",
         definition: "理解や実行が容易でない。",
@@ -5628,7 +5628,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        id: "8-21",
         expression: "易しい",
         reading: "やさしい",
         definition: "理解や実行が容易である。",
@@ -5643,7 +5643,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        id: "8-22",
         expression: "高い",
         reading: "たかい",
         definition: "値段や位置が高い。",
@@ -5658,7 +5658,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        id: "8-23",
         expression: "安い",
         reading: "やすい",
         definition: "値段が低い。",
@@ -5673,7 +5673,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        id: "8-24",
         expression: "低い",
         reading: "ひくい",
         definition: "位置が低い。背丈が低い。",
@@ -5688,7 +5688,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        id: "8-25",
         expression: "おもしろい",
         reading: "おもしろい",
         definition: "興味深い、おかしい。",
@@ -5703,7 +5703,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        id: "8-26",
         expression: "おいしい",
         reading: "おいしい",
         definition: "味がよい。",
@@ -5718,7 +5718,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        id: "8-27",
         expression: "忙しい",
         reading: "いそがしい",
         definition: "すべきことが多く、手があかない。",
@@ -5733,7 +5733,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        id: "8-28",
         expression: "楽しい",
         reading: "たのしい",
         definition: "心が満たされて、愉快である。",
@@ -5748,7 +5748,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        id: "8-29",
         expression: "白い",
         reading: "しろい",
         definition: "雪のような色。",
@@ -5763,7 +5763,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        id: "8-30",
         expression: "黒い",
         reading: "くろい",
         definition: "炭のような色。",
@@ -5778,7 +5778,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        id: "8-31",
         expression: "赤い",
         reading: "あかい",
         definition: "血のような色。",
@@ -5793,7 +5793,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        id: "8-32",
         expression: "青い",
         reading: "あおい",
         definition: "空や海のような色。",
@@ -5808,7 +5808,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        id: "8-33",
         expression: "桜",
         reading: "さくら",
         definition: "春に美しい花を咲かせる木。",
@@ -5823,7 +5823,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        id: "8-34",
         expression: "山",
         reading: "やま",
         definition: "地表が高く盛り上がった所。",
@@ -5838,7 +5838,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        id: "8-35",
         expression: "町",
         reading: "まち",
         definition: "都市や村より大きな人の集住地。",
@@ -5853,7 +5853,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        id: "8-36",
         expression: "食べ物",
         reading: "たべもの",
         definition: "食用のもの、食品。",
@@ -5868,7 +5868,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        id: "8-37",
         expression: "所",
         reading: "ところ",
         definition: "場所、場所を示す語。",
@@ -5883,7 +5883,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        id: "8-38",
         expression: "寮",
         reading: "りょう",
         definition: "学生や従業員のための共同宿泊施設。",
@@ -5898,7 +5898,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        id: "8-39",
         expression: "レストラン",
         reading: "レストラン",
         definition: "食事を提供する飲食店。",
@@ -5913,7 +5913,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        id: "8-40",
         expression: "生活",
         reading: "せいかつ",
         definition: "日々の暮らし。",
@@ -5928,7 +5928,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        id: "8-41",
         expression: "お仕事",
         reading: "おしごと",
         definition: "職業、仕事（丁寧語）。",
@@ -5943,7 +5943,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        id: "8-42",
         expression: "どう",
         reading: "どう",
         definition: "状態や様子を尋ねる疑問詞。",
@@ -5958,7 +5958,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        id: "8-43",
         expression: "どんな",
         reading: "どんな",
         definition: "種類や性質を尋ねる連体詞。",
@@ -5973,7 +5973,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f845",
+        id: "8-44",
         expression: "とても",
         reading: "とても",
         definition: "程度がはなはだしい。",
@@ -5988,7 +5988,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f846",
+        id: "8-45",
         expression: "あまり",
         reading: "あまり",
         definition: "程度が低いことを否定的に言う時に使う。",
@@ -6003,7 +6003,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f847",
+        id: "8-46",
         expression: "そして",
         reading: "そして",
         definition: "前の事柄に続けて後の事柄を述べる接続詞。",
@@ -6018,7 +6018,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f848",
+        id: "8-47",
         expression: "〜が、〜",
         reading: "〜が、〜",
         definition: "前後の事柄を対比・逆接でつなぐ接続助詞。",
@@ -6035,7 +6035,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f009",
+    id: "9",
     title: {
       en: "Lesson 9",
       zh: "第九課",
@@ -6048,7 +6048,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        id: "9-0",
         expression: "わかります",
         reading: "わかります",
         definition: "理解する、意味が分かる。",
@@ -6063,7 +6063,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        id: "9-1",
         expression: "あります",
         reading: "あります",
         definition: "（無生物が）存在する、所有する。",
@@ -6078,7 +6078,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        id: "9-2",
         expression: "好き[な]",
         reading: "すき[な]",
         definition: "好ましい、気に入っている。",
@@ -6093,7 +6093,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        id: "9-3",
         expression: "嫌い[な]",
         reading: "きらい[な]",
         definition: "好まない、憎い、厭（いと）わしい。",
@@ -6108,7 +6108,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        id: "9-4",
         expression: "上手[な]",
         reading: "じょうず[な]",
         definition: "技能が優れている。（自分のことには使わない）",
@@ -6123,7 +6123,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        id: "9-5",
         expression: "下手[な]",
         reading: "へた[な]",
         definition: "技能が劣っている。（自分のことにも使う）",
@@ -6138,7 +6138,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        id: "9-6",
         expression: "飲み物",
         reading: "のみもの",
         definition: "飲用するもの。",
@@ -6153,7 +6153,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        id: "9-7",
         expression: "料理",
         reading: "りょうり",
         definition: "食材を加工して食べ物を作ること。また、その食べ物。",
@@ -6168,7 +6168,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        id: "9-8",
         expression: "スポーツ",
         reading: "スポーツ",
         definition: "身体を動かす競技や活動。",
@@ -6183,7 +6183,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        id: "9-9",
         expression: "野球",
         reading: "やきゅう",
         definition: "ボールとバットを使う球技。",
@@ -6198,7 +6198,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        id: "9-10",
         expression: "ダンス",
         reading: "ダンス",
         definition: "音楽に合わせて体を動かすこと。",
@@ -6213,7 +6213,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        id: "9-11",
         expression: "旅行",
         reading: "りょこう",
         definition: "家を離れて他の土地へ行くこと。",
@@ -6228,7 +6228,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        id: "9-12",
         expression: "音楽",
         reading: "おんがく",
         definition: "音を組み立てて表現する芸術。",
@@ -6243,7 +6243,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        id: "9-13",
         expression: "歌",
         reading: "うた",
         definition: "歌詞をつけて歌うもの。",
@@ -6258,7 +6258,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        id: "9-14",
         expression: "クラシック",
         reading: "クラシック",
         definition: "西洋の伝統的な芸術音楽。",
@@ -6273,7 +6273,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        id: "9-15",
         expression: "ジャズ",
         reading: "ジャズ",
         definition: "アメリカで生まれた音楽ジャンル。",
@@ -6288,7 +6288,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        id: "9-16",
         expression: "コンサート",
         reading: "コンサート",
         definition: "音楽の演奏会。",
@@ -6303,7 +6303,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        id: "9-17",
         expression: "カラオケ",
         reading: "カラオケ",
         definition: "伴奏に合わせて歌う娯楽。",
@@ -6318,7 +6318,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        id: "9-18",
         expression: "歌舞伎",
         reading: "かぶき",
         definition: "日本の伝統的な舞台芸術。",
@@ -6333,7 +6333,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        id: "9-19",
         expression: "絵",
         reading: "え",
         definition: "描かれた図や画像。",
@@ -6348,7 +6348,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        id: "9-20",
         expression: "字",
         reading: "じ",
         definition: "文字。",
@@ -6363,7 +6363,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        id: "9-21",
         expression: "漢字",
         reading: "かんじ",
         definition: "中国から伝わった文字。",
@@ -6378,7 +6378,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        id: "9-22",
         expression: "ひらがな",
         reading: "ひらがな",
         definition: "日本の表音文字。",
@@ -6393,7 +6393,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        id: "9-23",
         expression: "かたかな",
         reading: "かたかな",
         definition: "日本の表音文字（主に外来語に用いる）。",
@@ -6408,7 +6408,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        id: "9-24",
         expression: "ローマ字",
         reading: "ローマじ",
         definition: "アルファベット。",
@@ -6423,7 +6423,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        id: "9-25",
         expression: "細かいお金",
         reading: "こまかい おかね",
         definition: "少額の硬貨。",
@@ -6438,7 +6438,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        id: "9-26",
         expression: "チケット",
         reading: "チケット",
         definition: "切符、入場券。",
@@ -6453,7 +6453,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        id: "9-27",
         expression: "時間",
         reading: "じかん",
         definition: "時の流れ、予定された期間。",
@@ -6468,7 +6468,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        id: "9-28",
         expression: "用事",
         reading: "ようじ",
         definition: "しなければならないこと、用件。",
@@ -6483,7 +6483,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        id: "9-29",
         expression: "約束",
         reading: "やくそく",
         definition: "人と交わした取り決め。",
@@ -6498,7 +6498,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        id: "9-30",
         expression: "アルバイト",
         reading: "アルバイト",
         definition: "学業の傍らや本業以外の仕事。（ドイツ語由来）",
@@ -6513,7 +6513,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        id: "9-31",
         expression: "ご主人",
         reading: "ごしゅじん",
         definition: "他人の夫（敬称）。",
@@ -6528,7 +6528,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        id: "9-32",
         expression: "夫/主人",
         reading: "おっと/しゅじん",
         definition: "自分の夫（謙譲語）。",
@@ -6543,7 +6543,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        id: "9-33",
         expression: "奥さん",
         reading: "おくさん",
         definition: "他人の妻（敬称）。",
@@ -6558,7 +6558,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        id: "9-34",
         expression: "妻/家内",
         reading: "つま/かない",
         definition: "自分の妻（謙譲語）。",
@@ -6573,7 +6573,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        id: "9-35",
         expression: "子ども",
         reading: "こども",
         definition: "子供、自分の子。",
@@ -6588,7 +6588,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        id: "9-36",
         expression: "よく",
         reading: "よく",
         definition: "程度が非常に高い、しばしば。",
@@ -6603,7 +6603,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        id: "9-37",
         expression: "だいたい",
         reading: "だいたい",
         definition: "おおよそ、概ね。",
@@ -6618,7 +6618,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        id: "9-38",
         expression: "たくさん",
         reading: "たくさん",
         definition: "量が多いさま。",
@@ -6633,7 +6633,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        id: "9-39",
         expression: "少し",
         reading: "すこし",
         definition: "量が少ないさま。",
@@ -6648,7 +6648,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        id: "9-40",
         expression: "全然",
         reading: "ぜんぜん",
         definition: "完全に、全く（後に否定を伴う）。",
@@ -6663,7 +6663,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        id: "9-41",
         expression: "早く、速く",
         reading: "はやく",
         definition: "時間が早い、動作が速い。",
@@ -6678,7 +6678,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        id: "9-42",
         expression: "〜から",
         reading: "〜から",
         definition: "理由や原因を示す接続助詞。",
@@ -6693,7 +6693,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f844",
+        id: "9-43",
         expression: "どうして",
         reading: "どうして",
         definition: "理由を尋ねる疑問詞。",
@@ -6710,7 +6710,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     ],
   },
   {
-    uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f010",
+    id: "10",
     title: {
       en: "Lesson 10",
       zh: "第十課",
@@ -6723,7 +6723,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
     },
     words: [
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f801",
+        id: "10-0",
         expression: "あります",
         reading: "あります",
         definition: "無生物の存在を示す。",
@@ -6738,7 +6738,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f802",
+        id: "10-1",
         expression: "います",
         reading: "います",
         definition: "人や動物など、有生物の存在を示す。",
@@ -6753,7 +6753,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f803",
+        id: "10-2",
         expression: "いろいろ[な]",
         reading: "いろいろ[な]",
         definition: "様々、多種多様。",
@@ -6768,7 +6768,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f804",
+        id: "10-3",
         expression: "男の人",
         reading: "おとこのひと",
         definition: "男性。",
@@ -6783,7 +6783,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f805",
+        id: "10-4",
         expression: "女の人",
         reading: "おんなのひと",
         definition: "女性。",
@@ -6798,7 +6798,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f806",
+        id: "10-5",
         expression: "男の子",
         reading: "おとこのこ",
         definition: "男の子ども。",
@@ -6813,7 +6813,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f807",
+        id: "10-6",
         expression: "女の子",
         reading: "おんなのこ",
         definition: "女の子ども。",
@@ -6828,7 +6828,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f808",
+        id: "10-7",
         expression: "犬",
         reading: "いぬ",
         definition: "代表的な家畜の一つ。",
@@ -6843,7 +6843,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f809",
+        id: "10-8",
         expression: "猫",
         reading: "ねこ",
         definition: "代表的な家畜の一つ。",
@@ -6858,7 +6858,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f810",
+        id: "10-9",
         expression: "パンダ",
         reading: "パンダ",
         definition: "白と黒の毛皮を持つ動物。",
@@ -6873,7 +6873,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f811",
+        id: "10-10",
         expression: "象",
         reading: "ぞう",
         definition: "大きな鼻を持つ動物。",
@@ -6888,7 +6888,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f812",
+        id: "10-11",
         expression: "木",
         reading: "き",
         definition: "幹と枝を持つ大きな植物。",
@@ -6903,7 +6903,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f813",
+        id: "10-12",
         expression: "物",
         reading: "もの",
         definition: "物体、品物。",
@@ -6918,7 +6918,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f814",
+        id: "10-13",
         expression: "電池",
         reading: "でんち",
         definition: "電気を供給する装置。",
@@ -6933,7 +6933,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f815",
+        id: "10-14",
         expression: "箱",
         reading: "はこ",
         definition: "物を入れる四角い容器。",
@@ -6948,7 +6948,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f816",
+        id: "10-15",
         expression: "スイッチ",
         reading: "スイッチ",
         definition: "電気回路を開閉する装置。",
@@ -6963,7 +6963,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f817",
+        id: "10-16",
         expression: "冷蔵庫",
         reading: "れいぞうこ",
         definition: "食物などを低温で保存する箱。",
@@ -6978,7 +6978,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f818",
+        id: "10-17",
         expression: "テーブル",
         reading: "テーブル",
         definition: "西洋式の食卓や台。",
@@ -6993,7 +6993,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f819",
+        id: "10-18",
         expression: "ベッド",
         reading: "ベッド",
         definition: "寝るための家具。",
@@ -7008,7 +7008,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f820",
+        id: "10-19",
         expression: "棚",
         reading: "たな",
         definition: "物を載せるための台。",
@@ -7023,7 +7023,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f821",
+        id: "10-20",
         expression: "ドア",
         reading: "ドア",
         definition: "出入口の扉。",
@@ -7038,7 +7038,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f822",
+        id: "10-21",
         expression: "窓",
         reading: "まど",
         definition: "壁に設けた採光や通気のための開口部。",
@@ -7053,7 +7053,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f823",
+        id: "10-22",
         expression: "ポスト",
         reading: "ポスト",
         definition: "郵便物を投函する箱、または掲示板。",
@@ -7068,7 +7068,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f824",
+        id: "10-23",
         expression: "ビル",
         reading: "ビル",
         definition: "高層建築物。",
@@ -7083,7 +7083,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f825",
+        id: "10-24",
         expression: "ATM",
         reading: "エーティーエム",
         definition: "自動現金預け払い機。",
@@ -7098,7 +7098,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f826",
+        id: "10-25",
         expression: "コンビニ",
         reading: "コンビニ",
         definition: "コンビニエンスストアの略。",
@@ -7113,7 +7113,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f827",
+        id: "10-26",
         expression: "公園",
         reading: "こうえん",
         definition: "公共の休息・遊楽の場所。",
@@ -7128,7 +7128,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f828",
+        id: "10-27",
         expression: "喫茶店",
         reading: "きっさてん",
         definition: "茶やコーヒーなどを飲ませる店。",
@@ -7143,7 +7143,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f829",
+        id: "10-28",
         expression: "〜屋",
         reading: "〜や",
         definition: "〜を売る店、〜を商売とする人。",
@@ -7158,7 +7158,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f830",
+        id: "10-29",
         expression: "乗り場",
         reading: "のりば",
         definition: "乗り物に乗り込む場所。",
@@ -7173,7 +7173,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f831",
+        id: "10-30",
         expression: "県",
         reading: "けん",
         definition: "日本の行政区画の一つ。",
@@ -7188,7 +7188,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f832",
+        id: "10-31",
         expression: "上",
         reading: "うえ",
         definition: "上方、頭上。",
@@ -7203,7 +7203,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f833",
+        id: "10-32",
         expression: "下",
         reading: "した",
         definition: "下方、足元。",
@@ -7218,7 +7218,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f834",
+        id: "10-33",
         expression: "前",
         reading: "まえ",
         definition: "手前、正面。",
@@ -7233,7 +7233,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f835",
+        id: "10-34",
         expression: "後ろ",
         reading: "うしろ",
         definition: "背面、後方。",
@@ -7248,7 +7248,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f836",
+        id: "10-35",
         expression: "右",
         reading: "みぎ",
         definition: "右側。",
@@ -7263,7 +7263,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f837",
+        id: "10-36",
         expression: "左",
         reading: "ひだり",
         definition: "左側。",
@@ -7278,7 +7278,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f838",
+        id: "10-37",
         expression: "中",
         reading: "なか",
         definition: "内側、内部。",
@@ -7293,7 +7293,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f839",
+        id: "10-38",
         expression: "外",
         reading: "そと",
         definition: "外側、外部。",
@@ -7308,7 +7308,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f840",
+        id: "10-39",
         expression: "隣",
         reading: "となり",
         definition: "すぐそば。",
@@ -7323,7 +7323,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f841",
+        id: "10-40",
         expression: "近く",
         reading: "ちかく",
         definition: "距離が近い所。",
@@ -7338,7 +7338,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f842",
+        id: "10-41",
         expression: "間",
         reading: "あいだ",
         definition: "二つの物の中。",
@@ -7353,7 +7353,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         },
       },
       {
-        uuid: "f0b1c9a1-1d84-4c1e-a9d2-5b2d63f9f843",
+        id: "10-42",
         expression: "〜や〜[など]",
         reading: "〜や〜[など]",
         definition: "同類の例をいくつか並べる。",
@@ -7398,7 +7398,7 @@ export type Collection = {
 };
 
 export type Deck = {
-  uuid: string;
+  id: string;
   title: {
     en: string;
     zh: string;
@@ -7413,7 +7413,7 @@ export type Deck = {
 };
 
 export type Word = {
-  uuid: string;
+  id: string;
   expression: string;
   reading: string;
   definition: string;

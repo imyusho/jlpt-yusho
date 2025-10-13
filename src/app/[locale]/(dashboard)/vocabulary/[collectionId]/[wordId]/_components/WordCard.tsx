@@ -127,7 +127,7 @@ export const WordCardImpl: FC<Props> = ({
                 onClick={(e) => {
                   onRepetitionClick(
                     {
-                      cardUuid: word.uuid,
+                      cardUuid: word.id,
                       interval: x.value,
                     },
                     e
