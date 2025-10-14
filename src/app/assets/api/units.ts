@@ -5449,7 +5449,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "8-9",
-        expression: "すてき[な]",
+        expression: "素敵[な]",
         reading: "すてき[な]",
         definition: "非常に素晴らしく、魅力的である。",
         meaning: {
@@ -6030,6 +6030,22 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         exampleMeaning: {
           en: "Japanese is difficult, but interesting.",
           zh: "日語很難，但是很有趣。",
+        },
+      },
+      {
+        id: "8-48",
+        expression: "そろそろ失礼します",
+        reading: "そろそろしつれいします",
+        definition:
+          "会話や訪問などを終えて、その場を離れるときに使う丁寧な表現。",
+        meaning: {
+          en: "I should get going soon; I'll excuse myself.",
+          zh: "我差不多該告辭了。",
+        },
+        example: "そろそろ失礼します。",
+        exampleMeaning: {
+          en: "I should get going soon.",
+          zh: "我差不多該告辭了。",
         },
       },
     ],
