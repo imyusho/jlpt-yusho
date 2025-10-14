@@ -16,6 +16,7 @@ import {
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
+  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
@@ -24,7 +25,14 @@ import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import { MoreHorizontalIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { FC, HTMLAttributes, useMemo, useRef, useState } from "react";
+import {
+  ComponentProps,
+  FC,
+  HTMLAttributes,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 
 type Props = {
   locale: (typeof routing.locales)[number];
@@ -175,34 +183,30 @@ export const WordCardImpl: FC<Props> = ({
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-52">
               <DropdownMenuGroup>
+                <DropdownMenuLabel className="text-muted-foreground">
+                  {t("reviewAgainIn")}
+                </DropdownMenuLabel>
                 {repetitionOptions.slice(topLevelButtonNumber).map((x, i) => {
                   const interval = x[0] * IN_MS[x[1]];
 
+                  const props: ComponentProps<typeof DropdownMenuItem> &
+                    ComponentProps<typeof DropdownMenuCheckboxItem> = {
+                    key: i,
+                    onClick: () =>
+                      onRepetitionClick(
+                        { cardUuid: word.id, interval },
+                        cardElementRef.current
+                      ),
+                    children: tRegular(x[1], { value: x[0] }),
+                  };
+
                   return repetitionType === "toggle" ? (
                     <DropdownMenuCheckboxItem
-                      key={i}
+                      {...props}
                       checked={repetition?.interval === interval}
-                      onClick={() =>
-                        onRepetitionClick(
-                          { cardUuid: word.id, interval },
-                          cardElementRef.current
-                        )
-                      }
-                    >
-                      {tRegular(x[1], { value: x[0] })}
-                    </DropdownMenuCheckboxItem>
+                    />
                   ) : (
-                    <DropdownMenuItem
-                      key={i}
-                      onClick={() =>
-                        onRepetitionClick(
-                          { cardUuid: word.id, interval },
-                          cardElementRef.current
-                        )
-                      }
-                    >
-                      {tRegular(x[1], { value: x[0] })}
-                    </DropdownMenuItem>
+                    <DropdownMenuItem {...props} />
                   );
                 })}
               </DropdownMenuGroup>

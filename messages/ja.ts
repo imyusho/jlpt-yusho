@@ -42,6 +42,7 @@ const messages: EnMessages = {
     expired: "期限到",
     notYetExpired: "期限前",
     removeFromHome: "ホームから削除",
+    reviewAgainIn: "あとどれくらいで復習する",
   },
   loginForm: {
     title: "アカウントにログイン",

@@ -40,6 +40,7 @@ const messages = {
     expired: "Due",
     notYetExpired: "Pending",
     removeFromHome: "Remove from Home",
+    reviewAgainIn: "Review again in",
   },
   loginForm: {
     title: "Log in to your account",

@@ -42,6 +42,7 @@ const messages: EnMessages = {
     expired: "到期",
     notYetExpired: "未到期",
     removeFromHome: "從首頁移除",
+    reviewAgainIn: "多久後再複習一次",
   },
   loginForm: {
     title: "登入",
