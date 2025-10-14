@@ -44,7 +44,7 @@ export const WordCardReel: React.FC<Props> = ({
 
                 const element = [
                   ...(containerRef.current.childNodes.values() ?? []),
-                ].find((x) => e.target instanceof Node && x.contains(e.target));
+                ].find((x) => x.contains(e));
 
                 if (!(element instanceof HTMLLIElement)) return;
 

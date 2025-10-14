@@ -10,12 +10,21 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  DropdownMenu,
+  DropdownMenuCheckboxItem,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Repetition } from "@/hooks/use-repetition";
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
-import { Check } from "lucide-react";
+import { MoreHorizontalIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { FC, HTMLAttributes, useMemo, useState } from "react";
+import { FC, HTMLAttributes, useMemo, useRef, useState } from "react";
 
 type Props = {
   locale: (typeof routing.locales)[number];
@@ -28,7 +37,7 @@ type Props = {
       cardUuid: string;
       interval: number | null;
     },
-    e: React.MouseEvent<HTMLButtonElement>
+    cardElement: HTMLElement | null
   ) => void;
   className?: HTMLAttributes<HTMLDivElement>["className"];
 };
@@ -48,24 +57,30 @@ export const WordCardImpl: FC<Props> = ({
   onRepetitionClick,
   className,
 }) => {
-  const t = useTranslations("shared.interval");
+  const tCompact = useTranslations("shared.interval.compact");
+  const tRegular = useTranslations("shared.interval.regular");
+  const t = useTranslations("home");
   const [shouldRevealAnswer, setShouldRevealAnswer] = useState(false);
   const isAnswerVisible = !isQuiz || shouldRevealAnswer;
 
-  const repetitionOptions = useMemo(() => {
+  const cardElementRef = useRef<HTMLDivElement>(null);
+  const repetitionOptions = useMemo<[number, keyof typeof IN_MS][]>(() => {
     return [
-      { label: t("second", { value: 0 }), value: 0 },
-      { label: t("day", { value: 1 }), value: 24 * 60 * 60 * 1000 },
-      { label: t("day", { value: 3 }), value: 3 * 24 * 60 * 60 * 1000 },
-      { label: t("week", { value: 1 }), value: 7 * 24 * 60 * 60 * 1000 },
-      ...(repetitionType === "button"
-        ? [{ label: <Check />, value: null }]
-        : []),
+      [0, "now"],
+      [1, "hour"],
+      [6, "hour"],
+      [1, "day"],
+      [2, "day"],
+      [3, "day"],
+      [1, "week"],
     ];
-  }, [t, repetitionType]);
+  }, []);
+
+  const topLevelButtonNumber = 4;
 
   return (
     <Card
+      ref={cardElementRef}
       className={cn(
         "@container grid grid-cols-[1fr_auto] grid-rows-[auto_1fr]",
         isQuiz && "cursor-pointer",
@@ -113,14 +128,16 @@ export const WordCardImpl: FC<Props> = ({
           orientation={"horizontal"}
           onClick={(e) => e.stopPropagation()}
         >
-          {repetitionOptions.map((x, i) => {
+          {repetitionOptions.slice(0, topLevelButtonNumber).map((x, i) => {
+            const interval = x[0] * IN_MS[x[1]];
+
             return (
               <Button
                 key={i}
                 className={cn("border-1 flex-1")}
                 variant={
                   repetitionType === "toggle" &&
-                  repetition?.interval === x.value
+                  repetition?.interval === interval
                     ? "secondary"
                     : "outline"
                 }
@@ -128,18 +145,100 @@ export const WordCardImpl: FC<Props> = ({
                   onRepetitionClick(
                     {
                       cardUuid: word.id,
-                      interval: x.value,
+                      interval,
                     },
-                    e
+                    cardElementRef.current
                   );
                 }}
               >
-                {x.label}
+                {tCompact(x[1], { value: x[0] })}
               </Button>
             );
           })}
+
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button
+                variant={
+                  repetitionOptions.slice(topLevelButtonNumber).some((x) => {
+                    const interval = x[0] * IN_MS[x[1]];
+                    return repetition?.interval === interval;
+                  })
+                    ? "secondary"
+                    : "outline"
+                }
+                size="icon"
+                aria-label="More Options"
+              >
+                <MoreHorizontalIcon />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="w-52">
+              <DropdownMenuGroup>
+                {repetitionOptions.slice(topLevelButtonNumber).map((x, i) => {
+                  const interval = x[0] * IN_MS[x[1]];
+
+                  return repetitionType === "toggle" ? (
+                    <DropdownMenuCheckboxItem
+                      key={i}
+                      checked={repetition?.interval === interval}
+                      onClick={() =>
+                        onRepetitionClick(
+                          { cardUuid: word.id, interval },
+                          cardElementRef.current
+                        )
+                      }
+                    >
+                      {tRegular(x[1], { value: x[0] })}
+                    </DropdownMenuCheckboxItem>
+                  ) : (
+                    <DropdownMenuItem
+                      key={i}
+                      onClick={() =>
+                        onRepetitionClick(
+                          { cardUuid: word.id, interval },
+                          cardElementRef.current
+                        )
+                      }
+                    >
+                      {tRegular(x[1], { value: x[0] })}
+                    </DropdownMenuItem>
+                  );
+                })}
+              </DropdownMenuGroup>
+              {repetitionType === "button" && (
+                <>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuGroup>
+                    <DropdownMenuItem
+                      variant="destructive"
+                      onClick={() => {
+                        onRepetitionClick(
+                          { cardUuid: word.id, interval: null },
+                          cardElementRef.current
+                        );
+                      }}
+                    >
+                      {t("removeFromHome")}
+                    </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                </>
+              )}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </ButtonGroup>
       </CardContent>
     </Card>
   );
 };
+
+const IN_MS = {
+  now: 0,
+  second: 1000,
+  minute: 60 * 1000,
+  hour: 60 * 60 * 1000,
+  day: 24 * 60 * 60 * 1000,
+  week: 7 * 24 * 60 * 60 * 1000,
+  month: 30 * 24 * 60 * 60 * 1000,
+  year: 365 * 24 * 60 * 60 * 1000,
+} as const;
