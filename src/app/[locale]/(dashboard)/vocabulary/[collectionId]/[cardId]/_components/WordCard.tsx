@@ -191,7 +191,6 @@ export const WordCardImpl: FC<Props> = ({
 
                   const props: ComponentProps<typeof DropdownMenuItem> &
                     ComponentProps<typeof DropdownMenuCheckboxItem> = {
-                    key: i,
                     onClick: () =>
                       onRepetitionClick(
                         { cardUuid: word.id, interval },
@@ -202,11 +201,12 @@ export const WordCardImpl: FC<Props> = ({
 
                   return repetitionType === "toggle" ? (
                     <DropdownMenuCheckboxItem
+                      key={i}
                       {...props}
                       checked={repetition?.interval === interval}
                     />
                   ) : (
-                    <DropdownMenuItem {...props} />
+                    <DropdownMenuItem key={i} {...props} />
                   );
                 })}
               </DropdownMenuGroup>

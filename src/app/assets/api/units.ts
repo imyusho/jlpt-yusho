@@ -6620,7 +6620,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "9-37",
-        expression: "だいたい",
+        expression: "大体",
         reading: "だいたい",
         definition: "おおよそ、概ね。",
         meaning: {
@@ -6635,7 +6635,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "9-38",
-        expression: "たくさん",
+        expression: "沢山",
         reading: "たくさん",
         definition: "量が多いさま。",
         meaning: {
