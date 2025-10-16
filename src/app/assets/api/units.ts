@@ -6441,7 +6441,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       {
         id: "9-25",
         expression: "細かいお金",
-        reading: "こまかい おかね",
+        reading: "こまかいおかね",
         definition: "少額の硬貨。",
         meaning: {
           en: "small change",
