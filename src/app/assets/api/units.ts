@@ -3849,9 +3849,9 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       ja: "第六課",
     },
     description: {
-      en: "Introduce transitive verbs for daily actions, common food/drink items, leisure activities, and the use of the direct object particle $\text{を (o)}$.",
-      zh: "介紹日常動作的及物動詞、常見食物/飲料、休閒活動，以及直接受詞助詞 $\text{を (o)}$ 的用法。",
-      ja: "日常の行動を表す他動詞、飲食物、レジャー活動、そして直接目的語の助詞 $\text{を (o)}$ の使い方を学びます。",
+      en: "Introduce transitive verbs for daily actions, common food/drink items, leisure activities, and the use of the direct object particle を (o).",
+      zh: "介紹日常動作的及物動詞、常見食物/飲料、休閒活動，以及直接受詞助詞 を (o) 的用法。",
+      ja: "日常の行動を表す他動詞、飲食物、レジャー活動、そして直接目的語の助詞 を (o) の使い方を学びます。",
     },
     words: [
       {
@@ -4008,7 +4008,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         id: "6-10",
         expression: "会います",
         reading: "あいます",
-        definition: "人と面会する。助詞 $\text{に (ni)}$ と共に使う。",
+        definition: "人と面会する。助詞 に (ni) と共に使う。",
         meaning: {
           en: "meet, see (a person) [friend]",
           zh: "〔跟朋友〕見面",
@@ -4021,7 +4021,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "6-11",
-        expression: "ごはん",
+        expression: "ご飯",
         reading: "ごはん",
         definition: "調理された米飯。食事の総称。",
         meaning: {
@@ -4276,7 +4276,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "6-28",
-        expression: "たばこ",
+        expression: "タバコ",
         reading: "たばこ",
         definition: "喫煙用のタバコ。",
         meaning: {
@@ -4444,7 +4444,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         expression: "何",
         reading: "なに",
         definition:
-          "事柄などを尋ねる疑問詞。 $\text{を (o)}$ と共に使う時 $\text{なに (nani)}$ と読む。",
+          "事柄などを尋ねる疑問詞。 を (o) と共に使う時 なに (nani) と読む。",
         meaning: {
           en: "what",
           zh: "什麼",
@@ -4457,7 +4457,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "6-40",
-        expression: "いっしょに",
+        expression: "一緒に",
         reading: "いっしょに",
         definition: "共に、同時に。",
         meaning: {
@@ -4502,7 +4502,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "6-43",
-        expression: "ときどき",
+        expression: "時々",
         reading: "ときどき",
         definition: "時々、たまに。",
         meaning: {
@@ -4580,7 +4580,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         expression: "何ですか。",
         reading: "なんですか",
         definition:
-          "用件を尋ねる時に使う。 $\text{なに (nani)}$ ではなく $\text{なん (nan)}$ と読む。",
+          "用件を尋ねる時に使う。 なに (nani) ではなく なん (nan) と読む。",
         meaning: {
           en: "What is it?",
           zh: "什麼事?",
@@ -4616,9 +4616,9 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       ja: "第七課",
     },
     description: {
-      en: "Introduce verbs of giving/receiving and lending/borrowing, tools, and the use of the $\text{で (de)}$ particle for means/tools.",
-      zh: "介紹給予/接受和借出/借入的動詞、工具，以及用於表示手段/工具的助詞 $\text{で (de)}$ 的用法。",
-      ja: "授受動詞（あげる・もらう・貸す・借りる）、道具、そして手段・方法を表す助詞 $\text{で (de)}$ の使い方を学びます。",
+      en: "Introduce verbs of giving/receiving and lending/borrowing, tools, and the use of the で (de) particle for means/tools.",
+      zh: "介紹給予/接受和借出/借入的動詞、工具，以及用於表示手段/工具的助詞 で (de) 的用法。",
+      ja: "授受動詞（あげる・もらう・貸す・借りる）、道具、そして手段・方法を表す助詞 で (de) の使い方を学びます。",
     },
     words: [
       {
@@ -4773,7 +4773,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "7-10",
-        expression: "はし",
+        expression: "箸",
         reading: "はし",
         definition: "食物を挟んで口に運ぶ道具。",
         meaning: {
@@ -5306,9 +5306,9 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       ja: "第八課",
     },
     description: {
-      en: "Introduce $\text{な-adjectives}$ and $\text{い-adjectives}$ used to describe people, places, and things, along with adverbs and conjunctions for qualification and connection.",
-      zh: "介紹用於描述人物、地點和事物的 $\text{な-形容詞}$ 和 $\text{い-形容詞}$，以及用於修飾和連接的副詞和連接詞。",
-      ja: "人、場所、物を描写するための $\text{な}$ 形容詞と $\text{い}$ 形容詞、そして修飾・接続の副詞と接続詞を学びます。",
+      en: "Introduce な-adjectives and い-adjectives used to describe people, places, and things, along with adverbs and conjunctions for qualification and connection.",
+      zh: "介紹用於描述人物、地點和事物的 な-形容詞 和 い-形容詞，以及用於修飾和連接的副詞和連接詞。",
+      ja: "人、場所、物を描写するための な 形容詞と い 形容詞、そして修飾・接続の副詞と接続詞を学びます。",
     },
     words: [
       {
@@ -5689,7 +5689,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "8-25",
-        expression: "おもしろい",
+        expression: "面白い",
         reading: "おもしろい",
         definition: "興味深い、おかしい。",
         meaning: {
@@ -5704,7 +5704,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "8-26",
-        expression: "おいしい",
+        expression: "美味しい",
         reading: "おいしい",
         definition: "味がよい。",
         meaning: {
@@ -6058,14 +6058,14 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       ja: "第九課",
     },
     description: {
-      en: "Introduce verbs for understanding ($\text{わかります}$) and possession ($\text{あります}$), and $\text{な-adjectives}$ expressing preference and ability, using the particle $\text{が (ga)}$.",
-      zh: "介紹表示理解（$\text{わかります}$）和擁有（$\text{あります}$）的動詞，以及表達偏好和能力的 $\text{な-形容詞}$，並使用助詞 $\text{が (ga)}$。",
-      ja: "理解（$\text{わかります}$）と所有（$\text{あります}$）の動詞、好みや能力を表す $\text{な}$ 形容詞を学び、助詞 $\text{が (ga)}$ の新しい使い方を習得します。",
+      en: "Introduce verbs for understanding (わかります) and possession (あります), and な-adjectives expressing preference and ability, using the particle が (ga).",
+      zh: "介紹表示理解（わかります）和擁有（あります）的動詞，以及表達偏好和能力的 な-形容詞，並使用助詞 が (ga)。",
+      ja: "理解（わかります）と所有（あります）の動詞、好みや能力を表す な 形容詞を学び、助詞 が (ga) の新しい使い方を習得します。",
     },
     words: [
       {
         id: "9-0",
-        expression: "わかります",
+        expression: "分かります",
         reading: "わかります",
         definition: "理解する、意味が分かる。",
         meaning: {
@@ -6545,8 +6545,8 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "9-32",
-        expression: "夫/主人",
-        reading: "おっと/しゅじん",
+        expression: "夫",
+        reading: "おっと",
         definition: "自分の夫（謙譲語）。",
         meaning: {
           en: "my husband",
@@ -6575,8 +6575,8 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "9-34",
-        expression: "妻/家内",
-        reading: "つま/かない",
+        expression: "妻",
+        reading: "つま",
         definition: "自分の妻（謙譲語）。",
         meaning: {
           en: "my wife",
@@ -6723,6 +6723,36 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
           zh: "你為什麼學習日語？",
         },
       },
+      {
+        id: "9-44",
+        expression: "主人",
+        reading: "しゅじん",
+        definition: "自分の夫をへりくだって言う言葉。",
+        meaning: {
+          en: "my husband (humble expression)",
+          zh: "(自己的)丈夫（謙稱）",
+        },
+        example: "主人は会社に行きました。",
+        exampleMeaning: {
+          en: "My husband went to the office.",
+          zh: "我先生去公司了。",
+        },
+      },
+      {
+        id: "9-45",
+        expression: "家内",
+        reading: "かない",
+        definition: "自分の妻をへりくだって言う言葉。",
+        meaning: {
+          en: "my wife (humble expression)",
+          zh: "(自己的)妻子（謙稱）",
+        },
+        example: "家内は今、買い物に行っています。",
+        exampleMeaning: {
+          en: "My wife is out shopping now.",
+          zh: "我太太現在出去買東西了。",
+        },
+      },
     ],
   },
   {
@@ -6733,9 +6763,9 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       ja: "第十課",
     },
     description: {
-      en: "Introduce verbs of existence: $\text{あります}$ for inanimate objects and $\text{います}$ for animate beings. Also introduces common location nouns and the particle $\text{に (ni)}$ for location.",
-      zh: "介紹存在的動詞：$\text{あります}$ 用於非活動性物體，$\text{います}$ 用於活動性人或動物。還介紹了常見的位置名詞和用於地點的助詞 $\text{に (ni)}$。",
-      ja: "存在を表す動詞（無生物は $\text{あります}$、有生物は $\text{います}$）を学びます。また、場所を表す名詞と、場所を示す助詞 $\text{に (ni)}$ を習得します。",
+      en: "Introduce verbs of existence: あります for inanimate objects and います for animate beings. Also introduces common location nouns and the particle に (ni) for location.",
+      zh: "介紹存在的動詞：あります 用於非活動性物體，います 用於活動性人或動物。還介紹了常見的位置名詞和用於地點的助詞 に (ni)。",
+      ja: "存在を表す動詞（無生物は あります、有生物は います）を学びます。また、場所を表す名詞と、場所を示す助詞 に (ni) を習得します。",
     },
     words: [
       {
@@ -7164,7 +7194,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
         reading: "〜や",
         definition: "〜を売る店、〜を商売とする人。",
         meaning: {
-          en: "~ store, ~ shop (e.g., $\text{本屋}$ book store)",
+          en: "~ store, ~ shop (e.g., 本屋 book store)",
           zh: "〜店",
         },
         example: "パン屋でパンを買います。",
