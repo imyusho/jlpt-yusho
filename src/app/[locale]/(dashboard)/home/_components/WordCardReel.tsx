@@ -70,6 +70,13 @@ export const WordCardReel: React.FC<Props> = ({
                   });
                 }, duration);
               }}
+              // TODO: replace hardcoded collection id and deck id with dynamic values
+              expressionPronounciationSrc={`/pronounciations/9c47b2f4-3a6e-4e91-8b54-2a0f8bde7c32/${
+                word.id.split("-")[0]
+              }/${word.id}/expression.mp3`}
+              examplePronounciationSrc={`/pronounciations/9c47b2f4-3a6e-4e91-8b54-2a0f8bde7c32/${
+                word.id.split("-")[0]
+              }/${word.id}/example.mp3`}
             />
           </li>
         );

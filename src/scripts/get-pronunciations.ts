@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
 
-const voiceId = "JBFqnCBsd6RMkjVDRZzb";
+const voiceId = "GxxMAMfQkDlnqjpzjLHH";
 const collectionUuid = "9c47b2f4-3a6e-4e91-8b54-2a0f8bde7c32";
 
 dotenv.config({ path: ".env.local" });
@@ -55,7 +55,7 @@ const elevenlabs = new ElevenLabsClient({ apiKey });
 async function getAudioStreamBuffer(text: string) {
   const audioStream = await elevenlabs.textToSpeech.convert(voiceId, {
     text,
-    modelId: "eleven_multilingual_v2",
+    modelId: "eleven_v3",
     languageCode: "ja",
     outputFormat: "mp3_44100_128",
   });
