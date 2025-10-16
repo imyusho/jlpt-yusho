@@ -23,7 +23,7 @@ import {
 import { Repetition } from "@/hooks/use-repetition";
 import { routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
-import { MoreHorizontalIcon } from "lucide-react";
+import { MoreHorizontalIcon, Play } from "lucide-react";
 import { useTranslations } from "next-intl";
 import {
   ComponentProps,
@@ -47,6 +47,8 @@ type Props = {
     },
     cardElement: HTMLElement | null
   ) => void;
+  expressionPronounciationSrc?: string;
+  examplePronounciationSrc?: string;
   className?: HTMLAttributes<HTMLDivElement>["className"];
 };
 
@@ -63,6 +65,8 @@ export const WordCardImpl: FC<Props> = ({
   repetitionType = "button",
   repetition,
   onRepetitionClick,
+  expressionPronounciationSrc,
+  examplePronounciationSrc,
   className,
 }) => {
   const tCompact = useTranslations("shared.interval.compact");
@@ -89,148 +93,183 @@ export const WordCardImpl: FC<Props> = ({
   return (
     <Card
       ref={cardElementRef}
-      className={cn(
-        "@container grid grid-cols-[1fr_auto] grid-rows-[auto_1fr]",
-        isQuiz && "cursor-pointer",
-        className
-      )}
       onClick={() => {
         if (!isQuiz) return;
 
         setShouldRevealAnswer((x) => !x);
       }}
     >
-      <CardHeader className="col-span-2 @xl:col-span-1">
-        <CardTitle className="text-xl">{word.reading}</CardTitle>
-        <CardDescription
+      <CardContent
+        className={cn(
+          "@container grid grid-cols-[1fr_auto_auto] grid-rows-[auto_1fr] gap-4",
+          isQuiz && "cursor-pointer",
+          className
+        )}
+      >
+        <CardHeader className="p-0 col-span-2 @xl:col-span-1">
+          <CardTitle className="text-xl">{word.reading}</CardTitle>
+          <CardDescription
+            className={cn(
+              "text-foreground text-xl transition-opacity",
+              isAnswerVisible ? "opacity-100" : "opacity-0"
+            )}
+          >
+            {word.expression}
+          </CardDescription>
+        </CardHeader>
+        <div onClick={(e) => e.stopPropagation()}>
+          {expressionPronounciationSrc && (
+            <Button
+              variant="secondary"
+              className="rounded-4xl size-9"
+              onClick={() => new Audio(expressionPronounciationSrc).play()}
+            >
+              <Play />
+            </Button>
+          )}
+        </div>
+
+        <div
           className={cn(
-            "text-foreground text-xl transition-opacity",
+            "text-primary transition-opacity col-span-3",
             isAnswerVisible ? "opacity-100" : "opacity-0"
           )}
         >
-          {word.expression}
-        </CardDescription>
-      </CardHeader>
-
-      <CardContent
-        className={cn(
-          "text-primary transition-opacity col-span-2",
-          isAnswerVisible ? "opacity-100" : "opacity-0"
-        )}
-      >
-        <div>{locale === "ja" ? word.definition : word.meaning[locale]}</div>
-        <div className="mt-4">
-          <div>{word.example}</div>
-          <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
+          {locale === "ja" ? word.definition : word.meaning[locale]}
         </div>
-      </CardContent>
 
-      <CardContent
-        className={cn(
-          "transition-opacity col-span-2 @xl:col-span-1 @xl:row-start-1 @xl:col-start-2",
-          isAnswerVisible ? "opacity-100" : "opacity-0 pointer-events-none"
-        )}
-      >
-        <ButtonGroup
-          className={cn("w-full")}
-          orientation={"horizontal"}
-          onClick={(e) => e.stopPropagation()}
+        <div
+          className={cn(
+            "text-primary transition-opacity col-span-2",
+            isAnswerVisible ? "opacity-100" : "opacity-0"
+          )}
         >
-          {repetitionOptions.slice(0, topLevelButtonNumber).map((x, i) => {
-            const interval = x[0] * IN_MS[x[1]];
+          <div className="flex">
+            <div className="flex-1">
+              <div>{word.example}</div>
+              <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
+            </div>
+          </div>
+        </div>
+        <div onClick={(e) => e.stopPropagation()}>
+          {expressionPronounciationSrc && (
+            <Button
+              variant="secondary"
+              className="rounded-4xl size-9"
+              onClick={() => new Audio(examplePronounciationSrc).play()}
+            >
+              <Play />
+            </Button>
+          )}
+        </div>
 
-            return (
-              <Button
-                key={i}
-                className={cn("border-1 flex-1")}
-                variant={
-                  repetitionType === "toggle" &&
-                  repetition?.interval === interval
-                    ? "secondary"
-                    : "outline"
-                }
-                onClick={(e) => {
-                  onRepetitionClick(
-                    {
-                      cardUuid: word.id,
-                      interval,
-                    },
-                    cardElementRef.current
-                  );
-                }}
-              >
-                {tCompact(x[1], { value: x[0] })}
-              </Button>
-            );
-          })}
+        <div
+          className={cn(
+            "transition-opacity col-span-3 @xl:col-span-1 @xl:row-start-1 @xl:col-start-2 @xl:px-0",
+            isAnswerVisible ? "opacity-100" : "opacity-0 pointer-events-none"
+          )}
+        >
+          <ButtonGroup
+            className={cn("w-full")}
+            orientation={"horizontal"}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {repetitionOptions.slice(0, topLevelButtonNumber).map((x, i) => {
+              const interval = x[0] * IN_MS[x[1]];
 
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button
-                variant={
-                  repetitionOptions.slice(topLevelButtonNumber).some((x) => {
+              return (
+                <Button
+                  key={i}
+                  className={cn("border-1 flex-1")}
+                  variant={
+                    repetitionType === "toggle" &&
+                    repetition?.interval === interval
+                      ? "secondary"
+                      : "outline"
+                  }
+                  onClick={(e) => {
+                    onRepetitionClick(
+                      {
+                        cardUuid: word.id,
+                        interval,
+                      },
+                      cardElementRef.current
+                    );
+                  }}
+                >
+                  {tCompact(x[1], { value: x[0] })}
+                </Button>
+              );
+            })}
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant={
+                    repetitionOptions.slice(topLevelButtonNumber).some((x) => {
+                      const interval = x[0] * IN_MS[x[1]];
+                      return repetition?.interval === interval;
+                    })
+                      ? "secondary"
+                      : "outline"
+                  }
+                  size="icon"
+                  aria-label="More Options"
+                >
+                  <MoreHorizontalIcon />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-52">
+                <DropdownMenuGroup>
+                  <DropdownMenuLabel className="text-muted-foreground">
+                    {t("reviewAgainIn")}
+                  </DropdownMenuLabel>
+                  {repetitionOptions.slice(topLevelButtonNumber).map((x, i) => {
                     const interval = x[0] * IN_MS[x[1]];
-                    return repetition?.interval === interval;
-                  })
-                    ? "secondary"
-                    : "outline"
-                }
-                size="icon"
-                aria-label="More Options"
-              >
-                <MoreHorizontalIcon />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-52">
-              <DropdownMenuGroup>
-                <DropdownMenuLabel className="text-muted-foreground">
-                  {t("reviewAgainIn")}
-                </DropdownMenuLabel>
-                {repetitionOptions.slice(topLevelButtonNumber).map((x, i) => {
-                  const interval = x[0] * IN_MS[x[1]];
 
-                  const props: ComponentProps<typeof DropdownMenuItem> &
-                    ComponentProps<typeof DropdownMenuCheckboxItem> = {
-                    onClick: () =>
-                      onRepetitionClick(
-                        { cardUuid: word.id, interval },
-                        cardElementRef.current
-                      ),
-                    children: tRegular(x[1], { value: x[0] }),
-                  };
-
-                  return repetitionType === "toggle" ? (
-                    <DropdownMenuCheckboxItem
-                      key={i}
-                      {...props}
-                      checked={repetition?.interval === interval}
-                    />
-                  ) : (
-                    <DropdownMenuItem key={i} {...props} />
-                  );
-                })}
-              </DropdownMenuGroup>
-              {repetitionType === "button" && (
-                <>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuGroup>
-                    <DropdownMenuItem
-                      variant="destructive"
-                      onClick={() => {
+                    const props: ComponentProps<typeof DropdownMenuItem> &
+                      ComponentProps<typeof DropdownMenuCheckboxItem> = {
+                      onClick: () =>
                         onRepetitionClick(
-                          { cardUuid: word.id, interval: null },
+                          { cardUuid: word.id, interval },
                           cardElementRef.current
-                        );
-                      }}
-                    >
-                      {t("removeFromHome")}
-                    </DropdownMenuItem>
-                  </DropdownMenuGroup>
-                </>
-              )}
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </ButtonGroup>
+                        ),
+                      children: tRegular(x[1], { value: x[0] }),
+                    };
+
+                    return repetitionType === "toggle" ? (
+                      <DropdownMenuCheckboxItem
+                        key={i}
+                        {...props}
+                        checked={repetition?.interval === interval}
+                      />
+                    ) : (
+                      <DropdownMenuItem key={i} {...props} />
+                    );
+                  })}
+                </DropdownMenuGroup>
+                {repetitionType === "button" && (
+                  <>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuGroup>
+                      <DropdownMenuItem
+                        variant="destructive"
+                        onClick={() => {
+                          onRepetitionClick(
+                            { cardUuid: word.id, interval: null },
+                            cardElementRef.current
+                          );
+                        }}
+                      >
+                        {t("removeFromHome")}
+                      </DropdownMenuItem>
+                    </DropdownMenuGroup>
+                  </>
+                )}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </ButtonGroup>
+        </div>
       </CardContent>
     </Card>
   );

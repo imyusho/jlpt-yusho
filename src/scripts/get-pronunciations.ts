@@ -13,7 +13,7 @@ const deckId = process.argv[2];
 
 if (deckId === undefined) {
   console.error(
-    "Missing deckId argument. Example: npx tsx src/scripts/get-pronunciations 1"
+    "Missing deckId argument. Example: npm run get-pronunciations 1"
   );
   process.exit(1);
 }
@@ -34,7 +34,7 @@ const elevenlabs = new ElevenLabsClient({ apiKey });
 
   for (let i = 0; i < deck.words.length; i++) {
     const card = deck.words[i];
-    const outputDir = `src/app/assets/pronounciations/${collectionUuid}/${deckId}/${card.id}`;
+    const outputDir = `public/pronounciations/${collectionUuid}/${deckId}/${card.id}`;
 
     console.log(`Processing ${card.id} ${card.expression} ...`);
 

@@ -16,9 +16,10 @@ import { WordCard } from "./WordCard";
 type Props = {
   locale: (typeof routing.locales)[number];
   deck: Deck;
+  collectionId: string;
 };
 
-export const Unit: FC<Props> = ({ deck, locale }) => {
+export const Unit: FC<Props> = ({ deck, locale, collectionId }) => {
   const t = useTranslations("unit");
   const [isQuiz, setIsQuiz] = useState(false);
   const [words, setWrods] = useState(deck.words);
@@ -70,6 +71,8 @@ export const Unit: FC<Props> = ({ deck, locale }) => {
                     nextTime: new Date(Date.now() + x.interval),
                   });
                 }}
+                expressionPronounciationSrc={`/pronounciations/${collectionId}/${deck.id}/${word.id}/expression.mp3`}
+                examplePronounciationSrc={`/pronounciations/${collectionId}/${deck.id}/${word.id}/example.mp3`}
               />
             </li>
           );

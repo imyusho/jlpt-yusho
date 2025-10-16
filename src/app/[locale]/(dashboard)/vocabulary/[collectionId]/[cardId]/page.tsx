@@ -19,7 +19,7 @@ export default async function Page({
 
   return (
     <main className="dashboard max-w-300 w-full mx-auto p-4">
-      <Unit locale={locale} deck={deck} />
+      <Unit locale={locale} deck={deck} collectionId={collectionId} />
     </main>
   );
 }
