@@ -6753,6 +6753,21 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
           zh: "我太太現在出去買東西了。",
         },
       },
+      {
+        id: "9-46",
+        expression: "細かい",
+        reading: "こまかい",
+        definition: "小さくて細部まで注意が行き届いているさま。",
+        meaning: {
+          en: "detailed, fine, precise, meticulous",
+          zh: "細小的、仔細的、精細的、瑣碎的",
+        },
+        example: "細かいところまで気を配る必要があります。",
+        exampleMeaning: {
+          en: "You need to pay attention to the details.",
+          zh: "需要注意到每個細節。",
+        },
+      },
     ],
   },
   {
