@@ -6815,7 +6815,7 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
       {
         id: "10-2",
-        expression: "いろいろ[な]",
+        expression: "色々[な]",
         reading: "いろいろ[な]",
         definition: "様々、多種多様。",
         meaning: {
