@@ -7430,6 +7430,1461 @@ const MINNA_NO_NIHONGO_ELEMENTARY_I_DECKS: Deck[] = [
       },
     ],
   },
+  {
+    id: "11",
+    title: {
+      en: "Lesson 11",
+      zh: "第十一課",
+      ja: "第十一課",
+    },
+    description: {
+      en: "Introduce verbs of existence (います for animate objects, あります for inanimate objects) and counters for counting things, people, and time.",
+      zh: "介紹表示存在的動詞（います 用於生物、あります 用於非生物），以及用於數東西、人數和時間的量詞。",
+      ja: "存在の動詞（います、あります）と、物、人、時間を数えるための助数詞を学びます。",
+    },
+    words: [
+      {
+        id: "11-0",
+        expression: "います[こどもが〜]",
+        reading: "います[こどもが〜]",
+        definition: "子供を持っている。",
+        meaning: {
+          en: "have [a child]",
+          zh: "有[小孩]",
+        },
+        example: "子どもが二人います。",
+        exampleMeaning: {
+          en: "I have two children.",
+          zh: "我有兩個小孩。",
+        },
+      },
+      {
+        id: "11-1",
+        expression: "います[にほんに〜]",
+        reading: "います[にほんに〜]",
+        definition: "その場所にいる、滞在している。",
+        meaning: {
+          en: "to be, to stay [in Japan]",
+          zh: "在[日本]",
+        },
+        example: "私は今、日本にいます。",
+        exampleMeaning: {
+          en: "I am in Japan now.",
+          zh: "我現在在日本。",
+        },
+      },
+      {
+        id: "11-2",
+        expression: "かかります",
+        reading: "かかります",
+        definition: "時間や費用が必要である。",
+        meaning: {
+          en: "take (time, money)",
+          zh: "花費(時間、金錢等)",
+        },
+        example: "東京まで三時間かかります。",
+        exampleMeaning: {
+          en: "It takes three hours to get to Tokyo.",
+          zh: "到東京需要花費三小時。",
+        },
+      },
+      {
+        id: "11-3",
+        expression: "やすみます[かいしゃを〜]",
+        reading: "やすみます[かいしゃを〜]",
+        definition: "会社に行かない。",
+        meaning: {
+          en: "to take a day off [from work]",
+          zh: "[向公司]請假",
+        },
+        example: "今日は会社を休みます。",
+        exampleMeaning: {
+          en: "I'm taking a day off from work today.",
+          zh: "我今天向公司請假。",
+        },
+      },
+      {
+        id: "11-4",
+        expression: "ひとつ",
+        reading: "ひとつ",
+        definition: "数詞の1つ。",
+        meaning: {
+          en: "one (general counter)",
+          zh: "一、一個 (用於數東西時)",
+        },
+        example: "りんごを一つください。",
+        exampleMeaning: {
+          en: "Please give me one apple.",
+          zh: "請給我一個蘋果。",
+        },
+      },
+      {
+        id: "11-5",
+        expression: "ふたつ",
+        reading: "ふたつ",
+        definition: "数詞の2つ。",
+        meaning: {
+          en: "two (general counter)",
+          zh: "二、兩個",
+        },
+        example: "みかんを二つ買いました。",
+        exampleMeaning: {
+          en: "I bought two mandarins.",
+          zh: "我買了兩個橘子。",
+        },
+      },
+      {
+        id: "11-6",
+        expression: "みっつ",
+        reading: "みっつ",
+        definition: "数詞の3つ。",
+        meaning: {
+          en: "three (general counter)",
+          zh: "三、三個",
+        },
+        example: "サンドイッチを三つ食べました。",
+        exampleMeaning: {
+          en: "I ate three sandwiches.",
+          zh: "我吃了三個三明治。",
+        },
+      },
+      {
+        id: "11-7",
+        expression: "よっつ",
+        reading: "よっつ",
+        definition: "数詞の4つ。",
+        meaning: {
+          en: "four (general counter)",
+          zh: "四、四個",
+        },
+        example: "部屋に椅子が四つあります。",
+        exampleMeaning: {
+          en: "There are four chairs in the room.",
+          zh: "房間裡有四張椅子。",
+        },
+      },
+      {
+        id: "11-8",
+        expression: "いつつ",
+        reading: "いつつ",
+        definition: "数詞の5つ。",
+        meaning: {
+          en: "five (general counter)",
+          zh: "五、五個",
+        },
+        example: "パンを五つ作りました。",
+        exampleMeaning: {
+          en: "I made five breads.",
+          zh: "我做了五個麵包。",
+        },
+      },
+      {
+        id: "11-9",
+        expression: "むっつ",
+        reading: "むっつ",
+        definition: "数詞の6つ。",
+        meaning: {
+          en: "six (general counter)",
+          zh: "六、六個",
+        },
+        example: "六つの質問があります。",
+        exampleMeaning: {
+          en: "I have six questions.",
+          zh: "我有六個問題。",
+        },
+      },
+      {
+        id: "11-10",
+        expression: "ななつ",
+        reading: "ななつ",
+        definition: "数詞の7つ。",
+        meaning: {
+          en: "seven (general counter)",
+          zh: "七、七個",
+        },
+        example: "箱の中に七つのおもちゃがあります。",
+        exampleMeaning: {
+          en: "There are seven toys inside the box.",
+          zh: "盒子裡有七個玩具。",
+        },
+      },
+      {
+        id: "11-11",
+        expression: "やっつ",
+        reading: "やっつ",
+        definition: "数詞の8つ。",
+        meaning: {
+          en: "eight (general counter)",
+          zh: "八、八個",
+        },
+        example: "八つのまちがいを見つけました。",
+        exampleMeaning: {
+          en: "I found eight mistakes.",
+          zh: "我找到了八個錯誤。",
+        },
+      },
+      {
+        id: "11-12",
+        expression: "ここのつ",
+        reading: "ここのつ",
+        definition: "数詞の9つ。",
+        meaning: {
+          en: "nine (general counter)",
+          zh: "九、九個",
+        },
+        example: "リンゴが九つあります。",
+        exampleMeaning: {
+          en: "There are nine apples.",
+          zh: "有九個蘋果。",
+        },
+      },
+      {
+        id: "11-13",
+        expression: "とお",
+        reading: "とお",
+        definition: "数詞の10。",
+        meaning: {
+          en: "ten (general counter)",
+          zh: "十、十個",
+        },
+        example: "切手をとお買いました。",
+        exampleMeaning: {
+          en: "I bought ten stamps.",
+          zh: "我買了十張郵票。",
+        },
+      },
+      {
+        id: "11-14",
+        expression: "いくつ",
+        reading: "いくつ",
+        definition: "数を尋ねる語。",
+        meaning: {
+          en: "how many (general counter)",
+          zh: "多少 (個)",
+        },
+        example: "パンをいくつ買いましたか。",
+        exampleMeaning: {
+          en: "How many breads did you buy?",
+          zh: "你買了多少個麵包？",
+        },
+      },
+      {
+        id: "11-15",
+        expression: "ひとり",
+        reading: "ひとり",
+        definition: "人数の一。",
+        meaning: {
+          en: "one person",
+          zh: "一個人",
+        },
+        example: "一人で食事をします。",
+        exampleMeaning: {
+          en: "I eat a meal alone.",
+          zh: "我一個人吃飯。",
+        },
+      },
+      {
+        id: "11-16",
+        expression: "ふたり",
+        reading: "ふたり",
+        definition: "人数の二。",
+        meaning: {
+          en: "two people",
+          zh: "兩個人",
+        },
+        example: "田中さんと二人で話します。",
+        exampleMeaning: {
+          en: "I talk with Mr. Tanaka, just the two of us.",
+          zh: "我和田中先生兩個人說話。",
+        },
+      },
+      {
+        id: "11-17",
+        expression: "...にん",
+        reading: "...にん",
+        definition: "人数を数える接尾語。（三人、四人など）",
+        meaning: {
+          en: "...people (counter for people from 3 onwards)",
+          zh: "...個人 (三個人、四個人...)",
+        },
+        example: "クラスに何人いますか。",
+        exampleMeaning: {
+          en: "How many people are in the class?",
+          zh: "班上有多少人？",
+        },
+      },
+      {
+        id: "11-18",
+        expression: "...だい",
+        reading: "...だい",
+        definition: "機械、車、自転車などを数える。",
+        meaning: {
+          en: "...counter for machines, cars, etc.",
+          zh: "...台 (數機械、車輛等的量詞)",
+        },
+        example: "車を二台持っています。",
+        exampleMeaning: {
+          en: "I have two cars.",
+          zh: "我有兩台車。",
+        },
+      },
+      {
+        id: "11-19",
+        expression: "...まい",
+        reading: "...まい",
+        definition: "紙、切手、皿などの薄いものを数える。",
+        meaning: {
+          en: "...counter for thin, flat objects (stamps, paper)",
+          zh: "...枚、...張 (數紙張、郵票等的量詞)",
+        },
+        example: "切手を十枚買います。",
+        exampleMeaning: {
+          en: "I will buy ten stamps.",
+          zh: "我要買十張郵票。",
+        },
+      },
+      {
+        id: "11-20",
+        expression: "...かい",
+        reading: "...かい",
+        definition: "回数を数える。",
+        meaning: {
+          en: "...times (frequency)",
+          zh: "...次 (次數)",
+        },
+        example: "その映画を二回見ました。",
+        exampleMeaning: {
+          en: "I watched that movie two times.",
+          zh: "我看那部電影兩次了。",
+        },
+      },
+      {
+        id: "11-21",
+        expression: "りんご",
+        reading: "りんご",
+        definition: "果物の一種。",
+        meaning: {
+          en: "apple",
+          zh: "蘋果",
+        },
+        example: "りんごが一つあります。",
+        exampleMeaning: {
+          en: "I have one apple.",
+          zh: "我有一個蘋果。",
+        },
+      },
+      {
+        id: "11-22",
+        expression: "みかん",
+        reading: "みかん",
+        definition: "果物の一種（橘子）。",
+        meaning: {
+          en: "mandarin orange",
+          zh: "橘子",
+        },
+        example: "みかんを食べますか。",
+        exampleMeaning: {
+          en: "Will you eat a mandarin?",
+          zh: "你要吃橘子嗎？",
+        },
+      },
+      {
+        id: "11-23",
+        expression: "サンドイッチ",
+        reading: "サンドイッチ",
+        definition: "パンで具材を挟んだ食べ物。",
+        meaning: {
+          en: "sandwich",
+          zh: "三明治",
+        },
+        example: "朝ごはんにサンドイッチを食べます。",
+        exampleMeaning: {
+          en: "I eat a sandwich for breakfast.",
+          zh: "我早餐吃三明治。",
+        },
+      },
+      {
+        id: "11-24",
+        expression: "カレー[ライス]",
+        reading: "カレー[ライス]",
+        definition: "米飯にカレーをかけた料理。",
+        meaning: {
+          en: "curry [rice]",
+          zh: "咖哩[飯]",
+        },
+        example: "この店のカレーライスはおいしいです。",
+        exampleMeaning: {
+          en: "The curry rice at this restaurant is delicious.",
+          zh: "這家店的咖哩飯很好吃。",
+        },
+      },
+      {
+        id: "11-25",
+        expression: "アイスクリーム",
+        reading: "アイスクリーム",
+        definition: "冷たいデザート。",
+        meaning: {
+          en: "ice cream",
+          zh: "冰淇淋",
+        },
+        example: "アイスクリームを食べたいです。",
+        exampleMeaning: {
+          en: "I want to eat ice cream.",
+          zh: "我想吃冰淇淋。",
+        },
+      },
+      {
+        id: "11-26",
+        expression: "切手",
+        reading: "きって",
+        definition: "郵便料金を証明する紙片。",
+        meaning: {
+          en: "postage stamp",
+          zh: "郵票",
+        },
+        example: "切手を何枚買いますか。",
+        exampleMeaning: {
+          en: "How many stamps will you buy?",
+          zh: "你要買幾張郵票？",
+        },
+      },
+      {
+        id: "11-27",
+        expression: "はがき",
+        reading: "はがき",
+        definition: "通信用の薄い紙。",
+        meaning: {
+          en: "postcard",
+          zh: "明信片",
+        },
+        example: "友達にはがきを書きました。",
+        exampleMeaning: {
+          en: "I wrote a postcard to my friend.",
+          zh: "我給朋友寫了一張明信片。",
+        },
+      },
+      {
+        id: "11-28",
+        expression: "封筒",
+        reading: "ふうとう",
+        definition: "手紙を入れる袋。",
+        meaning: {
+          en: "envelope",
+          zh: "信封",
+        },
+        example: "封筒に手紙を入れます。",
+        exampleMeaning: {
+          en: "I put the letter in the envelope.",
+          zh: "我把信放進信封裡。",
+        },
+      },
+      {
+        id: "11-29",
+        expression: "両親",
+        reading: "りょうしん",
+        definition: "父と母。",
+        meaning: {
+          en: "parents",
+          zh: "父母、雙親",
+        },
+        example: "両親は元気です。",
+        exampleMeaning: {
+          en: "My parents are well.",
+          zh: "我的父母很健康。",
+        },
+      },
+      {
+        id: "11-30",
+        expression: "兄弟",
+        reading: "きょうだい",
+        definition: "兄と弟、姉と妹。",
+        meaning: {
+          en: "siblings, brothers and sisters",
+          zh: "兄弟姊妹",
+        },
+        example: "兄弟がいますか。",
+        exampleMeaning: {
+          en: "Do you have siblings?",
+          zh: "你有兄弟姊妹嗎？",
+        },
+      },
+      {
+        id: "11-31",
+        expression: "兄",
+        reading: "あに",
+        definition: "自分の年上の男のきょうだい。",
+        meaning: {
+          en: "my elder brother",
+          zh: "(自己的)哥哥",
+        },
+        example: "私の兄は医者です。",
+        exampleMeaning: {
+          en: "My elder brother is a doctor.",
+          zh: "我的哥哥是醫生。",
+        },
+      },
+      {
+        id: "11-32",
+        expression: "お兄さん",
+        reading: "おにいさん",
+        definition: "他人の年上の男のきょうだい。",
+        meaning: {
+          en: "elder brother (used for others)",
+          zh: "(別人的)哥哥",
+        },
+        example: "あの方のお兄さんは学生ですか。",
+        exampleMeaning: {
+          en: "Is that person's elder brother a student?",
+          zh: "那位先生的哥哥是學生嗎？",
+        },
+      },
+      {
+        id: "11-33",
+        expression: "姉",
+        reading: "あね",
+        definition: "自分の年上の女のきょうだい。",
+        meaning: {
+          en: "my elder sister",
+          zh: "(自己的)姊姊",
+        },
+        example: "私の姉は結婚しています。",
+        exampleMeaning: {
+          en: "My elder sister is married.",
+          zh: "我的姊姊結婚了。",
+        },
+      },
+      {
+        id: "11-34",
+        expression: "お姉さん",
+        reading: "おねえさん",
+        definition: "他人の年上の女のきょうだい。",
+        meaning: {
+          en: "elder sister (used for others)",
+          zh: "(別人的)姊姊",
+        },
+        example: "佐藤さんのお姉さんはどこにいますか。",
+        exampleMeaning: {
+          en: "Where is Ms. Sato's elder sister?",
+          zh: "佐藤小姐的姊姊在哪裡？",
+        },
+      },
+      {
+        id: "11-35",
+        expression: "弟",
+        reading: "おとうと",
+        definition: "自分の年下の男のきょうだい。",
+        meaning: {
+          en: "my younger brother",
+          zh: "(自己的)弟弟",
+        },
+        example: "弟が一人います。",
+        exampleMeaning: {
+          en: "I have one younger brother.",
+          zh: "我有一個弟弟。",
+        },
+      },
+      {
+        id: "11-36",
+        expression: "弟さん",
+        reading: "おとうとさん",
+        definition: "他人の年下の男のきょうだい。",
+        meaning: {
+          en: "younger brother (used for others)",
+          zh: "(別人的)弟弟",
+        },
+        example: "あなたの弟さんは医者ですか。",
+        exampleMeaning: {
+          en: "Is your younger brother a doctor?",
+          zh: "你的弟弟是醫生嗎？",
+        },
+      },
+      {
+        id: "11-37",
+        expression: "妹",
+        reading: "いもうと",
+        definition: "自分の年下の女のきょうだい。",
+        meaning: {
+          en: "my younger sister",
+          zh: "(自己的)妹妹",
+        },
+        example: "妹はいません。",
+        exampleMeaning: {
+          en: "I don't have a younger sister.",
+          zh: "我沒有妹妹。",
+        },
+      },
+      {
+        id: "11-38",
+        expression: "妹さん",
+        reading: "いもうとさん",
+        definition: "他人の年下の女のきょうだい。",
+        meaning: {
+          en: "younger sister (used for others)",
+          zh: "(別人的)妹妹",
+        },
+        example: "ミラーさんの妹さんは学生です。",
+        exampleMeaning: {
+          en: "Mr. Miller's younger sister is a student.",
+          zh: "米勒先生的妹妹是學生。",
+        },
+      },
+      {
+        id: "11-39",
+        expression: "外国",
+        reading: "がいこく",
+        definition: "自国以外の国。",
+        meaning: {
+          en: "foreign country",
+          zh: "外國",
+        },
+        example: "外国へ旅行に行きました。",
+        exampleMeaning: {
+          en: "I went on a trip to a foreign country.",
+          zh: "我去了外國旅行。",
+        },
+      },
+      {
+        id: "11-40",
+        expression: "留学生",
+        reading: "りゅうがくせい",
+        definition: "外国へ勉強しに行っている学生。",
+        meaning: {
+          en: "foreign student",
+          zh: "留學生",
+        },
+        example: "わたしのクラスに留学生がたくさんいます。",
+        exampleMeaning: {
+          en: "There are many foreign students in my class.",
+          zh: "我的班上有許多留學生。",
+        },
+      },
+      {
+        id: "11-41",
+        expression: "クラス",
+        reading: "クラス",
+        definition: "学級。",
+        meaning: {
+          en: "class",
+          zh: "班級",
+        },
+        example: "クラスは何人ですか。",
+        exampleMeaning: {
+          en: "How many people are in the class?",
+          zh: "你們班有多少人？",
+        },
+      },
+      {
+        id: "11-42",
+        expression: "...じかん",
+        reading: "...じかん",
+        definition: "時間の長さを数える。",
+        meaning: {
+          en: "...hours",
+          zh: "...小時",
+        },
+        example: "毎日五時間勉強します。",
+        exampleMeaning: {
+          en: "I study five hours every day.",
+          zh: "我每天學習五小時。",
+        },
+      },
+      {
+        id: "11-43",
+        expression: "...しゅうかん",
+        reading: "...しゅうかん",
+        definition: "週の長さを数える。",
+        meaning: {
+          en: "...weeks",
+          zh: "...星期",
+        },
+        example: "二週間日本にいました。",
+        exampleMeaning: {
+          en: "I was in Japan for two weeks.",
+          zh: "我在日本待了兩個星期。",
+        },
+      },
+      {
+        id: "11-44",
+        expression: "...かげつ",
+        reading: "...かげつ",
+        definition: "月の長さを数える。",
+        meaning: {
+          en: "...months",
+          zh: "...個月",
+        },
+        example: "三か月日本語を勉強しました。",
+        exampleMeaning: {
+          en: "I studied Japanese for three months.",
+          zh: "我學了三個月的日語。",
+        },
+      },
+      {
+        id: "11-45",
+        expression: "...ねん",
+        reading: "...ねん",
+        definition: "年の長さを数える。",
+        meaning: {
+          en: "...years",
+          zh: "...年",
+        },
+        example: "日本に五年います。",
+        exampleMeaning: {
+          en: "I will be in Japan for five years.",
+          zh: "我將在日本待五年。",
+        },
+      },
+      {
+        id: "11-46",
+        expression: "〜ぐらい",
+        reading: "〜ぐらい",
+        definition: "おおよその数量を示す。",
+        meaning: {
+          en: "about, approximately 〜",
+          zh: "〜左右、大約〜",
+        },
+        example: "三時間ぐらいかかります。",
+        exampleMeaning: {
+          en: "It takes about three hours.",
+          zh: "大約花費三小時。",
+        },
+      },
+      {
+        id: "11-47",
+        expression: "どのくらい",
+        reading: "どのくらい",
+        definition: "期間や数量を尋ねる。",
+        meaning: {
+          en: "how long, how much",
+          zh: "多久時間",
+        },
+        example: "日本にどのくらいいますか。",
+        exampleMeaning: {
+          en: "How long will you be in Japan?",
+          zh: "你要在日本待多久？",
+        },
+      },
+      {
+        id: "11-48",
+        expression: "全部で",
+        reading: "ぜんぶで",
+        definition: "合計して。",
+        meaning: {
+          en: "in total, altogether",
+          zh: "一共、合計",
+        },
+        example: "全部でいくらですか。",
+        exampleMeaning: {
+          en: "How much is it in total?",
+          zh: "總共是多少錢？",
+        },
+      },
+      {
+        id: "11-49",
+        expression: "みんな",
+        reading: "みんな",
+        definition: "全員、全部。",
+        meaning: {
+          en: "all, everything, everyone",
+          zh: "全部、大家",
+        },
+        example: "みんなでご飯を食べます。",
+        exampleMeaning: {
+          en: "Everyone eats a meal together.",
+          zh: "大家一起吃飯。",
+        },
+      },
+      {
+        id: "11-50",
+        expression: "〜だけ",
+        reading: "〜だけ",
+        definition: "限定を示す。",
+        meaning: {
+          en: "only 〜",
+          zh: "只〜",
+        },
+        example: "コーヒーだけ飲みます。",
+        exampleMeaning: {
+          en: "I only drink coffee.",
+          zh: "我只喝咖啡。",
+        },
+      },
+    ],
+  },
+  {
+    id: "12",
+    title: {
+      en: "Lesson 12",
+      zh: "第十二課",
+      ja: "第十二課",
+    },
+    description: {
+      en: "This lesson focuses on using い-adjectives and な-adjectives to describe nouns, and introducing comparison structures.",
+      zh: "本課著重於使用 い-adjectives 和 な-adjectives 來描述名詞，並介紹比較句型。",
+      ja: "い形容詞 と な形容詞 を使って名詞を修飾する方法と、比較の表現を学びます。",
+    },
+    words: [
+      {
+        id: "12-0",
+        expression: "かんたん[な]",
+        reading: "かんたん[な]",
+        definition: "容易である。難しくない。",
+        meaning: {
+          en: "easy, simple",
+          zh: "簡單",
+        },
+        example: "これは簡単な問題です。",
+        exampleMeaning: {
+          en: "This is a simple problem.",
+          zh: "這是個簡單的問題。",
+        },
+      },
+      {
+        id: "12-1",
+        expression: "ちかい",
+        reading: "ちかい",
+        definition: "距離が短い。",
+        meaning: {
+          en: "near",
+          zh: "近",
+        },
+        example: "駅はここから近いです。",
+        exampleMeaning: {
+          en: "The station is near from here.",
+          zh: "車站離這裡很近。",
+        },
+      },
+      {
+        id: "12-2",
+        expression: "とおい",
+        reading: "とおい",
+        definition: "距離が長い。",
+        meaning: {
+          en: "far",
+          zh: "遠",
+        },
+        example: "空港は遠いです。",
+        exampleMeaning: {
+          en: "The airport is far.",
+          zh: "機場很遠。",
+        },
+      },
+      {
+        id: "12-3",
+        expression: "はやい",
+        reading: "はやい",
+        definition: "時間が早い、速度が速い。",
+        meaning: {
+          en: "fast, early",
+          zh: "快、早",
+        },
+        example: "この電車は速いです。",
+        exampleMeaning: {
+          en: "This train is fast.",
+          zh: "這列電車很快。",
+        },
+      },
+      {
+        id: "12-4",
+        expression: "おそい",
+        reading: "おそい",
+        definition: "時間が遅い、速度が遅い。",
+        meaning: {
+          en: "slow, late",
+          zh: "慢",
+        },
+        example: "遅いバスに乗りました。",
+        exampleMeaning: {
+          en: "I took a slow bus.",
+          zh: "我搭了慢速的公車。",
+        },
+      },
+      {
+        id: "12-5",
+        expression: "おおい[ひとが〜]",
+        reading: "おおい[ひとが〜]",
+        definition: "数量が多い。",
+        meaning: {
+          en: "many [people]",
+          zh: "(人)多",
+        },
+        example: "この町は人が多いです。",
+        exampleMeaning: {
+          en: "There are many people in this town.",
+          zh: "這個城鎮人很多。",
+        },
+      },
+      {
+        id: "12-6",
+        expression: "すくない[ひとが〜]",
+        reading: "すくない[ひとが〜]",
+        definition: "数量が少ない。",
+        meaning: {
+          en: "few [people]",
+          zh: "(人)少",
+        },
+        example: "公園には人が少ないです。",
+        exampleMeaning: {
+          en: "There are few people in the park.",
+          zh: "公園裡人很少。",
+        },
+      },
+      {
+        id: "12-7",
+        expression: "あたたかい",
+        reading: "あたたかい",
+        definition: "寒くなく、心地よい温度である。",
+        meaning: {
+          en: "warm (weather, things)",
+          zh: "温暖、溫",
+        },
+        example: "今日は暖かいですね。",
+        exampleMeaning: {
+          en: "It is warm today, isn't it?",
+          zh: "今天很溫暖呢。",
+        },
+      },
+      {
+        id: "12-8",
+        expression: "すずしい",
+        reading: "すずしい",
+        definition: "少し冷たくて気持ちが良い。",
+        meaning: {
+          en: "cool (weather)",
+          zh: "涼快",
+        },
+        example: "秋は涼しいです。",
+        exampleMeaning: {
+          en: "Autumn is cool.",
+          zh: "秋天很涼快。",
+        },
+      },
+      {
+        id: "12-9",
+        expression: "あまい",
+        reading: "あまい",
+        definition: "砂糖のような味。",
+        meaning: {
+          en: "sweet",
+          zh: "甜",
+        },
+        example: "このケーキはとても甘いです。",
+        exampleMeaning: {
+          en: "This cake is very sweet.",
+          zh: "這個蛋糕很甜。",
+        },
+      },
+      {
+        id: "12-10",
+        expression: "からい",
+        reading: "からい",
+        definition: "唐辛子のような味。",
+        meaning: {
+          en: "spicy",
+          zh: "辣",
+        },
+        example: "このカレーは辛いです。",
+        exampleMeaning: {
+          en: "This curry is spicy.",
+          zh: "這個咖哩很辣。",
+        },
+      },
+      {
+        id: "12-11",
+        expression: "おもい",
+        reading: "おもい",
+        definition: "重さがある。",
+        meaning: {
+          en: "heavy",
+          zh: "重",
+        },
+        example: "この荷物は重いです。",
+        exampleMeaning: {
+          en: "This luggage is heavy.",
+          zh: "這個行李很重。",
+        },
+      },
+      {
+        id: "12-12",
+        expression: "かるい",
+        reading: "かるい",
+        definition: "重さがない。",
+        meaning: {
+          en: "light",
+          zh: "輕",
+        },
+        example: "軽いカバンを買いました。",
+        exampleMeaning: {
+          en: "I bought a light bag.",
+          zh: "我買了一個輕便的包包。",
+        },
+      },
+      {
+        id: "12-13",
+        expression: "いい[コーヒーが〜]",
+        reading: "いい[コーヒーが〜]",
+        definition: "好ましい、適している。（二つの選択肢から選ぶ時）",
+        meaning: {
+          en: "good [coffee] (used when selecting one of two items)",
+          zh: "[咖啡]好(從兩種物品中選擇時)",
+        },
+        example: "コーヒーと紅茶、どちらがいいですか。",
+        exampleMeaning: {
+          en: "Coffee and tea, which one is better/would you prefer?",
+          zh: "咖啡和紅茶，你比較喜歡哪一個？",
+        },
+      },
+      {
+        id: "12-14",
+        expression: "きせつ",
+        reading: "きせつ",
+        definition: "一年のうちの四つの区分。",
+        meaning: {
+          en: "season",
+          zh: "季節",
+        },
+        example: "日本には四つの季節があります。",
+        exampleMeaning: {
+          en: "Japan has four seasons.",
+          zh: "日本有四個季節。",
+        },
+      },
+      {
+        id: "12-15",
+        expression: "はる",
+        reading: "はる",
+        definition: "春の季節。",
+        meaning: {
+          en: "spring",
+          zh: "春天",
+        },
+        example: "春は桜がきれいです。",
+        exampleMeaning: {
+          en: "Cherry blossoms are beautiful in spring.",
+          zh: "春天櫻花很漂亮。",
+        },
+      },
+      {
+        id: "12-16",
+        expression: "なつ",
+        reading: "なつ",
+        definition: "夏の季節。",
+        meaning: {
+          en: "summer",
+          zh: "夏天",
+        },
+        example: "夏は暑いですね。",
+        exampleMeaning: {
+          en: "Summer is hot, isn't it?",
+          zh: "夏天很熱呢。",
+        },
+      },
+      {
+        id: "12-17",
+        expression: "あき",
+        reading: "あき",
+        definition: "秋の季節。",
+        meaning: {
+          en: "autumn, fall",
+          zh: "秋天",
+        },
+        example: "秋は食べ物がおいしいです。",
+        exampleMeaning: {
+          en: "Food is delicious in autumn.",
+          zh: "秋天食物很美味。",
+        },
+      },
+      {
+        id: "12-18",
+        expression: "ふゆ",
+        reading: "ふゆ",
+        definition: "冬の季節。",
+        meaning: {
+          en: "winter",
+          zh: "冬天",
+        },
+        example: "冬は寒いです。",
+        exampleMeaning: {
+          en: "Winter is cold.",
+          zh: "冬天很冷。",
+        },
+      },
+      {
+        id: "12-19",
+        expression: "てんき",
+        reading: "てんき",
+        definition: "空の様子。",
+        meaning: {
+          en: "weather",
+          zh: "天氣",
+        },
+        example: "明日の天気は晴れです。",
+        exampleMeaning: {
+          en: "Tomorrow's weather is sunny.",
+          zh: "明天的天氣是晴天。",
+        },
+      },
+      {
+        id: "12-20",
+        expression: "あめ",
+        reading: "あめ",
+        definition: "空から降る水。",
+        meaning: {
+          en: "rain",
+          zh: "雨",
+        },
+        example: "きょうは雨が降っています。",
+        exampleMeaning: {
+          en: "It is raining today.",
+          zh: "今天下雨了。",
+        },
+      },
+      {
+        id: "12-21",
+        expression: "ゆき",
+        reading: "ゆき",
+        definition: "空から降る氷の結晶。",
+        meaning: {
+          en: "snow",
+          zh: "雪",
+        },
+        example: "雪はきらいです。",
+        exampleMeaning: {
+          en: "I dislike snow.",
+          zh: "我討厭雪。",
+        },
+      },
+      {
+        id: "12-22",
+        expression: "くもり",
+        reading: "くもり",
+        definition: "空が雲で覆われている状態。",
+        meaning: {
+          en: "cloudy",
+          zh: "陰天",
+        },
+        example: "明日は曇りでしょう。",
+        exampleMeaning: {
+          en: "It will probably be cloudy tomorrow.",
+          zh: "明天可能會是陰天。",
+        },
+      },
+      {
+        id: "12-23",
+        expression: "ホテル",
+        reading: "ホテル",
+        definition: "宿泊施設。",
+        meaning: {
+          en: "hotel",
+          zh: "飯店",
+        },
+        example: "新しいホテルに泊まりました。",
+        exampleMeaning: {
+          en: "I stayed at a new hotel.",
+          zh: "我住進了一家新的飯店。",
+        },
+      },
+      {
+        id: "12-24",
+        expression: "くうこう",
+        reading: "くうこう",
+        definition: "飛行機が発着する場所。",
+        meaning: {
+          en: "airport",
+          zh: "機場",
+        },
+        example: "空港まで遠いですか。",
+        exampleMeaning: {
+          en: "Is it far to the airport?",
+          zh: "到機場遠嗎？",
+        },
+      },
+      {
+        id: "12-25",
+        expression: "うみ",
+        reading: "うみ",
+        definition: "広い塩水の水域。",
+        meaning: {
+          en: "sea, beach",
+          zh: "海",
+        },
+        example: "夏に海へ行きました。",
+        exampleMeaning: {
+          en: "I went to the beach in summer.",
+          zh: "我夏天去了海邊。",
+        },
+      },
+      {
+        id: "12-26",
+        expression: "せかい",
+        reading: "せかい",
+        definition: "地球全体。",
+        meaning: {
+          en: "world",
+          zh: "世界",
+        },
+        example: "世界で一番高い山はなんですか。",
+        exampleMeaning: {
+          en: "What is the tallest mountain in the world?",
+          zh: "世界上最高的山是什麼？",
+        },
+      },
+      {
+        id: "12-27",
+        expression: "パーティー",
+        reading: "パーティー",
+        definition: "社交的な集まり。（〜をします：パーティーを開く）",
+        meaning: {
+          en: "party (〜をします: hold a party)",
+          zh: "派對、宴會(〜をします:舉辦宴會)",
+        },
+        example: "誕生日パーティーをします。",
+        exampleMeaning: {
+          en: "I will hold a birthday party.",
+          zh: "我要舉辦一個生日派對。",
+        },
+      },
+      {
+        id: "12-28",
+        expression: "[お]まつり",
+        reading: "[お]まつり",
+        definition: "神社などの行事。",
+        meaning: {
+          en: "festival, public holiday",
+          zh: "慶典、廟會",
+        },
+        example: "京都の祭りは有名です。",
+        exampleMeaning: {
+          en: "Kyoto's festivals are famous.",
+          zh: "京都的慶典很有名。",
+        },
+      },
+      {
+        id: "12-29",
+        expression: "すきやき",
+        reading: "すきやき",
+        definition: "牛肉などを使った日本の鍋料理。",
+        meaning: {
+          en: "sukiyaki (beef and vegetable dish)",
+          zh: "壽喜燒",
+        },
+        example: "すき焼きを食べたいです。",
+        exampleMeaning: {
+          en: "I want to eat sukiyaki.",
+          zh: "我想吃壽喜燒。",
+        },
+      },
+      {
+        id: "12-30",
+        expression: "さしみ",
+        reading: "さしみ",
+        definition: "生魚を薄く切った日本の料理。",
+        meaning: {
+          en: "sashimi (sliced raw fish)",
+          zh: "生鱼片",
+        },
+        example: "さしみが好きです。",
+        exampleMeaning: {
+          en: "I like sashimi.",
+          zh: "我喜歡生魚片。",
+        },
+      },
+      {
+        id: "12-31",
+        expression: "[お]すし",
+        reading: "[お]すし",
+        definition: "日本の代表的な料理。",
+        meaning: {
+          en: "sushi",
+          zh: "寿司",
+        },
+        example: "昨日、お寿司を食べました。",
+        exampleMeaning: {
+          en: "I ate sushi yesterday.",
+          zh: "我昨天吃了壽司。",
+        },
+      },
+      {
+        id: "12-32",
+        expression: "てんぷら",
+        reading: "てんぷら",
+        definition: "魚介類や野菜に衣をつけて油で揚げた料理。",
+        meaning: {
+          en: "tempura (seafood and vegetables deep-fried in batter)",
+          zh: "天婦羅",
+        },
+        example: "天ぷらが有名なお店です。",
+        exampleMeaning: {
+          en: "This is a restaurant famous for tempura.",
+          zh: "這是一家以天婦羅聞名的店。",
+        },
+      },
+      {
+        id: "12-33",
+        expression: "ぶたにく",
+        reading: "ぶたにく",
+        definition: "豚の肉。",
+        meaning: {
+          en: "pork",
+          zh: "豬肉",
+        },
+        example: "ぶた肉は高いです。",
+        exampleMeaning: {
+          en: "Pork is expensive.",
+          zh: "豬肉很貴。",
+        },
+      },
+      {
+        id: "12-34",
+        expression: "とりにく",
+        reading: "とりにく",
+        definition: "鶏の肉。",
+        meaning: {
+          en: "chicken meat",
+          zh: "雞肉",
+        },
+        example: "鶏肉と牛肉とどちらが好きですか。",
+        exampleMeaning: {
+          en: "Which do you like better, chicken or beef?",
+          zh: "雞肉和牛肉，你比較喜歡哪一個？",
+        },
+      },
+      {
+        id: "12-35",
+        expression: "ぎゅうにく",
+        reading: "ぎゅうにく",
+        definition: "牛の肉。",
+        meaning: {
+          en: "beef",
+          zh: "牛肉",
+        },
+        example: "ぎゅうにくを食べません。",
+        exampleMeaning: {
+          en: "I don't eat beef.",
+          zh: "我不吃牛肉。",
+        },
+      },
+      {
+        id: "12-36",
+        expression: "レモン",
+        reading: "レモン",
+        definition: "酸っぱい味の果物。",
+        meaning: {
+          en: "lemon",
+          zh: "檸檬",
+        },
+        example: "レモンは酸っぱいです。",
+        exampleMeaning: {
+          en: "Lemon is sour.",
+          zh: "檸檬很酸。",
+        },
+      },
+      {
+        id: "12-37",
+        expression: "いけばな",
+        reading: "いけばな",
+        definition: "花をいける日本の芸術。（〜をします：いけばなをする）",
+        meaning: {
+          en: "flower arrangement (〜をします: do flower arrangement)",
+          zh: "插花(〜をします:插花)",
+        },
+        example: "母はいけばなをします。",
+        exampleMeaning: {
+          en: "My mother does flower arrangement.",
+          zh: "我媽媽會插花。",
+        },
+      },
+      {
+        id: "12-38",
+        expression: "もみじ",
+        reading: "もみじ",
+        definition: "秋に葉が赤くなる木。",
+        meaning: {
+          en: "maple, autumn leaves",
+          zh: "楓葉",
+        },
+        example: "京都の紅葉はきれいです。",
+        exampleMeaning: {
+          en: "Kyoto's autumn leaves are beautiful.",
+          zh: "京都の楓葉很漂亮。",
+        },
+      },
+      {
+        id: "12-39",
+        expression: "どちら",
+        reading: "どちら",
+        definition: "二つのうちの選択を尋ねる疑問詞。",
+        meaning: {
+          en: "which (between two)",
+          zh: "哪一邊、哪一個(自兩者中擇一)",
+        },
+        example: "りんごとみかんと、どちらが好きですか。",
+        exampleMeaning: {
+          en: "Which do you like better, apples or mandarins?",
+          zh: "蘋果和橘子，你比較喜歡哪一個？",
+        },
+      },
+      {
+        id: "12-40",
+        expression: "どちらも",
+        reading: "どちらも",
+        definition: "二つの選択肢すべて。",
+        meaning: {
+          en: "both",
+          zh: "兩者都〜",
+        },
+        example: "どちらもおいしいです。",
+        exampleMeaning: {
+          en: "Both are delicious.",
+          zh: "兩者都很好吃。",
+        },
+      },
+      {
+        id: "12-41",
+        expression: "いちばん",
+        reading: "いちばん",
+        definition: "程度が最も高い。",
+        meaning: {
+          en: "the most, the best",
+          zh: "最",
+        },
+        example: "家族でだれが一番背が高いですか。",
+        exampleMeaning: {
+          en: "Who is the tallest in your family?",
+          zh: "在家裡誰最高？",
+        },
+      },
+      {
+        id: "12-42",
+        expression: "ずっと",
+        reading: "ずっと",
+        definition: "程度が非常に大きい（比較級で使う）。",
+        meaning: {
+          en: "by far (used with comparison)",
+          zh: "〜得多 (用於比較)",
+        },
+        example: "この車はあの車よりずっと高いです。",
+        exampleMeaning: {
+          en: "This car is much more expensive than that car (by far).",
+          zh: "這輛車比那輛車貴得多。",
+        },
+      },
+      {
+        id: "12-43",
+        expression: "はじめて",
+        reading: "はじめて",
+        definition: "最初であること。",
+        meaning: {
+          en: "for the first time",
+          zh: "第一次、初次",
+        },
+        example: "日本へは初めて行きます。",
+        exampleMeaning: {
+          en: "I'm going to Japan for the first time.",
+          zh: "我是第一次去日本。",
+        },
+      },
+    ],
+  },
 ];
 
 export const COLLECTIONS = [
