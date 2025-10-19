@@ -98,6 +98,7 @@ export const WordCardImpl: FC<Props> = ({
     <>
       <Card
         ref={cardElementRef}
+        className="@container"
         onClick={() => {
           if (!isQuiz) return;
 
@@ -106,22 +107,11 @@ export const WordCardImpl: FC<Props> = ({
       >
         <CardContent
           className={cn(
-            "@container grid grid-cols-[auto_1fr] grid-rows-[auto_1fr] gap-4",
+            "grid grid-cols-[1fr_auto] grid-rows-[auto_1fr] gap-4 @xl:grid-cols-[auto_1fr_auto]",
             isQuiz && "cursor-pointer",
             className
           )}
         >
-          <div onClick={(e) => e.stopPropagation()}>
-            {expressionPronounciationSrc && (
-              <Button
-                variant="secondary"
-                className="rounded-4xl size-9"
-                onClick={() => new Audio(expressionPronounciationSrc).play()}
-              >
-                <Play />
-              </Button>
-            )}
-          </div>
           <CardHeader className="p-0">
             <CardTitle className="text-xl">{word.reading}</CardTitle>
             <CardDescription
@@ -133,17 +123,43 @@ export const WordCardImpl: FC<Props> = ({
               {word.expression}
             </CardDescription>
           </CardHeader>
+          <div
+            className="@xl:col-start-1 @xl:row-start-1"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {expressionPronounciationSrc && (
+              <Button
+                variant="secondary"
+                className="rounded-4xl size-9"
+                onClick={() => new Audio(expressionPronounciationSrc).play()}
+              >
+                <Play />
+              </Button>
+            )}
+          </div>
 
           <div
             className={cn(
-              "text-primary col-start-2 transition-opacity",
+              "text-primary col-span-full transition-opacity @xl:col-start-2",
               isAnswerVisible ? "opacity-100" : "opacity-0"
             )}
           >
             {locale === "ja" ? word.definition : word.meaning[locale]}
           </div>
 
-          <div className="col-start-1" onClick={(e) => e.stopPropagation()}>
+          <div
+            className={cn(
+              "text-primary transition-opacity",
+              isAnswerVisible ? "opacity-100" : "opacity-0"
+            )}
+          >
+            <div>{word.example}</div>
+            <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
+          </div>
+          <div
+            className="@xl:col-start-1 @xl:row-start-3"
+            onClick={(e) => e.stopPropagation()}
+          >
             {expressionPronounciationSrc && (
               <Button
                 variant="secondary"
@@ -153,15 +169,6 @@ export const WordCardImpl: FC<Props> = ({
                 <Play />
               </Button>
             )}
-          </div>
-          <div
-            className={cn(
-              "text-primary transition-opacity",
-              isAnswerVisible ? "opacity-100" : "opacity-0"
-            )}
-          >
-            <div>{word.example}</div>
-            <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
           </div>
 
           <div
