@@ -1,12 +1,13 @@
-import { AuthError } from "@supabase/supabase-js";
+import { AuthError, PostgrestError } from "@supabase/supabase-js";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
+import { supabase } from "./supabase";
 
 export function useLocalizedSupabaseErrorMessage() {
   const t = useTranslations();
 
-  const toastWhenError = (error: AuthError | null) => {
+  const toastWhenError = (error: AuthError | PostgrestError | null) => {
     if (!error) return null;
 
     toast.error(getLocalizedErrorMessage(error));
@@ -47,4 +48,22 @@ export function useSupabaseUrlError() {
   }, []);
 
   return error && getLocalizedErrorMessage(error);
+}
+
+export function reportVocabularyIssue({
+  wordId,
+  issue,
+  locale,
+}: {
+  wordId: string;
+  issue: string;
+  locale: string;
+}) {
+  return supabase.from("vocabulary_issues").insert([
+    {
+      word_id: wordId,
+      issue,
+      locale,
+    },
+  ]);
 }

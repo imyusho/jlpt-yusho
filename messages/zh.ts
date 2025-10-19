@@ -112,6 +112,25 @@ const messages: EnMessages = {
     },
     vocabulary: "單字",
   },
+  reportIssue: {
+    title: "問題回報",
+    description: "發現錯誤或功能異常嗎？請回報問題以便我們盡快修正。",
+    issueLabel: "問題",
+    placeholder: "選擇問題",
+    submit: "提交",
+    cancel: "取消",
+    sentToast: "您的回報已送出！",
+    noIssueSelected: "請選擇問題",
+    issues: {
+      kana: "假名",
+      kanji: "漢字",
+      definition: "定義",
+      example: "例句",
+      exampleTranslation: "例句翻譯",
+      wordPronunciation: "單字發音",
+      examplePronunciation: "例句發音",
+    },
+  },
   supabase: {
     signInWithOtpSuccess:
       "已重新發送確認信。若您在幾分鐘內未收到，請檢查垃圾郵件或稍後再試。",

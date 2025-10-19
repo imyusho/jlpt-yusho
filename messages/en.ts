@@ -112,6 +112,26 @@ const messages = {
     },
     vocabulary: "Vocabulary",
   },
+  reportIssue: {
+    title: "Report an issue",
+    description:
+      "Found a mistake or something not working right? Please tell us so we can fix it as soon as possible.",
+    issueLabel: "Issue",
+    placeholder: "Choose issue",
+    submit: "Submit",
+    cancel: "Cancel",
+    sentToast: "Your report has been sent!",
+    issues: {
+      kana: "Kana",
+      kanji: "Kanji",
+      definition: "Definition",
+      example: "Example sentence",
+      exampleTranslation: "Example sentence translation",
+      wordPronunciation: "Word pronunciation",
+      examplePronunciation: "Example sentence pronunciation",
+    },
+    noIssueSelected: "Please select an issue",
+  },
   supabase: {
     signInWithOtpSuccess:
       "A new confirmation email has been sent. If you don’t see it within a few minutes, please check your spam folder or try again later.",

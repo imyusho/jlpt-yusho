@@ -17,6 +17,13 @@ import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 import { Input } from "./input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./select";
 
 const Form = FormProvider;
 
@@ -192,6 +199,61 @@ const InputField = <
   );
 };
 
+interface SelectFieldProps<
+  TFieldValues extends FieldValues = FieldValues,
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+> extends Omit<ControllerProps<TFieldValues, TName>, "render"> {
+  label: string;
+  auxiliaryAction?: ReactNode;
+  options: { value: string; label: string }[];
+  placeholder?: string;
+}
+
+const SelectField = <
+  TFieldValues extends FieldValues = FieldValues,
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
+>({
+  label,
+  auxiliaryAction,
+  options,
+  placeholder,
+  ...props
+}: SelectFieldProps<TFieldValues, TName>) => {
+  return (
+    <FormFieldContext.Provider value={{ name: props.name }}>
+      <Controller
+        {...props}
+        render={({ field, fieldState }) => (
+          <FormItem>
+            <div className="flex items-center justify-between">
+              <FormLabel>{label}</FormLabel>
+              {auxiliaryAction}
+            </div>
+            <FormControl>
+              <Select value={field.value} onValueChange={field.onChange}>
+                <SelectTrigger
+                  aria-invalid={!!fieldState.error}
+                  className="w-full"
+                >
+                  <SelectValue placeholder={placeholder} />
+                </SelectTrigger>
+                <SelectContent>
+                  {options.map((opt) => (
+                    <SelectItem key={opt.value} value={opt.value}>
+                      {opt.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )}
+      />
+    </FormFieldContext.Provider>
+  );
+};
+
 export {
   Form,
   FormControl,
@@ -201,5 +263,6 @@ export {
   FormLabel,
   FormMessage,
   InputField,
+  SelectField,
   useFormField,
 };

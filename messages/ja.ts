@@ -116,6 +116,26 @@ const messages: EnMessages = {
     },
     vocabulary: "単語",
   },
+  reportIssue: {
+    title: "問題を報告する",
+    description:
+      "間違いや正しく動作していない部分を見つけましたか？ できるだけ早く修正できるよう教えてください。",
+    issueLabel: "問題",
+    placeholder: "問題を選択",
+    submit: "送信",
+    cancel: "キャンセル",
+    sentToast: "報告を送信しました！",
+    noIssueSelected: "問題を選択してください",
+    issues: {
+      kana: "仮名",
+      kanji: "漢字",
+      definition: "定義",
+      example: "例文",
+      exampleTranslation: "例文の翻訳",
+      wordPronunciation: "単語の発音",
+      examplePronunciation: "例文の発音",
+    },
+  },
   supabase: {
     signInWithOtpSuccess:
       "確認メールを再送信しました。数分以内に届かない場合は、迷惑メールフォルダを確認するか、後でもう一度お試しください。",
