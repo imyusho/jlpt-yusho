@@ -101,22 +101,11 @@ export const WordCardImpl: FC<Props> = ({
     >
       <CardContent
         className={cn(
-          "@container grid grid-cols-[1fr_auto_auto] grid-rows-[auto_1fr] gap-4",
+          "@container grid grid-cols-[auto_1fr] grid-rows-[auto_1fr] gap-4",
           isQuiz && "cursor-pointer",
           className
         )}
       >
-        <CardHeader className="p-0 col-span-2 @xl:col-span-1">
-          <CardTitle className="text-xl">{word.reading}</CardTitle>
-          <CardDescription
-            className={cn(
-              "text-foreground text-xl transition-opacity",
-              isAnswerVisible ? "opacity-100" : "opacity-0"
-            )}
-          >
-            {word.expression}
-          </CardDescription>
-        </CardHeader>
         <div onClick={(e) => e.stopPropagation()}>
           {expressionPronounciationSrc && (
             <Button
@@ -128,30 +117,28 @@ export const WordCardImpl: FC<Props> = ({
             </Button>
           )}
         </div>
+        <CardHeader className="p-0">
+          <CardTitle className="text-xl">{word.reading}</CardTitle>
+          <CardDescription
+            className={cn(
+              "text-foreground text-xl transition-opacity",
+              isAnswerVisible ? "opacity-100" : "opacity-0"
+            )}
+          >
+            {word.expression}
+          </CardDescription>
+        </CardHeader>
 
         <div
           className={cn(
-            "text-primary transition-opacity col-span-3",
+            "text-primary col-start-2 transition-opacity",
             isAnswerVisible ? "opacity-100" : "opacity-0"
           )}
         >
           {locale === "ja" ? word.definition : word.meaning[locale]}
         </div>
 
-        <div
-          className={cn(
-            "text-primary transition-opacity col-span-2",
-            isAnswerVisible ? "opacity-100" : "opacity-0"
-          )}
-        >
-          <div className="flex">
-            <div className="flex-1">
-              <div>{word.example}</div>
-              <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
-            </div>
-          </div>
-        </div>
-        <div onClick={(e) => e.stopPropagation()}>
+        <div className="col-start-1" onClick={(e) => e.stopPropagation()}>
           {expressionPronounciationSrc && (
             <Button
               variant="secondary"
@@ -162,10 +149,19 @@ export const WordCardImpl: FC<Props> = ({
             </Button>
           )}
         </div>
+        <div
+          className={cn(
+            "text-primary transition-opacity",
+            isAnswerVisible ? "opacity-100" : "opacity-0"
+          )}
+        >
+          <div>{word.example}</div>
+          <div>{locale !== "ja" && word.exampleMeaning[locale]}</div>
+        </div>
 
         <div
           className={cn(
-            "transition-opacity col-span-3 @xl:col-span-1 @xl:row-start-1 @xl:col-start-2 @xl:px-0",
+            "transition-opacity col-span-full @xl:col-span-1 @xl:row-start-1 @xl:col-start-3",
             isAnswerVisible ? "opacity-100" : "opacity-0 pointer-events-none"
           )}
         >
@@ -187,7 +183,7 @@ export const WordCardImpl: FC<Props> = ({
                       ? "secondary"
                       : "outline"
                   }
-                  onClick={(e) => {
+                  onClick={() => {
                     onRepetitionClick(
                       {
                         cardUuid: word.id,
